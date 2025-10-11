@@ -6563,23 +6563,6 @@ Icon: https://repo.cypwn.xyz/packages/Hikari-Rootless/icon.png
 Name: Hikari
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2797
 
-Package: xyz.cypwn.LatchKeyThemes
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Filename: ./debs/xyz.cypwn.LatchKeyThemes_1.0_iphoneos-arm64.deb
-Size: 14564804
-MD5sum: 0b9864d8b64392779972855566d4bfcb
-SHA1: 934845470d500290e0ea9421ae94a1bc1ba254cd
-SHA256: 368de7d268cda29731bd882593cc00e971f9ec5bba862926057057c8eb2f1a81
-Section: Themes
-Description: LatchKey Themes
-Author: POLLAPO
-Depiction: https://repo.cypwn.xyz/depiction/2111
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/latchkeythemes.png
-Name: LatchKey Themes
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2111
-
 Package: xyz.cypwn.amonglock
 Version: 1.1.6
 Architecture: iphoneos-arm64
@@ -6728,25 +6711,6 @@ Depiction: https://repo.cypwn.xyz/depiction/1752
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/brooklyn.png
 Name: Brooklyn
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1752
-
-Package: xyz.cypwn.designer
-Version: 1.5.5
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Installed-Size: 20612
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/xyz.cypwn.designer_1.5.5_iphoneos-arm64.deb
-Size: 15339094
-MD5sum: 18f1defb8ac10c95cb3f3b1daaff2535
-SHA1: 9a325d2f3c36ac6c8a98ab5db2cab482999e52a9
-SHA256: 4cfe4dfd942ff415548fdc33b59c4315c2ab3f917aa19d564fbb6c68127ac3b0
-Section: Tweaks
-Description: Design layouts for lockscreen and homescreen
-Author: JunesiPhone <junesgraphics@gmail.com>
-Depiction: https://repo.cypwn.xyz/depiction/3393
-Icon: https://repo.cypwn.xyz/packages/Designer-Rootless/icon.png
-Name: Designer
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3393
 
 Package: xyz.cypwn.dr4w
 Version: 1.0.0
@@ -6899,21 +6863,6 @@ Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1695
 
 Package: xyz.cypwn.gravitation
 Version: 0.1.0
-Architecture: iphoneos-arm
-Maintainer: CyPwn
-Depends: mobilesubstrate
-Filename: ./debs/xyz.cypwn.gravitation_0.1.0_iphoneos-arm.deb
-Size: 120834
-MD5sum: ff1a91ddf184c30e8fe89357caba8fd2
-SHA1: 99f0904e0f636bb47403c512cd0671154279c36a
-SHA256: de7ffbf3d56942adf7d4a05626edcd16ffac1bc44faa940a10e55b5100e5928c
-Section: Tweaks
-Description: Shake your phone to unhinge your icons!
-Author: Kritanta
-Name: Gravitation
-
-Package: xyz.cypwn.gravitation
-Version: 0.1.0
 Architecture: iphoneos-arm64
 Maintainer: CyPwn
 Depends: mobilesubstrate, xyz.cypwn.xinam1ne
@@ -6983,62 +6932,6 @@ Depiction: https://repo.cypwn.xyz/depiction/1490
 Icon: https://media.havoc.app/64a18e1be9bc2a657c8b1d6f
 Name: InstantCamera
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1490
-
-Package: xyz.cypwn.killapps-rootless
-Version: 1.2-2
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./debs/xyz.cypwn.killapps-rootless_1.2-2_iphoneos-arm64.deb
-Size: 1683476
-MD5sum: 525d9dd34488001ad3ec3119df9c4316
-SHA1: c3c5d0df9b058e0b634455d54c79a37da64cc0b4
-SHA256: ea358bc3075336fae409acf5759ca6b9ff4d2dd78eb0bba8f1f2567b1021b21f
-Section: Tweaks
-Description: Add quick clean all background function for background switcher. Support clean up whitelist, support slide up blacklist
-Author: Netskao
-Depiction: https://repo.cypwn.xyz/depiction/1634
-Name: KillApps
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1634
-
-Package: xyz.cypwn.killbackground13
-Version: 1.0.9k
-Architecture: iphoneos-arm
-Maintainer: CyPwn
-Pre-Depends: firmware (>= 13.0)
-Depends: mobilesubstrate, preferenceloader
-Conflicts: tw.garynil.swipehome, com.ichitaso.killbackground9, com.ichitaso.killbackground10, com.ichitaso.killbackground11, com.ichitaso.killbackgroundxs, com.nothing.sbcard, com.cemck.killx-pro, com.cemck.killx, com.nahtedetihw.closeall, com.daveapps.quitall, com.p2kdev.quitall
-Replaces: com.ichitaso.killbackground13
-Filename: ./debs/xyz.cypwn.killbackground13_1.0.9k_iphoneos-arm.deb
-Size: 413278
-MD5sum: 54d05113b63c1b3e33ebcc8acaf0f135
-SHA1: 4c6512551be8ea6355becedcc9a6d3c2042ad05f
-SHA256: 5e72c856a4030b1d821ac0fa4ee351aefc026ceddbef5600153c8daeff428d43
-Section: Tweaks
-Description: Kill background apps with style for iOS 13 to 16!
-Author: ichitaso
-Depiction: https://repo.cypwn.xyz/depiction/1452
-Icon: https://media.havoc.app/620c82bc1af6a544121aae19
-Name: KillBackground13 (13 - 16)
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1452
-
-Package: xyz.cypwn.latchkey
-Version: 2.3
-Architecture: iphoneos-arm
-Maintainer: CyPwn
-Depends: mobilesubstrate, ws.hbang.alderis
-Filename: ./debs/xyz.cypwn.latchkey_2.3_iphoneos-arm.deb
-Size: 6445284
-MD5sum: 662a0867b8a7a498ceb7b3b970cedf0e
-SHA1: e32fb929cdc71df9d8b37ea0ed9f4547624ef3a6
-SHA256: 579197b66ccfe570650ec1cc3ec61d796117903828d1faf32b6d1e13209a946d
-Section: Tweaks
-Description: Move and theme the Face-ID lock glyph
-Author: Maxwell Dausch
-Depiction: https://repo.cypwn.xyz/depiction/1579
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/latchkey.png
-Name: LatchKey
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1579
 
 Package: xyz.cypwn.leftpan
 Version: 1.0-6
@@ -7243,24 +7136,6 @@ Depiction: https://repo.cypwn.xyz/depiction/3392
 Icon: https://repo.cypwn.xyz/packages/PodsGrant-Rootless/icon.png
 Name: PodsGrant
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3392
-
-Package: xyz.cypwn.pokecall
-Version: 1.4.13
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate, preferenceloader, xyz.cypwn.xinam1ne
-Filename: ./debs/xyz.cypwn.pokecall_1.4.13_iphoneos-arm64.deb
-Size: 19879748
-MD5sum: c9c4164ac81057039bca9ac540bf8a8f
-SHA1: 3a2c831c7a672e7cd05e384e4ed7c7711643b1aa
-SHA256: 26716aa85900393e4f2e576806ac022bd023ed2eac776276164f808260c931cf
-Section: Tweaks
-Description: Incoming caller wants to battle!
-Author: Frozen Penguin
-Depiction: https://repo.cypwn.xyz/depiction/1548
-Icon: https://img.chariz.cloud/icon/pokecall/icon@3x.png
-Name: PokeCall
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1548
 
 Package: xyz.cypwn.snapper3qolfixes
 Version: 1.0
