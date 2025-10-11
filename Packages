@@ -3173,6 +3173,24 @@ Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
 
+Package: com.lclrc.mdaus.latchkey
+Version: 2.3.2
+Architecture: iphoneos-arm64
+Maintainer: Maxwell Dausch & lclrc
+Installed-Size: 13476
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./debs/com.lclrc.mdaus.latchkey_2.3.2_iphoneos-arm64.deb
+Size: 6450584
+MD5sum: b6be2a6973ded9e0ba3b70282eced674
+SHA1: 9f97c6cc155670f43623df08ab995f727be5079a
+SHA256: eb8bc341efbd7f42b7546357a80e18616083702fb82d19e1a8c83dc5d7c55e5b
+Section: Tweaks
+Description: 自定义锁头图标和位置。适配多巴胺，增加汉化，需要libcolorpicker依赖(p2kdev源里有)。Move and theme the Face-ID lock glyph
+Author: Maxwell Dausch <max.dausch@gmail.com>
+Depiction: https://repo.daus.ch/depictions/?p=ch.mdaus.latchkey
+Name: 锁头自定义 Latchkey
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.mdaus.latchkey/depiction.json
+
 Package: com.lclrc.recordanywhere
 Version: 1.1.0
 Architecture: iphoneos-arm64
@@ -3224,6 +3242,21 @@ Author: leftyfl1p <carbridge@havoc.app>
 Depiction: https://havoc.app/package/carbridge
 Name: CarBridge
 
+Package: com.link.LatchKeyThemes
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Link
+Filename: ./debs/com.link.LatchKeyThemes_1.0_iphoneos-arm64.deb
+Size: 10447796
+MD5sum: 45b6650b99ca26aef14080a733337859
+SHA1: 785badcae52a5566f2e1e92be6722ca3be2a08a8
+SHA256: 3a335cc67631f0cfbb5fc99afefc6893c6fc500051c2df099f882e4e076b646f
+Section: Themes
+Description: LatchKey Themes
+Author: POLLAPO
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/latchkeythemes.png
+Name: LatchKey Themes
+
 Package: com.link.designer
 Version: 1.5.5
 Architecture: iphoneos-arm64
@@ -3240,6 +3273,53 @@ Description: Design layouts for lockscreen and homescreen
 Author: JunesiPhone <junesgraphics@gmail.com>
 Icon: https://repo.cypwn.xyz/packages/Designer-Rootless/icon.png
 Name: Designer
+
+Package: com.link.gravitation
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: mobilesubstrate
+Filename: ./debs/com.link.gravitation_0.1.0_iphoneos-arm64.deb
+Size: 75448
+MD5sum: 1a0140983eaa99200f13891b4dddce4c
+SHA1: 62b49f13e0c63e5650210554a2f5290e3fae2e12
+SHA256: 573865a29ea12e4c246512ccd4ca39a8896d84ebde6bfef6b7e063c4a1d292a7
+Section: Tweaks
+Description: Shake your phone to unhinge your icons!
+Author: Kritanta
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/gravitation.png
+Name: Gravitation
+
+Package: com.link.killapps-rootless
+Version: 1.2-2
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.link.killapps-rootless_1.2-2_iphoneos-arm64.deb
+Size: 932700
+MD5sum: 66ef59cf9bba3015ed1a40bd5941ae13
+SHA1: b2a76bf1311175078f35ac6b0cdf80774855c560
+SHA256: 467a8ec976fc960e776f76fae73667703a563726c5ff880dcbd6d939662b701e
+Section: Tweaks
+Description: Add quick clean all background function for background switcher. Support clean up whitelist, support slide up blacklist
+Author: Netskao
+Name: KillApps
+
+Package: com.link.pokecall
+Version: 1.4.13
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.link.pokecall_1.4.13_iphoneos-arm64.deb
+Size: 18782448
+MD5sum: 2e3a61dbd2002a80277795a2f752cbbd
+SHA1: 9430b68743f6ab8f440291ff72bdf4d8b2259cba
+SHA256: 658ccbf53243932f5a493053025730011da584022abdb9da2dfdf1c571105641
+Section: Tweaks
+Description: Incoming caller wants to battle!
+Author: Frozen Penguin
+Icon: https://img.chariz.cloud/icon/pokecall/icon@3x.png
+Name: PokeCall
 
 Package: com.liuf.dyjc
 Version: 0.0.1
@@ -7327,6 +7407,25 @@ Author: SOPPPra
 Depiction: https://repo.cypwn.xyz/depiction/1515
 Icon: https://i.postimg.cc/430z6Q0x/statustime.png
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1515
+
+Package: xyz.cypwn.staypro
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Stay Pro_0.0.1_iphoneos-arm64.deb
+Size: 3624
+MD5sum: 7b52e4ddfbe8b3afbe330040de7dc233
+SHA1: cced149dd94128ba9d858dbdc0b5c2c87bb7773f
+SHA256: aec78e50de10e2ddf42088ab8be615042dbe16d64ef690cec6e72b5be760215c
+Section: Cracks
+Description: Enable Pro for Stay for Safari extension. Must be signed out to use Pro features.
+Author: 0xkuj
+Depiction: https://repo.cypwn.xyz/depiction/2952
+Icon: https://repo.cypwn.xyz/packages/StayPro-Rootless/icon.png
+Name: Stay Pro
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2952
 
 Package: xyz.cypwn.swiftprotobuf
 Version: 1.29.0
