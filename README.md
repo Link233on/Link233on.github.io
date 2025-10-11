@@ -1,2 +1,2 @@
-# devrepo
-huami1314.github.io
+# repo
+link233on.github.io
