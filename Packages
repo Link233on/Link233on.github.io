@@ -3224,6 +3224,23 @@ Author: leftyfl1p <carbridge@havoc.app>
 Depiction: https://havoc.app/package/carbridge
 Name: CarBridge
 
+Package: com.link.designer
+Version: 1.5.5
+Architecture: iphoneos-arm64
+Maintainer: Link
+Installed-Size: 20612
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.link.designer_1.5.5_iphoneos-arm64.deb
+Size: 12819088
+MD5sum: ad3de59b96719571e3d2ca34274b2bf8
+SHA1: 220dd74b5ce9948dc8660295384dc5bc5bf4683f
+SHA256: 966115ff371e4d9d4bde159d17d7ba71932ee9a2858d0432b43f31c4d7e63d81
+Section: Tweaks
+Description: Design layouts for lockscreen and homescreen
+Author: JunesiPhone <junesgraphics@gmail.com>
+Icon: https://repo.cypwn.xyz/packages/Designer-Rootless/icon.png
+Name: Designer
+
 Package: com.liuf.dyjc
 Version: 0.0.1
 Architecture: iphoneos-arm64
