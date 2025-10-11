@@ -6861,24 +6861,6 @@ Icon: https://repo.cypwn.xyz/assets/repo/Featured/gasolina.png
 Name: Gasolina
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1695
 
-Package: xyz.cypwn.gravitation
-Version: 0.1.0
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate, xyz.cypwn.xinam1ne
-Filename: ./debs/Gravitation_0.1.0_iphoneos-arm64.deb
-Size: 62352
-MD5sum: 46d3f4cf96dca8801d2fb9d96f2333c7
-SHA1: 98717d37fcd84491d9385f3882fe8f6bab392655
-SHA256: 48e2cd4ff206d5d83acdee21ed9ba2728ac01ee345fba55f2fad6261ebca4e3f
-Section: Tweaks
-Description: Shake your phone to unhinge your icons!
-Author: Kritanta
-Depiction: https://repo.cypwn.xyz/depiction/2250
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/gravitation.png
-Name: Gravitation
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2250
-
 Package: xyz.cypwn.griddy
 Version: 1.0.5
 Architecture: iphoneos-arm64
