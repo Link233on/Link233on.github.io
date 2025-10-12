@@ -7257,26 +7257,6 @@ Icon: https://repo.cypwn.xyz/packages/MoveNotification16-Rootless/icon.png
 Name: MoveNotification16
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3004
 
-Package: xyz.cypwn.nazuna
-Version: 1.0k
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Installed-Size: 3784
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common
-Conflicts: xyz.cypwn.auto-vpn, com.snail.autovpn.global, com.snail.autovpn
-Filename: ./debs/Nazuna_1.0k_iphoneos-arm64.deb
-Size: 373604
-MD5sum: e3eb3b09fe71933d5ffb76ddc428759f
-SHA1: b8812b8da2c36bf4d541921191a2aba8753a5735
-SHA256: d055f4cbe36646e972078d7228c839821e648a0d2f7cbc4730e261be09d199f1
-Section: Tweaks
-Description: An awesome PIP enhancer! Cracked by CBZ!
-Author: uz.ra
-Depiction: https://repo.cypwn.xyz/depiction/3298
-Icon: https://repo.cypwn.xyz/packages/Nazuna-Rootless/icon.png
-Name: Nazuna
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3298
-
 Package: xyz.cypwn.neowave
 Version: 1.0.0
 Architecture: iphoneos-arm64
