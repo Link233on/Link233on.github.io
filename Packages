@@ -5969,24 +5969,6 @@ Name: 原生灵动岛(Rootless)
 Sileodepiction: https://apt.htv123.com/sileo/282
 
 Package: com.yan.anitime
-Version: 1.0.2k
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.ginsu.comet
-Filename: ./debs/AniTime_1.0.2k_iphoneos-arm64.deb
-Size: 339268
-MD5sum: 5411afb85f629e2c610eceac103f4a9c
-SHA1: b9010c0424dbf911675983287f19814565660473
-SHA256: d88ac3ee1121665e71f8f809eec98f152bc7882f5b4e2a46930813bb26b11ffb
-Section: Tweaks
-Description: Animated anime characters as your clock digits.
-Author: yan
-Depiction: https://repo.cypwn.xyz/depiction/3209
-Icon: https://repo.cypwn.xyz/packages/AniTime-Rootless/icon.png
-Name: AniTime
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3209
-
-Package: com.yan.anitime
 Version: 1.0.2l
 Architecture: iphoneos-arm64
 Maintainer: Link
@@ -7106,25 +7088,6 @@ Icon: https://repo.cypwn.xyz/packages/AmongLock-Rootless/icon.png
 Name: AmongLock
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2831
 
-Package: xyz.cypwn.arise
-Version: 1.2.4
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Installed-Size: 1492
-Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 13.0)
-Filename: ./debs/Arise_1.2.4_iphoneos-arm64.deb
-Size: 813580
-MD5sum: 0bd3f7cb91b9009077d0fc5f0c0c31c3
-SHA1: fb9ada1b5166154e27d4165fbb070f9a82b95f3a
-SHA256: 5d055e56bfd774783942b37950bbe8936a05ba311e8ba68e23f2c8d8b000a6a0
-Section: Tweaks
-Description: Customize and automate your lock screen.
-Author: EthanRDoesMC
-Depiction: https://repo.cypwn.xyz/depiction/3050
-Icon: https://repo.cypwn.xyz/packages/Arise-Rootless/icon.png
-Name: Arise
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3050
-
 Package: xyz.cypwn.autoalerts
 Version: 1.0.4
 Architecture: iphoneos-arm64
@@ -7142,24 +7105,6 @@ Depiction: https://repo.cypwn.xyz/depiction/3280
 Icon: https://repo.cypwn.xyz/packages/AutoAlerts-Rootless/icon.png
 Name: AutoAlerts
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3280
-
-Package: xyz.cypwn.autoscroll15
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate
-Filename: ./debs/AutoScroll iOS15_1.0.0_iphoneos-arm64.deb
-Size: 1028
-MD5sum: 8100578b06d8b6ac8076e949e0d00bc2
-SHA1: 140060c5665634a43e87f2b2990b30c27e7f8c5b
-SHA256: ac74b816d39137adda78e84c73e11462cb5ef2abceecd0df6566ede6f6d83a97
-Section: Tweaks
-Description: Prevent finger fatigue. No options to configure.
-Author: pxcex
-Depiction: https://repo.cypwn.xyz/depiction/1278
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/autoscroll.png
-Name: AutoScroll iOS15
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1278
 
 Package: xyz.cypwn.backgrounderaction15
 Version: 0.1.0-1
@@ -7181,44 +7126,6 @@ Depiction: https://repo.cypwn.xyz/depiction/1640
 Name: BackgrounderAction15 CCSupport
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1640
 
-Package: xyz.cypwn.bigshotsnapper3plugin
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Installed-Size: 532
-Depends: mobilesubstrate, firmware (>= 14.0), com.opa334.ccsupport
-Filename: ./debs/BigShot for Snapper 3 and CCSupport_1.1_iphoneos-arm64.deb
-Size: 10588
-MD5sum: 193cdbc1738eac6505cbdf88e03c7669
-SHA1: 93341c4b9cbf073da74a6ef9918e7d9d8425e824
-SHA256: 284059b17dde82236d5bb0181b33935ba48e4465af6c570189730178c7765802
-Section: Tweaks
-Description: BigShot CC module for iOS 14/15/16 and Snapper 3 plugin. Snapper 3 is NOT required to use this. It can be used as a standalone CC module.
-Author: Jonathan Winger-lang
-Depiction: https://repo.cypwn.xyz/depiction/1537
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/bigshotsnapper3.png
-Name: BigShot for Snapper 3 and CCSupport
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1537
-
-Package: xyz.cypwn.breezy
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Filename: ./debs/Breezy_1.0_iphoneos-arm64.deb
-Size: 36092
-MD5sum: 9127e7b08d948e988310488c3c05812a
-SHA1: 11adbd267d6b70e9d392fcb55cfcc403c5879c6f
-SHA256: ad4d258ee061f74c7acc758d2853c49161ce71d5575e4c4fb3c8f7c24b73753b
-Section: Tweaks
-Description: Fake notifications
-Author: SGWC
-Depiction: https://repo.cypwn.xyz/depiction/2994
-Icon: https://repo.cypwn.xyz/packages/Breezy-Rootless/icon.png
-Name: Breezy
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2994
-Someotherentrytocontrol: True
-Tags: compatible_min::ios15.0, compatible_max::ios16.7.7
-
 Package: xyz.cypwn.brooklyn
 Version: 1.2
 Architecture: iphoneos-arm64
@@ -7236,24 +7143,6 @@ Depiction: https://repo.cypwn.xyz/depiction/1752
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/brooklyn.png
 Name: Brooklyn
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1752
-
-Package: xyz.cypwn.dr4w
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common, firmware (>= 15.0), ws.hbang.alderis, cy+cpu.arm64v8 | oldabi-xina | oldabi
-Filename: ./debs/Dr4w_1.0.0_iphoneos-arm64.deb
-Size: 305332
-MD5sum: 66a58a30f8ca4388401f327788355194
-SHA1: 9faac08d62b252758f025421ccfb66ef46b73eee
-SHA256: 22ca6e3d82a47f3806a3f0a09c7295619996c907f0503dbca17987d7d0049064
-Section: Tweaks
-Description: Draw and take screenshots anywhere
-Author: sigiuta
-Depiction: https://repo.cypwn.xyz/depiction/3193
-Icon: https://repo.cypwn.xyz/packages/Dr4w-Rootless/icon.png
-Name: Dr4w
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3193
 
 Package: xyz.cypwn.dress
 Version: 2.6
@@ -7297,23 +7186,6 @@ Icon: https://repo.cypwn.xyz/packages/DuckOff-Rootless/icon.png
 Name: DuckOff
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2508
 
-Package: xyz.cypwn.emerald
-Version: 1.0.7
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: firmware (>= 15.0), ws.hbang.alderis, com.spark.libsparkapplist, xyz.cypwn.xinam1ne
-Filename: ./debs/Emerald_1.0.7_iphoneos-arm64.deb
-Size: 170172
-MD5sum: 4e89a82833f211b836ab9fd7ed5fd53a
-SHA1: 3b55149736d257f2f447b0e41a7f9c4ac28ce6e1
-SHA256: f29cfde34bef4ce3172f0f7eaaa614aad836274d8f8cb2bdc6822c300f3db532
-Section: Tweaks
-Author: LaughingQuoll
-Depiction: https://repo.cypwn.xyz/depiction/1517
-Icon: https://media.havoc.app/620c653de96ba40e8240c654
-Name: Emerald
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1517
-
 Package: xyz.cypwn.ena
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -7332,25 +7204,6 @@ Icon: https://media.havoc.app/64a42e09e02881606102d9ed
 Name: ENA - Extract Nearly Anything
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1396
 
-Package: xyz.cypwn.filzaswipeselect
-Version: 0.0.2
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Installed-Size: 184
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/FilzaSwipeSelect_0.0.2_iphoneos-arm64.deb
-Size: 8740
-MD5sum: 11b086f1897c19f8d22936c50c60d457
-SHA1: fe6c8fa1f59618a0807f1a1b2d5c01c08f002ae2
-SHA256: 5f68fc57f28b9d075b20bff1a699cafcab88af24d169f47e71f30a50d9d2eb26
-Section: Tweaks
-Description: Swipe to multi-select functionality for Filza. No more individually tapping each file to select.
-Author: korboy <korboybeats@gmail.com>
-Depiction: https://repo.cypwn.xyz/depiction/3288
-Icon: https://repo.cypwn.xyz/packages/FilzaSwipeSelect-Rootless/icon.png
-Name: FilzaSwipeSelect
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3288
-
 Package: xyz.cypwn.fiona
 Version: 1.0.7
 Architecture: iphoneos-arm64
@@ -7367,24 +7220,6 @@ Description: Floating Tab bar for iOS devices.
 Author: yan
 Icon: https://yandevelop.github.io/assets/icons/fiona/icon.png
 Name: Fiona
-
-Package: xyz.cypwn.gasolina
-Version: 0.3.1
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate, ws.hbang.common, xyz.cypwn.xinam1ne
-Filename: ./debs/Gasolina_0.3.1_iphoneos-arm64.deb
-Size: 25344
-MD5sum: e0dbd58ff52608512704a02430125643
-SHA1: 8c62d4fecbf3d710725e021874b746ca077ad89d
-SHA256: 63dd4966f514d251de48ca7b968052989958b4f5c4afe712ac3887df4c6d6c40
-Section: Tweaks
-Description: Saves you some battery!
-Author: Rango
-Depiction: https://repo.cypwn.xyz/depiction/1695
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/gasolina.png
-Name: Gasolina
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1695
 
 Package: xyz.cypwn.griddy
 Version: 1.0.5
@@ -7403,115 +7238,6 @@ Depiction: https://repo.cypwn.xyz/depiction/2928
 Icon: https://repo.cypwn.xyz/packages/Griddy-Rootless/icon.png
 Name: Griddy
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2928
-
-Package: xyz.cypwn.hinata
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common, ws.hbang.alderis, firmware (>= 15.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
-Filename: ./debs/Hinata_1.0.0_iphoneos-arm64.deb
-Size: 240960
-MD5sum: 793cc8ca8a464606f3af377c1fadf250
-SHA1: 2b50fddb39a25d5ebe7c30cb01016aed9dd3b34c
-SHA256: e922937b5836c09b5764277d8133507f55d603ca4851be92377cf41503f74765
-Section: Tweaks
-Description: Custom lockscreen tweak for iOS15
-Author: sugiuta
-Depiction: https://repo.cypwn.xyz/depiction/3194
-Icon: https://repo.cypwn.xyz/packages/Hinata-Rootless/icon.png
-Name: Hinata
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3194
-
-Package: xyz.cypwn.instantcamera
-Version: 1.1.1
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0), com.ginsu.comet
-Filename: ./debs/InstantCamera_1.1.1_iphoneos-arm64.deb
-Size: 48832
-MD5sum: 138cd6cf8ea25d1b221761ce073f9cac
-SHA1: 1b641acd4ab931da6a34c9c02daed159ded5879d
-SHA256: c0a02fdb6112bfaf6b27777f51ae29e1317a2fb5b6c71b6955e4f54d8fad9cdf
-Section: Tweaks
-Description: Capture photos instantly using the LS button
-Author: sourcelocation
-Depiction: https://repo.cypwn.xyz/depiction/1490
-Icon: https://media.havoc.app/64a18e1be9bc2a657c8b1d6f
-Name: InstantCamera
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1490
-
-Package: xyz.cypwn.leftpan
-Version: 1.0-6
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4)
-Filename: ./debs/LeftPan_1.0-6_iphoneos-arm64.deb
-Size: 21536
-MD5sum: 1d99212ae8c4c66792f854f742aa6d2b
-SHA1: d9d4f5810ebda85a970081c15cc4fde39668aa59
-SHA256: b6b9a9cba80f9d697889059f426ca2527e01a04efb312bb789628d22a251cf17
-Section: Tweaks
-Priority: optional
-Description: Swipe left on right edge to return to the previous page.
-Author: Mao
-Depiction: https://repo.cypwn.xyz/depiction/3083
-Icon: https://repo.cypwn.xyz/packages/LeftPan-Rootless/icon.png
-Name: LeftPan
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3083
-
-Package: xyz.cypwn.limneos
-Version: 3.1
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: ./debs/Limneos Crack_3.1_iphoneos-arm64.deb
-Size: 1016
-MD5sum: 74cace8c69148812d941cff3acec3e2d
-SHA1: 43ea70910b7783004d5f6ebd6961b7b234a44093
-SHA256: 0f7a985f959fd01191c9ead50410bfd150d7b724fb79b85c330ca31161b31ada
-Section: Tweaks
-Description: Crack for Limneos tweaks by CBZ. Compiled using NewABI
-Author: CBZ
-Depiction: https://repo.cypwn.xyz/depiction/1940
-Name: Limneos Crack
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1940
-
-Package: xyz.cypwn.macosspinnerrespring
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Filename: ./debs/macOS Spinner Respring Theme_1.0_iphoneos-arm64.deb
-Size: 204840
-MD5sum: 203240f72aea1fd05df41d3505c79cef
-SHA1: b4de6122d073b29f5cb278ee18f9bc8c0fd220d0
-SHA256: 57d5b8982d048605ff72c74091e75935e707cf5e35b460a2283d4e1f09429827
-Section: Themes
-Description: macOS Spinner Respring Theme
-Author: Korboy
-Depiction: https://repo.cypwn.xyz/depiction/2059
-Icon: https://i.imgur.com/AtIW75g.png
-Name: macOS Spinner Respring Theme
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2059
-
-Package: xyz.cypwn.macpass
-Version: 1.4
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Installed-Size: 876
-Depends: mobilesubstrate, com.spark.libsparkcolourpicker, ws.hbang.common
-Filename: ./debs/MacPass_1.4_iphoneos-arm64.deb
-Size: 154764
-MD5sum: 7a7f8784c718484adbdd81ab1bf15ba5
-SHA1: b464696dfdfea1e9aa2f7c7dfe320214f0236e2d
-SHA256: 2c309e4dcba7502c23ba60cd986c2a6be1ace20fe1df5045d5c190482cf836a6
-Section: Tweaks
-Description: MacPass gives MacOS password screen for passcode!
-Author: Ethan Whited
-Depiction: https://repo.cypwn.xyz/depiction/2350
-Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.macpass/icon.png
-Name: MacPass
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2350
 
 Package: xyz.cypwn.movenotification16
 Version: 1.0
@@ -7588,62 +7314,6 @@ Icon: https://media.havoc.app/65dfc278aade10692ec51d5f
 Name: No2Theft iOS 16
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2063
 
-Package: xyz.cypwn.onehandwizard2
-Version: 1.0.6
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Installed-Size: 540
-Depends: mobilesubstrate
-Filename: ./debs/OneHandWizard2_1.0.6_iphoneos-arm64.deb
-Size: 24488
-MD5sum: e9c6144e6adfe6454d4cde61d010e294
-SHA1: ba21df601357700ab804fede4f8ef12b6a2490b7
-SHA256: 74da5ecb7c521055d8874322403ddf60d3e5a0ea9c0eeb879056d789fa06e8e8
-Section: Tweaks
-Description: Use your large phones comfortably in one hand
-Author: sharedRoutine
-Depiction: https://repo.cypwn.xyz/depiction/3015
-Icon: https://repo.cypwn.xyz/packages/OneHandWizard2-Rootless/icon.png
-Name: OneHandWizard2
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3015
-
-Package: xyz.cypwn.plampyuipro
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common
-Filename: ./debs/PlampyUIPro_1.0_iphoneos-arm64.deb
-Size: 712776
-MD5sum: a8f794417cc005b7020995cbcb3b394b
-SHA1: 0fb137a7880118c3c5c38b574926199fbd5bf4ae
-SHA256: f8e1ff30db8feb31ed943de303fde43788213fdf449cb6755cbb6f339152cd6e
-Section: Tweaks
-Description: A control center beautification tool for iOS 15/16. Change the icons/effects of the native modules, modify the background wallpaper, etc.
-Author: Phuc Do
-Depiction: https://repo.cypwn.xyz/depiction/2798
-Icon: https://repo.cypwn.xyz/packages/PlampyUIPro-Rootless/icon.png
-Name: PlampyUIPro
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2798
-
-Package: xyz.cypwn.pogr
-Version: 0.5.1
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.lns.pogr
-Filename: ./debs/PodsGrant_0.5.1_iphoneos-arm64.deb
-Size: 67652
-MD5sum: a9b122bb5c7bd5be808f8db8fe5eb1cc
-SHA1: 91ffee9d792ee32c0633d7267bd9ed35156c61c6
-SHA256: d928ac712218a947141d42e1b7c0996239442eb1a49dbd6f4e54bc31f6a81d62
-Section: Tweaks
-Description: Tweak for better AirPods compatibility on old devices
-Author: Ruphane
-Depiction: https://repo.cypwn.xyz/depiction/3392
-Icon: https://repo.cypwn.xyz/packages/PodsGrant-Rootless/icon.png
-Name: PodsGrant
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3392
-
 Package: xyz.cypwn.snapper3qolfixes
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -7661,24 +7331,6 @@ Depiction: https://repo.cypwn.xyz/depiction/2517
 Icon: https://repo.cypwn.xyz/packages/Snapper3QoLFixes-Rootless/icon.png
 Name: Snapper 3 QoL Fixes
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2517
-
-Package: xyz.cypwn.sneakycam
-Version: 2.2.2
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate, preferenceloader, cy+cpu.arm64v8 | oldabi-xina | oldabi
-Filename: ./debs/SneakyCam_2.2.2_iphoneos-arm64.deb
-Size: 76024
-MD5sum: cf1232f8805f863601c882948ad7ae09
-SHA1: 2603faad6bc4ea7cee608859b9b24351b435e9ca
-SHA256: feb6b3c9cb0d6b0bce2ab9161033788fa643c1779eb34b3675f86eff3a468f80
-Section: Tweaks
-Description: Discretely take a photo or record a video from anywhere, even with your screen off.
-Author: Spark
-Depiction: https://repo.cypwn.xyz/depiction/2450
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/sneakycam.png
-Name: SneakyCam
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2450
 
 Package: xyz.cypwn.snowboardrespringextension
 Version: 1.0.7~Beta3-rootless
@@ -7717,24 +7369,6 @@ Depiction: https://repo.cypwn.xyz/depiction/2671
 Icon: https://repo.cypwn.xyz/packages/SplitViewPro-Rootless/icon.png
 Name: Split View Pro
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2671
-
-Package: xyz.cypwn.spy2
-Version: 1.3-1
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate, com.spark.libsparkapplist, com.opa334.ccsupport, ws.hbang.common, cy+cpu.arm64v8 | oldabi-xina | oldabi
-Filename: ./debs/Spy 2_1.3-1_iphoneos-arm64.deb
-Size: 981348
-MD5sum: ad9ef5dc4bb879fc9bb294eb8328ee5f
-SHA1: 03ed9fc123b03a709bcf9dd44332aa5309706b4e
-SHA256: b80ea1b20047e21e7376a03f39e452ae9c1d3335c354bd57b3fabf7bfce0f8d2
-Section: Tweaks
-Description: Spy mode. Track who snoops on your phone, what they are looking at, and much more.
-Author: elias
-Depiction: https://repo.cypwn.xyz/depiction/2846
-Icon: https://repo.cypwn.xyz/packages/Spy2-Rootless/icon.png
-Name: Spy 2
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2846
 
 Package: xyz.cypwn.startupoptimizations
 Version: 2.3.6
@@ -7863,24 +7497,6 @@ Icon: https://repo.cypwn.xyz/packages/TeddyRunningRespringTheme-Rootless/icon.pn
 Name: Teddy Running Respring Theme
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3022
 
-Package: xyz.cypwn.twitchdvn
-Version: 0.0.2
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate
-Filename: ./debs/TwitchDvnloader_0.0.2_iphoneos-arm64.deb
-Size: 5368
-MD5sum: a162033f5f550d946918f9b9206be08b
-SHA1: a5f0f6a3504c94556d7ebfedc57b2fd4aaf8e592
-SHA256: 8844462c7e420038d250e22432517bb7534f0b00e46375d62a7bbf7ee81a5ca8
-Section: Tweaks
-Description: Download your favorite clips, VODs and Live Streams with Dvnloader for Twitch!
-Author: dvntm
-Depiction: https://repo.cypwn.xyz/depiction/3021
-Icon: https://repo.cypwn.xyz/packages/TwitchDvnloader-Rootless/icon.png
-Name: TwitchDvnloader
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3021
-
 Package: xyz.cypwn.visionos
 Version: 3.5.1
 Architecture: iphoneos-arm64
@@ -7915,24 +7531,6 @@ Icon: https://repo.cypwn.xyz/packages/VisionOSDark-Rootless/icon.png
 Name: VisionOS Dark
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2663
 
-Package: xyz.cypwn.visionosdock
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: com.spark.snowboard.dock
-Filename: ./debs/VisionOS Dock_1.0_iphoneos-arm64.deb
-Size: 495500
-MD5sum: 4087fcd85b369e04a2073c20f1eac725
-SHA1: 5760bf3a311e34fa752ac37d09bb9abf44ca6f2f
-SHA256: 9dde88b142630148674952912e686ecdc43730b701653395342b0aad9dd6c471
-Section: Themes
-Description: Bring VisionOS to your dock!
-Author: YangJiii
-Depiction: https://repo.cypwn.xyz/depiction/2249
-Icon: https://dobabaophuc1706.github.io/repo/package/Themes/icon.png
-Name: VisionOS Dock
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2249
-
 Package: xyz.cypwn.whitecompacticons
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -7949,26 +7547,6 @@ Depiction: https://repo.cypwn.xyz/depiction/3073
 Icon: https://repo.cypwn.xyz/packages/CompacticonsWhite-Rootless/icon.png
 Name: Compacticons White
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3073
-
-Package: xyz.cypwn.xinam1ne
-Version: 2.6-8
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate, firmware (>= 15.0), gawk, gzip, libclang-cpp16, llvm-16, llvm-16-runtime, file, odcctools, ldid, plutil, com.tigisoftware.filza64bit (>= 4.0) | com.tigisoftware.filza (>= 4.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
-Replaces: emt.paisseon.xinamine
-Provides: emt.paisseon.xinamine (= 99)
-Filename: ./debs/Xinam1ne AIO_2.6-8_iphoneos-arm64.deb
-Size: 1939588
-MD5sum: 6c6946427f3b72a387f8d1e535fe6e3e
-SHA1: 89bd7808df895401d20a104c88a85f3a9f7f400e
-SHA256: 39aff0850e656137ea395a7a1e9c3b33e31b578633a8f7d61cdb89c33078b7a2
-Section: Utilities
-Description: Xinamine Official All-in-One bundle. Convert rootful tweaks to rootless (and rootless to rootful) with ease using the Xinam1nePatcher in Filza or use the included Xinaf1re app.
-Author: Paisseon, Sudo, NoW4U2Kid, Kixrd
-Depiction: https://repo.cypwn.xyz/depiction/2816
-Icon: https://repo.cypwn.xyz/packages/Xinam1neAIO-Rootless/icon.png
-Name: Xinam1ne AIO
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2816
 
 Package: xyz.cypwn.zeppelinreborn
 Version: 1.4.2
