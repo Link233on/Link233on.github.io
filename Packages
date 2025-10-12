@@ -7165,23 +7165,6 @@ Icon: https://media.havoc.app/64a42e09e02881606102d9ed
 Name: ENA - Extract Nearly Anything
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1396
 
-Package: xyz.cypwn.fiona
-Version: 1.0.7
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Installed-Size: 576
-Depends: mobilesubstrate, com.opa334.altlist, com.mrgcgamer.libgcuniversal
-Filename: ./debs/Fiona_1.0.7_iphoneos-arm64.deb
-Size: 87524
-MD5sum: 790bf33f1f07b3ff022a02847e808fe1
-SHA1: 4cfb7eeb9c20aae23e61876607ec9ec2b2faaa60
-SHA256: 4b52141c040648c11be4ad10733e22fe2814574a8af84f9682553df4ccf93f46
-Section: Tweaks
-Description: Floating Tab bar for iOS devices.
-Author: yan
-Icon: https://yandevelop.github.io/assets/icons/fiona/icon.png
-Name: Fiona
-
 Package: xyz.cypwn.griddy
 Version: 1.0.5
 Architecture: iphoneos-arm64
