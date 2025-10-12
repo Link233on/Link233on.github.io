@@ -7218,24 +7218,6 @@ Icon: https://repo.cypwn.xyz/packages/MoveNotification16-Rootless/icon.png
 Name: MoveNotification16
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3004
 
-Package: xyz.cypwn.no2theft16
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: ws.hbang.common
-Filename: ./debs/No2Theft iOS 16_1.1_iphoneos-arm64.deb
-Size: 899156
-MD5sum: 2a4c7490a4b19a524b90d097af482c88
-SHA1: d05da1e51b2e92de6eb2fb014be24450b9e64d17
-SHA256: 4e22520f505e1732b981cdf751ba76d3c74f4cc762955523678adcd26b691449
-Section: Tweaks
-Description: The most complete tweak against pranksters, annoying nosy people and thieves
-Author: elias
-Depiction: https://repo.cypwn.xyz/depiction/2063
-Icon: https://media.havoc.app/65dfc278aade10692ec51d5f
-Name: No2Theft iOS 16
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2063
-
 Package: xyz.cypwn.snapper3qolfixes
 Version: 1.0
 Architecture: iphoneos-arm64
