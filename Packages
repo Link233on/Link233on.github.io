@@ -794,6 +794,23 @@ Description: Display your touch interactions!
 Author: Lessica <82flex@gmail.com>
 Name: Touch-Viz
 
+Package: com.Link.filzaswipeselect
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: Link
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.Link.filzaswipeselect_0.0.2_iphoneos-arm64.deb
+Size: 8732
+MD5sum: ba670a0b31bd10bedebd4269de3985c0
+SHA1: cff83436c8f33314125d114fa81083cb9bacf6b8
+SHA256: 4fc8e230d23dd417e796f3940aa5f36d5cfb786f0b8bcb616d169f15547933ee
+Section: Tweaks
+Description: Swipe to multi-select functionality for Filza. No more individually tapping each file to select.
+Author: korboy <korboybeats@gmail.com>
+Icon: https://repo.cypwn.xyz/packages/FilzaSwipeSelect-Rootless/icon.png
+Name: FilzaSwipeSelect
+
 Package: com.amywhile.aemulo
 Version: 2.0-82b9fb9
 Architecture: iphoneos-arm64
@@ -3257,6 +3274,73 @@ Author: POLLAPO
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/latchkeythemes.png
 Name: LatchKey Themes
 
+Package: com.link.arise
+Version: 1.2.4
+Architecture: iphoneos-arm64
+Maintainer: Link
+Installed-Size: 1492
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 13.0)
+Filename: ./debs/com.link.arise_1.2.4_iphoneos-arm64.deb
+Size: 824156
+MD5sum: 7dba967377281029f7174b97b732000c
+SHA1: 987241c607ea9a9ebb7f9385dc2b57230f48ed3f
+SHA256: 18fb89ed8f08afec690fbf5c82cb6f06a5de2f3a62f75781603050baf02fdbf5
+Section: Tweaks
+Description: Customize and automate your lock screen.
+Author: EthanRDoesMC
+Icon: https://repo.cypwn.xyz/packages/Arise-Rootless/icon.png
+Name: Arise
+
+Package: com.link.autoscroll
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: pxcex
+Depends: mobilesubstrate
+Conflicts: com.pxcex.autoscroll, com.axs.autoscroll, xyz.cypwn.autoscroll15, byg.iosios.net.autoscroll, com.autoscroll.jb
+Filename: ./debs/com.link.autoscroll_1.0.0_iphoneos-arm64.deb
+Size: 5352
+MD5sum: cf52527afdd404a0091bea747758a5eb
+SHA1: 544472161cb328cb0fda186ff5748ac138139c9e
+SHA256: f896a43a0d995d0a084c87c9263a06edd1ee818a5cd4ed19bfdf0d6aa907476d
+Section: 嗨-工具
+Description: 跟随手指自动滚动页面无设置
+Author: pxcex
+Name: AutoScroll (Rootless)
+
+Package: com.link.bigshotsnapper3plugin
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Link
+Installed-Size: 532
+Depends: mobilesubstrate, firmware (>= 14.0), com.opa334.ccsupport
+Filename: ./debs/com.link.bigshotsnapper3plugin_1.1_iphoneos-arm64.deb
+Size: 19112
+MD5sum: 5e68fb7255a6792a0af43ba8bb2f8f43
+SHA1: a2b69e8139913bbc687a3c800de014141d290487
+SHA256: 1ec8b286fac22113df6fb677eaed1321b542ca5df6ba38c8f6279851aa906adb
+Section: Tweaks
+Description: BigShot CC module for iOS 14/15/16 and Snapper 3 plugin. Snapper 3 is NOT required to use this. It can be used as a standalone CC module.
+Author: Jonathan Winger-lang
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/bigshotsnapper3.png
+Name: BigShot for Snapper 3 and CCSupport
+
+Package: com.link.breezy
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Link
+Filename: ./debs/com.link.breezy_1.0_iphoneos-arm64.deb
+Size: 47384
+MD5sum: aa1490cdc7797d5d6a60b55ef8f1ef62
+SHA1: 4e593db2277bc475885b3ce8c45d9e66fe419237
+SHA256: b794c066e8dfa114da0ec91b53f77ca62ede0c40e0ab5c2931fa036870b53b14
+Section: Tweaks
+Description: Fake notifications
+Author: SGWC
+Icon: https://repo.cypwn.xyz/packages/Breezy-Rootless/icon.png
+Name: Breezy
+Someotherentrytocontrol: True
+Tags: compatible_min::ios15.0, compatible_max::ios16.7.7
+
 Package: com.link.designer
 Version: 1.5.5
 Architecture: iphoneos-arm64
@@ -3274,6 +3358,101 @@ Author: JunesiPhone <junesgraphics@gmail.com>
 Icon: https://repo.cypwn.xyz/packages/Designer-Rootless/icon.png
 Name: Designer
 
+Package: com.link.dleasy
+Version: 2.14.8
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.link.dleasy_2.14.8_iphoneos-arm64.deb
+Size: 5553480
+MD5sum: 35662eaab70c01c077533a973753515f
+SHA1: 1c1f9b76396e88be570c1e90fa4e25dce22b68aa
+SHA256: 84a68fa654c47df253eee1ae2e3669164ee0b538a002fe2f5ad09c2ab7d1197f
+Section: Tweaks
+Description: Download/Share images & videos from social apps easily!
+Author: AhmedBafkir
+Icon: https://repo.cypwn.xyz/packages/DLEasy-Rootless/icon.png
+Name: DLEasy
+
+Package: com.link.dpkgfill
+Version: 2.0.1
+Architecture: iphoneos-arm64
+Maintainer: Link
+Filename: ./debs/com.link.dpkgfill_2.0.1_iphoneos-arm64.deb
+Size: 1524
+MD5sum: ab6b211d4a0ba3fe791a41a2cdd0e667
+SHA1: a812d100e7a9af91aa1d84709d66632c2108f512
+SHA256: 9f2b0f986e3bc346a719d3548323a6f02503080da56760f28c4171674240d02c
+Section: Utilities
+Description: Run 'dpkgfill' in Terminal to fix dpkg warnings due to missing maintainer and description fields
+Author: Sudo
+Icon: https://repo.cypwn.xyz/packages/dpkgfill-Rootless/icon.png
+Name: dpkgfill
+
+Package: com.link.dr4w
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, firmware (>= 15.0), ws.hbang.alderis, cy+cpu.arm64v8 | oldabi-xina | oldabi
+Filename: ./debs/com.link.dr4w_1.0.0_iphoneos-arm64.deb
+Size: 401528
+MD5sum: 1f5fa73ac08fbe31f03475a5ff649f4b
+SHA1: 412dff64b239aa76868e272b8bc8b3fcee6fb846
+SHA256: e57c7611c8563ff5ace56066e6e7e399db4035cf97d00e69bc936abbffc03d52
+Section: Tweaks
+Description: Draw and take screenshots anywhere
+Author: sigiuta
+Icon: https://repo.cypwn.xyz/packages/Dr4w-Rootless/icon.png
+Name: Dr4w
+
+Package: com.link.emerald
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: firmware (>= 15.0), ws.hbang.alderis, com.spark.libsparkapplist
+Filename: ./debs/com.link.emerald_1.0.7_iphoneos-arm64.deb
+Size: 212128
+MD5sum: e68c8a744f4612f94e0d3ae3f93e39d0
+SHA1: 9a8ca5bc53f1aeed53baa92a83d9575242d5aedc
+SHA256: cc86b612c87db942eeb98ea238b1fda0eb624a4365321b0a95abb05a138e5b3e
+Section: Tweaks
+Author: LaughingQuoll
+Icon: https://media.havoc.app/620c653de96ba40e8240c654
+Name: Emerald
+
+Package: com.link.flora
+Version: 1.1.3
+Architecture: iphoneos-arm64
+Maintainer: Link
+Installed-Size: 2040
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader (>= 2.2.3), com.mrgcgamer.libgcuniversal, com.opa334.libsandy
+Filename: ./debs/com.link.flora_1.1.3_iphoneos-arm64.deb
+Size: 1643872
+MD5sum: a5859064fc789e1ce71ba9dc58758c42
+SHA1: a1714c821620f22466771d543928da2b58a1f52f
+SHA256: 5084ee36d762029d57ca7245f5ce7bbec2654be80dad97a29e21f635549017a6
+Section: Tweaks
+Description: A modern color changer, built for today's jailbreaks.
+Author: Rosie
+Icon: https://media.havoc.app/65d920d5dc4f78f775457f85
+Name: Flora
+
+Package: com.link.gasolina
+Version: 0.3.1
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: mobilesubstrate, ws.hbang.common
+Filename: ./debs/com.link.gasolina_0.3.1_iphoneos-arm64.deb
+Size: 25308
+MD5sum: a07f2dfda44a233ea83c6b23793ea6a5
+SHA1: 67aa1d14c0172df8b6e2236d4ea3444fad0d3bcc
+SHA256: a3bd7bb2f6af89e5406fcf4ca66182861f43402158b9fae70effc6edaaf03150
+Section: Tweaks
+Description: Saves you some battery!
+Author: Rango
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/gasolina.png
+Name: Gasolina
+
 Package: com.link.gravitation
 Version: 0.1.0
 Architecture: iphoneos-arm64
@@ -3290,6 +3469,38 @@ Author: Kritanta
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/gravitation.png
 Name: Gravitation
 
+Package: com.link.hinata
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, ws.hbang.alderis, firmware (>= 15.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
+Filename: ./debs/com.link.hinata_1.0.0_iphoneos-arm64.deb
+Size: 271888
+MD5sum: 283b0d228aeecee6f3bb66743576d2a1
+SHA1: aed4c5abb875b8b7c2535dccf7cdd5414cd04133
+SHA256: 8d92a0e904dd9833cade2b255ae94f063ae1f76fac3b8954cda55b6e1fc80c57
+Section: Tweaks
+Description: Custom lockscreen tweak for iOS15
+Author: sugiuta
+Icon: https://repo.cypwn.xyz/packages/Hinata-Rootless/icon.png
+Name: Hinata
+
+Package: com.link.instantcamera
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0), com.ginsu.comet
+Filename: ./debs/com.link.instantcamera_1.1.1_iphoneos-arm64.deb
+Size: 89064
+MD5sum: 5ac7cae2a7c7c1f51f0fdc8c2c67efee
+SHA1: c1b49c7140ca268dde25ed977261ea272f336ea7
+SHA256: a4a2ab15ed6054f47be59ce2e74a56d065edd5016e5bdf113f80e6c7cb6f2619
+Section: Tweaks
+Description: Capture photos instantly using the LS button
+Author: sourcelocation
+Icon: https://media.havoc.app/64a18e1be9bc2a657c8b1d6f
+Name: InstantCamera
+
 Package: com.link.killapps-rootless
 Version: 1.2-2
 Architecture: iphoneos-arm64
@@ -3304,6 +3515,172 @@ Section: Tweaks
 Description: Add quick clean all background function for background switcher. Support clean up whitelist, support slide up blacklist
 Author: Netskao
 Name: KillApps
+
+Package: com.link.leftpan
+Version: 1.0-6
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/com.link.leftpan_1.0-6_iphoneos-arm64.deb
+Size: 43032
+MD5sum: ca56a92f1d430530067ecfcca9780810
+SHA1: 684cd6383661dca6d24dcbb14ebbdf060e84bfc4
+SHA256: 30402fb8d70546ab6f43f33735e4431dacbe69366e2ebd0dcbbcee180473085a
+Section: Tweaks
+Priority: optional
+Description: Swipe left on right edge to return to the previous page.左滑返回
+Author: Mao
+Icon: https://repo.cypwn.xyz/packages/LeftPan-Rootless/icon.png
+Name: LeftPan
+
+Package: com.link.limneos
+Version: 3.1
+Architecture: iphoneos-arm64
+Maintainer: Link
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.link.limneos_3.1_iphoneos-arm64.deb
+Size: 4404
+MD5sum: 85cd41122d8c8d8c454fef49163cdfd5
+SHA1: 8861e32169b8a1a3cb78aff764637cf3db702fb9
+SHA256: 97aff4a594f2aa5843a5fe7e495d9aa0c4a226f5312b55430c7c9fccd8427046
+Section: Tweaks
+Description: Crack for Limneos tweaks by CBZ. Compiled using NewABI
+Author: CBZ
+Name: Limneos Crack
+
+Package: com.link.macosspinnerrespring
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Link
+Filename: ./debs/com.link.macosspinnerrespring_1.0_iphoneos-arm64.deb
+Size: 204812
+MD5sum: 70be58dc005c636dc24c05aa27cafe89
+SHA1: 61c47571dad004c68977aa4d899209849f21ea65
+SHA256: bdfed3f650d130e19482b2ae2d45e1378fe228d45c93f5020089a0dad07b385e
+Section: Themes
+Description: macOS Spinner Respring Theme
+Author: Korboy
+Icon: https://i.imgur.com/AtIW75g.png
+Name: macOS Spinner Respring Theme
+
+Package: com.link.macpass
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: Link
+Installed-Size: 876
+Depends: mobilesubstrate, com.spark.libsparkcolourpicker, ws.hbang.common
+Filename: ./debs/com.link.macpass_1.4_iphoneos-arm64.deb
+Size: 196524
+MD5sum: e85dd62b1fd8698ba1f69e9dd02ea46f
+SHA1: be6a90cf1208604f6dedd4df6d9348e2b020c2cd
+SHA256: 2cb79258f15e204a91bf811f3750b947c6557e17e10749b0665da62654c0ef9c
+Section: Tweaks
+Description: MacPass gives MacOS password screen for passcode!
+Author: Ethan Whited
+Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.macpass/icon.png
+Name: MacPass
+
+Package: com.link.nazuna
+Version: 1.0l
+Architecture: iphoneos-arm64
+Maintainer: Link
+Installed-Size: 3784
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Conflicts: xyz.cypwn.auto-vpn, com.snail.autovpn.global, com.snail.autovpn
+Filename: ./debs/com.link.nazuna_1.0l_iphoneos-arm64.deb
+Size: 940872
+MD5sum: 1869cff21d06ff97829973166df9df94
+SHA1: acab586d6458d20ab114502198d9de5267da7ee8
+SHA256: 76f2227954a90c026df005caecd792c5986d29b9a0fc78a95c26d41f994404b0
+Section: Tweaks
+Description: An awesome PIP enhancer! Cracked by CBZ!
+Author: uz.ra
+Icon: https://repo.cypwn.xyz/packages/Nazuna-Rootless/icon.png
+Name: Nazuna
+
+Package: com.link.neowave
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Link
+Installed-Size: 8756
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.link.neowave_1.0.0_iphoneos-arm64.deb
+Size: 4965236
+MD5sum: 38c63d0906c60e2ed221d47104691fd7
+SHA1: c51569ca3ba3dfa2b27afacf04105939de4e1263
+SHA256: 44b1e943dc619f3794e899cb7fd3828a1d2c2c138c49c4c42970144e1b07f1d8
+Section: Tweaks
+Description: Animated color gradient edges for Siri with customizable colors and adjustable animation speed.Siri边框特效
+Author: SHTM
+Icon: https://repo.cypwn.xyz/packages/NeoWave-Rootless/icon.png
+Name: NeoWave
+
+Package: com.link.no2theft16
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: ws.hbang.common
+Filename: ./debs/com.link.no2theft16_1.1_iphoneos-arm64.deb
+Size: 1017520
+MD5sum: cbea3833ef86d443cb8bf21ecbf095d4
+SHA1: 2e1676c5797769fa6f2e19bd77472d58a4aa2dfb
+SHA256: b904ad94fb2b9b6cd919c11ea685653812f291f5f85a052b82be8a69daca45c6
+Section: Tweaks
+Description: The most complete tweak against pranksters, annoying nosy people and thieves 誰动了手机？
+Author: elias
+Icon: https://media.havoc.app/65dfc278aade10692ec51d5f
+Name: No2Theft iOS 16
+
+Package: com.link.onehandwizard2
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: Link
+Installed-Size: 540
+Depends: mobilesubstrate
+Filename: ./debs/com.link.onehandwizard2_1.0.6_iphoneos-arm64.deb
+Size: 43712
+MD5sum: f88040af08aef16990d61aaadc78dc30
+SHA1: dacbdc5993bcc89fbdd01f9f0927bc6105549748
+SHA256: 6c7b7e2ba506684400854a131fbe8bc0eea7256f4f49db4546b4fbbba1c7781c
+Section: Tweaks
+Description: Use your large phones comfortably in one hand
+Author: sharedRoutine
+Icon: https://repo.cypwn.xyz/packages/OneHandWizard2-Rootless/icon.png
+Name: OneHandWizard2
+
+Package: com.link.plampyuipro
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/com.link.plampyuipro_1.0_iphoneos-arm64.deb
+Size: 726556
+MD5sum: 21a0d51baf67394711102b36638d8ac9
+SHA1: 157f5866e98f8ff896c92d7da0a3f6f6f069cac8
+SHA256: c3d6cc0373a9a145b11f2d7d89f13cb002c20e394605326e34d2abea6a6e1c87
+Section: Tweaks
+Description: A control center beautification tool for iOS 15/16. Change the icons/effects of the native modules, modify the background wallpaper, etc.控制中心壁纸
+Author: Phuc Do
+Icon: https://repo.cypwn.xyz/packages/PlampyUIPro-Rootless/icon.png
+Name: PlampyUIPro
+
+Package: com.link.pogr
+Version: 0.5.1
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.lns.pogr
+Filename: ./debs/com.link.pogr_0.5.1_iphoneos-arm64.deb
+Size: 75152
+MD5sum: 30a6e257ffaf33ddc19e8b594157eb99
+SHA1: 75559a69e73c5c42f4e66958520a41d364f5afa6
+SHA256: 3b34f737a27537142212ac4e44c7979a2b66367f168f072337d64887bbc37b06
+Section: Tweaks
+Description: Tweak for better AirPods compatibility on old devices
+Author: Ruphane
+Icon: https://repo.cypwn.xyz/packages/PodsGrant-Rootless/icon.png
+Name: PodsGrant
 
 Package: com.link.pokecall
 Version: 1.4.13
@@ -3320,6 +3697,105 @@ Description: Incoming caller wants to battle!
 Author: Frozen Penguin
 Icon: https://img.chariz.cloud/icon/pokecall/icon@3x.png
 Name: PokeCall
+
+Package: com.link.sneakycam
+Version: 2.2.2
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: mobilesubstrate, preferenceloader, cy+cpu.arm64v8 | oldabi-xina | oldabi
+Filename: ./debs/com.link.sneakycam_2.2.2_iphoneos-arm64.deb
+Size: 106536
+MD5sum: 286149e158e46f803c8322f72dbc3c87
+SHA1: a6c1d71e2c35f17dfc50971a8258fde258bbe384
+SHA256: 0b5bcca040e7e17a0e6ba90d8a20f5dd0a5080bf82267fdb3948ab8df265a3d0
+Section: Tweaks
+Description: Discretely take a photo or record a video from anywhere, even with your screen off.隐私相机
+Author: Spark
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/sneakycam.png
+Name: SneakyCam
+
+Package: com.link.spy2
+Version: 1.3-1
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: mobilesubstrate, com.spark.libsparkapplist, com.opa334.ccsupport, ws.hbang.common, cy+cpu.arm64v8 | oldabi-xina | oldabi
+Filename: ./debs/com.link.spy2_1.3-1_iphoneos-arm64.deb
+Size: 1079084
+MD5sum: 48f8f639804730a38a2d41a93f548387
+SHA1: 75f09850b2e1bcf3b38bd62d3b0588b298580738
+SHA256: d879ae2bb645bc38dcfbf4ef5e6ec7f83b860be154d6f9650b087e82642ae24f
+Section: Tweaks
+Description: Spy mode. Track who snoops on your phone, what they are looking at, and much more.
+Author: elias
+Icon: https://repo.cypwn.xyz/packages/Spy2-Rootless/icon.png
+Name: Spy 2
+
+Package: com.link.statustime
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: Link
+Installed-Size: 372
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.link.statustime_1.4_iphoneos-arm64.deb
+Size: 33200
+MD5sum: 84c9bb4597830101742f16ec96df03fb
+SHA1: 757780103a882934b0b0c3d1b6701faa7824f159
+SHA256: 9e50df0bf765986741b1f3ddd6d9dd04688eaf5ab01abe4569cbece2b01f578e
+Section: Tweaks
+Description: This tweak allows users to customize the date and time format displayed on their device's status bar. Users can choose from a variety of date and time formats, as well as adjust the font size and position of the date and time elements.
+Author: SOPPPra
+Icon: https://i.postimg.cc/430z6Q0x/statustime.png
+Name: Statustime
+
+Package: com.link.twitchdvn
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: mobilesubstrate
+Filename: ./debs/com.link.twitchdvn_0.0.2_iphoneos-arm64.deb
+Size: 8933020
+MD5sum: 4cafd9faf67eea500eb67602a0b657d9
+SHA1: 552d756e294aadbc65528148aff9c14b110b3e26
+SHA256: d50c1c85912242401968121fbf06487e4767f39528b7ab84ccae0005a6bee418
+Section: Tweaks
+Description: Download your favorite clips, VODs and Live Streams with Dvnloader for Twitch!
+Author: dvntm
+Icon: https://repo.cypwn.xyz/packages/TwitchDvnloader-Rootless/icon.png
+Name: TwitchDvnloader
+
+Package: com.link.visionosdock
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: com.spark.snowboard.dock
+Filename: ./debs/com.link.visionosdock_1.0_iphoneos-arm64.deb
+Size: 495480
+MD5sum: bd4eb88e453fc8a82212aef367590e08
+SHA1: 1a5c5ceff21741dca254f7e346b5e25ff7672558
+SHA256: 9f251f1996583fcbb22b8169f06fa0bdb82e0be37dfd96f93f92eab9f824bfbb
+Section: Themes
+Description: Bring VisionOS to your dock!
+Author: YangJiii
+Icon: https://dobabaophuc1706.github.io/repo/package/Themes/icon.png
+Name: VisionOS Dock
+
+Package: com.link.xinam1ne
+Version: 2.6-8
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: mobilesubstrate, firmware (>= 15.0), gawk, gzip, libclang-cpp16, llvm-16, llvm-16-runtime, file, odcctools, ldid, plutil, com.tigisoftware.filza64bit (>= 4.0) | com.tigisoftware.filza (>= 4.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
+Replaces: emt.paisseon.xinamine
+Provides: emt.paisseon.xinamine (= 99)
+Filename: ./debs/com.link.xinam1ne_2.6-8_iphoneos-arm64.deb
+Size: 1946832
+MD5sum: eb85a3d91084a880b0c423662244cdb4
+SHA1: 908aa4163378c88e7e04107c5018d1b8b22a65eb
+SHA256: a84b9456161fc95921207da51e362b642b4d787aff9ad514bcb3fe984b690e82
+Section: Utilities
+Description: Xinamine Official All-in-One bundle. Convert rootful tweaks to rootless (and rootless to rootful) with ease using the Xinam1nePatcher in Filza or use the included Xinaf1re app.
+Author: Paisseon, Sudo, NoW4U2Kid, Kixrd
+Icon: https://repo.cypwn.xyz/packages/Xinam1neAIO-Rootless/icon.png
+Name: Xinam1ne AIO
 
 Package: com.liuf.dyjc
 Version: 0.0.1
@@ -3468,10 +3944,10 @@ Maintainer: Misaka Project
 Installed-Size: 792
 Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, ws.hbang.common
 Filename: ./debs/Macaron_1.0.1_iphoneos-arm64.deb
-Size: 388600
-MD5sum: ba2a0a74df6778d7fc7d322b4a308fb0
-SHA1: 78349782abf160ab63e8b6a0e4f439168ae6e450
-SHA256: 2ebed9d8e7cb13eaee6292a2f2134def3c49f07d45afa71eae3a0256c3850e53
+Size: 406656
+MD5sum: a4412a7e3d74b5a19c8dd9d2d0abaa34
+SHA1: 7585dd4d5d8c4c3087c75122340a34b1903c7574
+SHA256: a9c5765478f5275b23680f0cb8f40d6eb45395292f4fb9db3e2969cee3b3713b
 Section: Tweaks
 Description: Displays a photo in the background of the dock for iOS15.
 Author: Misaka Project
@@ -5165,6 +5641,23 @@ Description: Extend your keyboard to be more POWERFULL!
 Author: SquidForce
 Name: SquidExtender
 
+Package: com.squidforce.statusbarspeed
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: SquidForce
+Installed-Size: 612
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.squidforce.statusbarspeed_1.0.1_iphoneos-arm64.deb
+Size: 98920
+MD5sum: 2df594e84ae1a8b09ae98c520dfb72ec
+SHA1: 31bb771dd1c179507465700d5dfcf6b6ff0d95bd
+SHA256: 1fced9a1cd94072bb5796b3a8d88fe565e64da7071541620da99818454164f83
+Section: Tweaks
+Description: 状态栏网速
+Author: SquidForce
+Name: Status BarSpeed
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.squidforce.statusbarspeed/depiction.json
+
 Package: com.sugiuta.mochi15
 Version: 1.0.3
 Architecture: iphoneos-arm64
@@ -5493,6 +5986,22 @@ Icon: https://repo.cypwn.xyz/packages/AniTime-Rootless/icon.png
 Name: AniTime
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3209
 
+Package: com.yan.anitime
+Version: 1.0.2l
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.ginsu.comet
+Filename: ./debs/com.yan.anitime_1.0.2l_iphoneos-arm64.deb
+Size: 405184
+MD5sum: c3a127e05978e78b89fb2349aa2ddd8d
+SHA1: 6aead371e867f5f7a88d637c81850edb25845ec2
+SHA256: 79e3518103094097c0cf36fb902b0d142deec4e4063d9157093583a567506092
+Section: Tweaks
+Description: Animated anime characters as your clock digits.
+Author: yan
+Icon: https://repo.cypwn.xyz/packages/AniTime-Rootless/icon.png
+Name: AniTime
+
 Package: com.yourepo.0xkuj.storeswitcher2rootless
 Version: 1.0.4
 Architecture: iphoneos-arm64
@@ -5790,6 +6299,22 @@ Section: Tweaks
 Description: Scramble the passcode view on your lockscreen!
 Author: rootfs
 Name: Rode
+
+Package: hikari
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: mobilesubstrate
+Filename: ./debs/hikari_1.0.8_iphoneos-arm64.deb
+Size: 1194648
+MD5sum: 406d062a506a54347c4b447c1f9d2e3f
+SHA1: f62ef562aefb9ef0e126a5c8cdfd8c0a273e1a38
+SHA256: a384cf2dcd510a23543a88057dd4e4151a024025ca9ad551d925529ecc14aa11
+Section: Tweaks
+Description: Hikari让您轻松定制和增强设备的音效。
+Author: Hitori
+Icon: https://repo.cypwn.xyz/packages/Hikari-Rootless/icon.png
+Name: Hikari
 
 Package: jp.akusio.milkyway4
 Version: 0.1.1
