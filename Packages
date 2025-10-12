@@ -4980,27 +4980,6 @@ Name: YouMusicPiP
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youmusicpip.json
 
 Package: com.ps.youpip
-Version: 1.12.8
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 212
-Depends: mobilesubstrate, com.ps.ytvideooverlay (>= 2.0.0), firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture (>= 1.0.1)
-Conflicts: com.spicat.youpip
-Replaces: com.spicat.youpip
-Provides: com.spicat.youpip
-Filename: ./debs/YouPiP_1.12.8_iphoneos-arm64.deb
-Size: 11176
-MD5sum: e7082dd53e2916057964904d3ad1dd92
-SHA1: ca238f3196c9d8c040aebf553d47f4f20bbb693b
-SHA256: 4f0257c898ba11fd56fa9eda3cc17b13495cc11b00c06e91635a7e17b9d2ace6
-Section: Tweaks
-Description: Enables native PiP in iOS YouTube app.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
-Name: YouPiP
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
-
-Package: com.ps.youpip
 Version: 1.12.9
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
@@ -7051,24 +7030,6 @@ Depiction: https://chariz.com/get/newterm-beta
 Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
 Name: NewTerm 3 Beta
 Support: https://hashbang.productions/support/
-
-Package: xyz.cypwn..hikari
-Version: 1.0.8
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate
-Filename: ./debs/Hikari_1.0.8_iphoneos-arm64.deb
-Size: 1186192
-MD5sum: b61a54f0a9c9cb7a103ac97725e091b2
-SHA1: 3969d3d3550243e5b23d08e1bea6745eb3b37374
-SHA256: 0197778ba01089cf5139cbf8c95edca6e9a236be6731967a50b0ed66cb7240fb
-Section: Tweaks
-Description: Hikari lets you customize and enhance your device’s sound effects with ease.
-Author: Hitori
-Depiction: https://repo.cypwn.xyz/depiction/2797
-Icon: https://repo.cypwn.xyz/packages/Hikari-Rootless/icon.png
-Name: Hikari
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2797
 
 Package: xyz.cypwn.amonglock
 Version: 1.1.6
