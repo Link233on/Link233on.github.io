@@ -7257,25 +7257,6 @@ Icon: https://repo.cypwn.xyz/packages/MoveNotification16-Rootless/icon.png
 Name: MoveNotification16
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3004
 
-Package: xyz.cypwn.neowave
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Installed-Size: 8756
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/NeoWave_1.0.0_iphoneos-arm64.deb
-Size: 4933036
-MD5sum: b041953bf12f1247f547c1e665223fde
-SHA1: 4f4a8e522c38911f29d839141b971f3da894dccf
-SHA256: 5976379608f08cbabfe1b467a6532fcbf133a1de992232bdf54ca3d15876b97c
-Section: Tweaks
-Description: Animated color gradient edges for Siri with customizable colors and adjustable animation speed.
-Author: SHTM
-Depiction: https://repo.cypwn.xyz/depiction/3309
-Icon: https://repo.cypwn.xyz/packages/NeoWave-Rootless/icon.png
-Name: NeoWave
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3309
-
 Package: xyz.cypwn.no2theft16
 Version: 1.1
 Architecture: iphoneos-arm64
