@@ -1,3 +1,19 @@
+Package: alias20.altdaemonfix
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: alias20
+Installed-Size: 76
+Depends: mobilesubstrate, com.opa334.libsandy
+Filename: ./debs/AltDaemonFix_0.0.1_iphoneos-arm64.deb
+Size: 2588
+MD5sum: ff5e5d9b032d09d353096e14309f0219
+SHA1: 989e998f3435310f49186fd237f52f64f3148aa1
+SHA256: d418187a1a4f8b3497b179a0350493c0103b12f05f10cc69485deefac06e08fc
+Section: Tweaks
+Description: Make AltDaemon great again for rootless/Ellekit!
+Author: alias20
+Name: AltDaemonFix
+
 Package: alias20.speedy
 Version: 0.2
 Architecture: iphoneos-arm64
@@ -730,6 +746,23 @@ Description: Save and restore the layout of your icons.
 Author: Lessica <82flex@gmail.com>
 Name: Icon Restore
 
+Package: com.82flex.libsandyxpc
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 200
+Depends: com.opa334.libsandy
+Filename: ./debs/libSandyXpc_1.1.2_iphoneos-arm64.deb
+Size: 18904
+MD5sum: a0e6b63cbb056d4c8a07732093c085d8
+SHA1: 281f3fa8a2d277880354dc2280310c82f4da5e55
+SHA256: 0b448ad2994f754c1d413b5a84656e139f8850a3199837f27bc0e29ead47556c
+Section: System
+Description: Yet another XPC library for iOS
+Tag: role::developer
+Author: 82Flex <82flex@gmail.com>
+Name: libSandyXpc
+
 Package: com.82flex.noredirect
 Version: 1.10
 Architecture: iphoneos-arm64
@@ -1109,6 +1142,26 @@ Section: Themes
 Description: Colorful theme for iOS
 Author: Cachetes <markosg26@gmail.com>
 Name: Col0rant
+
+Package: com.creaturecoding.libcspreferences
+Version: 1.5.8
+Architecture: iphoneos-arm64
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 2332
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Filename: ./debs/libCSPreferences_1.5.8_iphoneos-arm64.deb
+Size: 334964
+MD5sum: 450f9e1a90f7b280c3be5f9e8b2cc0c9
+SHA1: f5c4cee59e2c93a0ccffaece37454375b3032637
+SHA256: e4d026aea6693447bddb5175788f1366b91fdd804cf76518e63d14c01f38b8fc
+Section: System
+Homepage: https://creaturecoding.com/
+Description: A Preference Library that doesn't suck!
+Tag: compatible_min::iOS9
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
+Name: libCSPreferences
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
 
 Package: com.cydiageek.myautolock
 Version: 1.0.0
@@ -1638,6 +1691,24 @@ Section: 嗨-汉化
 Description: TVLock 简体中文包(rootless)。
 Author: 妖刀
 Name: TVLock 简体中文包(rootless)
+
+Package: com.daodao.goodwifi
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Installed-Size: 400
+Depends: mobilesubstrate, preferenceloader, firmware (<= 16.0)
+Conflicts: com.julioverne.goodwifi, com.qms.goodwifi, com.hk.goodwifi
+Filename: ./debs/GoodWiFi 中文版(rootless)_1.1.1_iphoneos-arm64.deb
+Size: 35484
+MD5sum: a0594d9e6157053ce80b0fa55547b456
+SHA1: a7c72c1daae626b9b5aac41276f5b92e2c71514a
+SHA256: 3cabb5344b70035b9107e0e0115d904d4261db338e472fca812b7790a66b4d48
+Section: 嗨-工具
+Description: 更好的 WiFi 配置，可查看连接的 WiFi 信道、加密方式和密码、信号值，去除 RSSI 限制，显示 MAC 地址等；简体中文版。
+Author: julioverne & 妖刀
+Name: GoodWiFi 中文版(rootless)
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/goodwifi/js.json
 
 Package: com.daodao.goodwifi16
 Version: 1.0.2
@@ -2972,6 +3043,26 @@ Dev: ichitaso
 Name: IconOrder
 Sileodepiction: https://cydia.ichitaso.com/depiction/iconorder.json
 
+Package: com.ichitaso.otadisabler
+Version: 0.6
+Architecture: iphoneos-arm64
+Maintainer: ichitaso
+Installed-Size: 168
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs/OTADisabler_0.6_iphoneos-arm64.deb
+Size: 9592
+MD5sum: 8d04e7b730893bcb96ff5723fd54d25c
+SHA1: 88f629ef8d4890d3831f3ef587d8f32d3519d7ce
+SHA256: b7c74451a78b6d3126332de1372676f6fba33696835bbe82c185b2877131f264
+Section: System
+Homepage: https://ichitaso.com
+Description: Disable OTA and remove badges on home screen, etc.
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/otadisabler.html
+Icon: https://raw.githubusercontent.com/ichitaso/OTADisabler-App/main/OTADisabler/Icon-60%403x.png
+Name: OTADisabler
+Sileodepiction: https://cydia.ichitaso.com/depiction/otadisabler.json
+
 Package: com.icraze.tempdrop
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -3121,6 +3212,22 @@ Section: Control Center (Modules)
 Description: A Control Center Module to enable/disable "Mono Audio"
 Author: KingPuffdaddi
 Name: CCMono
+
+Package: com.kitten.tweaktool
+Version: 2.0.0-beta
+Architecture: iphoneos-arm64
+Maintainer: 预言小猫
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: ./debs/com.kitten.tweaktool_2.0.0-beta_iphoneos-arm64.deb
+Size: 10902
+MD5sum: ae2334ee47ded91250db9520bbd270f3
+SHA1: edca1565b145844647c7ecd334dbf147c6f335fb
+SHA256: 97b61f68a904597484636416a73f57c9402db9c4eae3365fb0e57750e887ea9b
+Section: Tweaks
+Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具
+Author: 预言小猫
+Name: 一键备份和恢复工具-Rootless
+Sileodepiction: https://Ketty0725.github.io/repo/depictions/native/com.kitten.tweaktool/depiction.json
 
 Package: com.lacertosusrepo.navale
 Version: 6.0
@@ -3340,6 +3447,24 @@ Icon: https://repo.cypwn.xyz/packages/Breezy-Rootless/icon.png
 Name: Breezy
 Someotherentrytocontrol: True
 Tags: compatible_min::ios15.0, compatible_max::ios16.7.7
+
+Package: com.link.camera.rootless
+Version: 0.1-2
+Architecture: iphoneos-arm64
+Maintainer: Link
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.link.camera.rootless_0.1-2_iphoneos-arm64.deb
+Size: 3208
+MD5sum: 23d4cd59d0a7701438a361129873cf1f
+SHA1: b8d0002e7b4a72a46f6db4faff137dab64848f17
+SHA256: 2ac6c6f706387c41cbd826f90496c7db19897f5c46fa72457160ec0b390c4e0d
+Section: Tweaks
+Description: 系统相机开启全屏拍照 禁用拍照提示音
+Author: iOSign
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: 全屏相机-Rootless
+Sponsor: 搬运工
 
 Package: com.link.designer
 Version: 1.5.5
@@ -3713,6 +3838,24 @@ Description: Discretely take a photo or record a video from anywhere, even with 
 Author: Spark
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/sneakycam.png
 Name: SneakyCam
+
+Package: com.link.snowboardrespringextension
+Version: 1.0.7~Beta3-rootless
+Architecture: iphoneos-arm64
+Maintainer: Link
+Installed-Size: 596
+Depends: mobilesubstrate, com.spark.snowboard, firmware (<< 15.0) | cy+cpu.arm64v8 | oldabi
+Provides: com.spark.snowboard.respringextension (= 1.0.7~Beta3-rootless)
+Filename: ./debs/com.link.snowboardrespringextension_1.0.7~Beta3-rootless_iphoneos-arm64.deb
+Size: 22504
+MD5sum: 6287119b4332cc9ca284a51f4cb4fa9f
+SHA1: 6860fe18d155885ed5109260cd2f9eacd8e51776
+SHA256: 26ba1d405d4cbb6cd48bfa5667d8469872605fef4ef3ad4a023766c7608c07a8
+Section: SnowBoard Extensions
+Description: Respring icon extension for SnowBoard
+Author: Spark
+Icon: https://repo.cypwn.xyz/packages/SnowBoardRespringExtension-Rootless/icon.png
+Name: SnowBoard Respring Extension
 
 Package: com.link.spy2
 Version: 1.3-1
@@ -5088,6 +5231,25 @@ Author: qwertyuiop1379 <support@qwertyuiop1379.com>
 Depiction: https://repo.chariz.com/package/com.qiop1379.swipeextenderx/
 Name: SwipeExtenderX
 
+Package: com.rileytestut.altdaemon
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Riley Testut <support@altstore.io>
+Installed-Size: 2560
+Depends: firmware (>= 12.2), alias20.altdaemonfix
+Filename: ./debs/AltDaemon_1.0.1_iphoneos-arm64.deb
+Size: 594996
+MD5sum: cced722bd265720a254470eedf8758c3
+SHA1: b78cf132a9e2a8fd3ed5b575f56defc38a1de644
+SHA256: 34d046cccdbcac1b4716fe038102625ffecc1a60f4c91c75bc7846391d090d93
+Section: System
+Description: AltDaemon allows AltStore to install and refresh apps without a computer. (for rootless/Ellekit)
+Tag: compatible_min::ios12.2
+Author: Riley Testut <support@altstore.io>
+Depiction: https://chariz.com/get/altdaemon
+Icon: https://cdn.chariz.cloud/icon/altdaemon/icon@3x.png
+Name: AltDaemon
+
 Package: com.rpgfarm.a-font
 Version: 1.9.3-3
 Architecture: iphoneos-arm64
@@ -5705,6 +5867,25 @@ Description: 控制中心音频窗口背景插件
 Author: SuSu
 Name: CCUIPlayer
 
+Package: com.swing.padswitcher
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 368
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/PadSwitcher - iPad多任务_1.0.1_iphoneos-arm64.deb
+Size: 26348
+MD5sum: ea113c418e643a2dc66b0ec0f887a50d
+SHA1: 1a5b42724b2ab9cbe43fe1b6951d968813b2dd30
+SHA256: c2357b41a3d54bcc0ffee642fea381527cfbfcbb4ac52bddfa8f21f54ff90e13
+Section: Tweaks
+Description: 在iPhone上启用iPad风格的多任务界面和Dock栏。
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.padswitcher
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.padswitcher/icon.png
+Name: PadSwitcher - iPad多任务
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.padswitcher.json
+
 Package: com.teslaman3092.popoutbuttons
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -5963,6 +6144,23 @@ Author: yan
 Icon: https://repo.cypwn.xyz/packages/AniTime-Rootless/icon.png
 Name: AniTime
 
+Package: com.yan.fiona
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Maintainer: yan
+Installed-Size: 576
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, firmware (>= 14.0), com.mrgcgamer.libgcuniversal
+Filename: ./debs/Fiona_1.0.7_iphoneos-arm64.deb
+Size: 121780
+MD5sum: e8a2a6510085a21bca9ed1f296e0c534
+SHA1: bff941591a6e9f0be05373328b8129f754e7b766
+SHA256: 680c492059ee519976f942cf7c76fb7cf1a646b2eaf68676b394d5a3eafc009f
+Section: Tweaks
+Description: Floating Tab bar for iOS devices.
+Author: yan
+Icon: https://yandevelop.github.io/assets/icons/fiona/icon.png
+Name: Fiona
+
 Package: com.yourepo.0xkuj.storeswitcher2rootless
 Version: 1.0.4
 Architecture: iphoneos-arm64
@@ -6122,6 +6320,23 @@ Section: Tweaks
 Description: Unlock dynamic refresh rate from 80hz to 120hz
 Author: zqbb
 Name: Dynamic120hz
+
+Package: com.zqbb.savephotos
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/Hello Snapper3_1.1-1_iphoneos-arm64.deb
+Size: 4280
+MD5sum: c1e792b27fe0d275826efdce9b27c8ca
+SHA1: f72d990617f78ed0a7532dc38a0509a95ac9e2df
+SHA256: db762810a4faabd6bdf17e48ea4c7e56eb2c4e0af802576453d563a625d43018
+Section: Tweaks
+Description: 全屏截图按钮增加(保存至相册)功能,超过7个按钮时UI补全至7个,强迫症福音~!!!
+Author: zqbb
+Name: Hello Snapper3
+Sileodepiction: https://rootless.002599.xyz/web/com.zqbb.savephotos
 
 Package: daniel.analytics
 Version: 0.0.4
@@ -6863,6 +7078,24 @@ SHA256: 87fba98289a0892bf81c66369ebc02716a51a2d6caeb621859c2692fa461fc1d
 Description: Support for legacy arm64e ABI in iOS 15.0+
 Author: Evelyn
 Name: Legacy arm64e Support
+
+Package: oldabi-xina
+Version: 1.0.0-2+debug
+Architecture: iphoneos-arm64
+Maintainer: xina520
+Installed-Size: 88
+Replaces: oldabi
+Provides: oldabi
+Filename: ./debs/oldabi-xina_1.0.0-2+debug_iphoneos-arm64.deb
+Size: 6852
+MD5sum: 052a3907ce06207b72e2ff827e7b4675
+SHA1: 0faea0236aab3108e9a2f17fbad618558f23e1ec
+SHA256: 6bb5aba2f682f014963e5e70daf25b85a24314f92c49d728a25d8011fd708e65
+Section: System
+Description: An awesome library of some sort!!
+Tag: role::developer
+Author: xina520
+Name: oldabi-xina
 
 Package: org.coolstar.sileo
 Version: 2.5.1
