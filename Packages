@@ -7293,24 +7293,6 @@ Icon: https://repo.cypwn.xyz/packages/StartupOptimizations-Rootless/icon.png
 Name: StartupOptimizations
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3200
 
-Package: xyz.cypwn.statustime
-Version: 1.4
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Installed-Size: 372
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/StatusTime_1.4_iphoneos-arm64.deb
-Size: 27344
-MD5sum: 831435b938de4d6c7f33014e3cfac3f7
-SHA1: 4741eada43311ec2d4c9c8b48e37761148fc176e
-SHA256: e5b6832f18bf2d74b55c8dfaf2c0493352bfe7a14bb67d25f53a8a50c1850340
-Section: Tweaks
-Description: This tweak allows users to customize the date and time format displayed on their device's status bar. Users can choose from a variety of date and time formats, as well as adjust the font size and position of the date and time elements.
-Author: SOPPPra
-Depiction: https://repo.cypwn.xyz/depiction/1515
-Icon: https://i.postimg.cc/430z6Q0x/statustime.png
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1515
-
 Package: xyz.cypwn.staypro
 Version: 0.0.1
 Architecture: iphoneos-arm64
