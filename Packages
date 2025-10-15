@@ -67,6 +67,39 @@ Description: Next generation of FastAnimator
 Author: alias20
 Name: Speedy
 
+Package: am.ldid
+Version: 2.1.5-2
+Architecture: iphoneos-arm
+Maintainer: TIGI Software <info@tigisoftware.com>
+Installed-Size: 4028
+Filename: ./debs/am.ldid_2.1.5-2_iphoneos-arm.deb
+Size: 2197082
+MD5sum: 83f7090c217bcbd115bded721d9d3a49
+SHA1: ddbb210f98fb37f5a1fe39f6549b7aed1d8e2664
+SHA256: ee32103f3e110db21504edd46974806baaa40ef39e858b351ee62925f4f7e3b8
+Section: Utilities
+Description: pseudo-codesign Mach-O files for Apps Manager. Built from ProcursusTeam/ldid
+Tag: purpose::console
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: ldid for Apps Manager
+
+Package: bigsurcenter
+Version: 1.4.5
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 1820
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, ws.hbang.common (>= 1.17), ws.hbang.alderis (>= 1.2)
+Filename: ./debs/BigSurCenter_1.4.5_iphoneos-arm64.deb
+Size: 753308
+MD5sum: 6fb5b31fe5f96278254cc4227d049bac
+SHA1: acaf62fac72264c3e2ed0f1fc515de85a4e84fad
+SHA256: 80e5fdebebe77794830ced1cf2aa4a6e45ea303eeac2a01f300c4271a43595c3
+Section: Tweaks
+Description: BigSurCenter用一个新的轻量级优雅的控制中心取代了默认的iOS控制中心，其灵感来自MacOS Big Sur的控制中心。
+Author: nicho1asdev
+Icon: https://repo.cypwn.xyz/packages/BigSurCenter-Rootless/icon.png
+Name: BigSurCenter
+
 Package: bindfs-tools
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -108,6 +141,23 @@ Architecture: iphoneos-arm64
 Maintainer: 搬运工
 Depends: plutil
 Filename: ./debs/Disable Thermalmonitord.deb
+Size: 1308
+MD5sum: 705fd67fe06c40d16d14ba8f60711d63
+SHA1: 05f295217c7fe178459848f5226e9a1a6d051d8e
+SHA256: 3370429658954ad582fee9f951d775c8800185d1a17e2cc6614a326d27ae9e2b
+Section: 系统增强
+Description: 阻止 thermalmonitord 运行，应该可以防降频，防温控降频，由无尽伤痛都锁进黑夜发现。需要玩游戏的小伙伴们可以试试！楠神yyds！
+Author: zhaonan
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: Disable Thermalmonitord解除温控降频
+Sponsor: 搬运工
+
+Package: byg.iosios.net.disablethermalmonitord
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Depends: plutil
+Filename: ./debs/Disable Thermalmonitord解除温控降频_0.1.0_iphoneos-arm64.deb
 Size: 1308
 MD5sum: 705fd67fe06c40d16d14ba8f60711d63
 SHA1: 05f295217c7fe178459848f5226e9a1a6d051d8e
@@ -1004,6 +1054,24 @@ Icon: https://axs66.github.io/repo/icon/picturemodel.png
 Name: PictureModule控制中心视频
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/picturemodule/js.json
 
+Package: com.axs.recorder-bubble
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 304
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/录屏花瓣_0.0.1_iphoneos-arm64.deb
+Size: 41800
+MD5sum: 1de9b4bbf9198e2e797c2fd7333e0e49
+SHA1: 96042c586afdcd55ebdc63a9522e07ee86135ab3
+SHA256: 8363d3d4dcfed2cc5b0fbbf5e60e29319f88bc5aba53921f54a44c245b062785
+Section: Tweaks
+Description: 无设置项，当录制屏幕时，显示一个花瓣悬浮球指示器。
+Author: sunshinesong
+Icon: https://axs66.github.io/repo/icon/huaban.png
+Name: 录屏花瓣
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/recorder-bubble/js.json
+
 Package: com.b4db1r3.glassier3dtouch
 Version: 3.0
 Architecture: iphoneos-arm64
@@ -1197,6 +1265,22 @@ Description: Colorful theme for iOS
 Author: Cachetes <markosg26@gmail.com>
 Name: Col0rant
 
+Package: com.christopher.everest
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Christopher Anderson
+Installed-Size: 17276
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 2.0)
+Filename: ./debs/Everest_1.0.1_iphoneos-arm64.deb
+Size: 373560
+MD5sum: 752d5fef12f37657d23ab34d198b51f9
+SHA1: 3e147c04b7fc1e847e45188986d63f1133702cdb
+SHA256: 60680b1d3aa7e96b61aef1ed68a2380e87645366b9cd053a72fd281c19d39d4e
+Section: Tweaks
+Description: App icon animations
+Author: Christopher Anderson
+Name: Everest
+
 Package: com.creaturecoding.libcspreferences
 Version: 1.5.8
 Architecture: iphoneos-arm64
@@ -1262,6 +1346,21 @@ Dev: lucaluca86
 Icon: file:///var/jb/Library/PreferenceBundles/WhiteCCBorders.bundle/icon@2x.png
 Name: WhiteCCBorders
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.cyrex.epiphany
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Cyrex
+Depends: com.anemonetheming.anemone | com.spark.snowboard
+Filename: ./debs/Epiphany_1.0.1_iphoneos-arm64.deb
+Size: 1100120
+MD5sum: 00dbc3eee384a6cf616b1c33775e6e11
+SHA1: 42451f94e9a534b55536e98519144d54abc0e542
+SHA256: 9b1e3cfcf436a78ac981a550778c688602d30570a1294c5453eb8dedf4aaf929
+Section: Themes
+Description: A theme with beautiful icons!
+Author: Cyrex
+Name: Epiphany
 
 Package: com.dao.afc2
 Version: 1.1.7-1
@@ -2640,6 +2739,22 @@ Section: 嗨-汉化
 Description: Mochi15 简体中文包(rootless)。
 Author: 妖刀
 Name: Mochi15 简体中文包(rootless)
+
+Package: com.hk.nebula.ding
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: Mo
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>= 1.17), firmware (>= 13.0)
+Conflicts: me.nebula.ding
+Filename: ./debs/Ding 汉化版(rootless)_2.0_iphoneos-arm64.deb
+Size: 25064
+MD5sum: ddf3e1ca839ed617d84d04b36cbc5579
+SHA1: b1a3683001e05149bf927a95c82cd01bf06cd312
+SHA256: 75898b3e5e277b9bb0a1e0670a4967096db8e0bd98cf2968f116f14413c1787d
+Section: 嗨-工具
+Description: 控制您的铃声开关！
+Author: Mo
+Name: Ding 汉化版(rootless)
 
 Package: com.hk.nfcwriterxs.cn.rl
 Version: 4.0-1
@@ -4376,6 +4491,22 @@ Tag: role::developer
 Author: MrGcGamer
 Name: LibGcUniversal
 
+Package: com.mtac.fingerlock
+Version: 3.0.2
+Architecture: iphoneos-arm64
+Maintainer: MTAC <mtac@mtac.app>
+Installed-Size: 936
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/FingerLock_3.0.2_iphoneos-arm64.deb
+Size: 163616
+MD5sum: 2976e889ed54b1fd7affbc7c4d7bf2cc
+SHA1: 5764c7de07af8e9ba93c87d033ead9638b792efb
+SHA256: 5329318be82abb243cab1fcf6fba52ed24de033c177a8632abaf908868c77329
+Section: Tweaks
+Description: An intuitive way to unlock your device
+Author: MTAC <mtac@mtac.app>
+Name: FingerLock
+
 Package: com.mtac.lynxapp
 Version: 2.1
 Architecture: iphoneos-arm64
@@ -4707,6 +4838,24 @@ Tag: role::hacker
 Author: Nathan
 Name: BatteryCLI
 
+Package: com.nathan.dobbyshim
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: Nathan
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode, ellekit
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate, ellekit
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: ./debs/DobbyShim_1.0.3_iphoneos-arm64.deb
+Size: 52604
+MD5sum: b6f79f9023f831184ee15aa7e0603c64
+SHA1: 760580de5818a63a8233e836807d9d10939cbaf5
+SHA256: d937fcfe9120b3dfa9508cc4ccb533ffa96a6edbdc5c8b9c608888c5c9168101
+Section: Tweak Injection
+Priority: optional
+Description: DobbyHook Substrate Shim
+Author: Nathan, jmpews
+Name: DobbyShim
+
 Package: com.nathan.dynamicnotland
 Version: 1.2.4
 Architecture: iphoneos-arm64
@@ -4740,6 +4889,91 @@ Author: Fouad Raheb
 Name: AppData
 Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.appdata.json
 
+Package: com.netskao.awemealwaysshowtime
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 56
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: ./debs/AwemeAlwaysShowTime_1.1-1_iphoneos-arm64.deb
+Size: 2332
+MD5sum: dca80ac6eb6afa3e6d38a47d8df84706
+SHA1: 5456b679891cc5b9e048e77d16867558e92df2a2
+SHA256: d1ae082216feb4f9b0772efa05393c24c0502ca592cd6eacf1cb0e740c8ee8df
+Section: Netskao-Tweaks
+Description: Aweme always shows the video creation time
+Author: Netskao
+Name: AwemeAlwaysShowTime
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.awemealwaysshowtime.json
+
+Package: com.netskao.awemeclearlikes
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 88
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/AwemeClearLikes_1.1-2_iphoneos-arm64.deb
+Size: 19852
+MD5sum: c56a7896921651be689df9ad52936183
+SHA1: 6a718a2e7f0bfceb6e6cc41cc5f66634e7d9f4f7
+SHA256: a2db19bf7a40f4c70df4e36f92f4948232e0e23cfb164112bd685c486978f37e
+Section: Netskao-Tweaks
+Description: Aweme Clear All Likes, Shake it on my favorite page to get started!
+Author: Netskao
+Name: AwemeClearLikes
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.awemeclearlikes.json
+
+Package: com.netskao.awemedisablebar
+Version: 1.1-6
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 708
+Depends: firmware (>= 12.0), mobilesubstrate
+Filename: ./debs/AwemeDisableBar_1.1-6_iphoneos-arm64.deb
+Size: 304792
+MD5sum: a4008c878601815332ba0426e411b936
+SHA1: 18cecb1def16cec774996aa1f063fba1b25941d1
+SHA256: 84b0b76646db37803dd2bcfc2f10c09513e117ec81885bc7da02e31406768f9e
+Section: Netskao-Tweaks
+Description: Aweme Disable Top/Bottom/Right Tab Button. Tested only on version 30.3.0 and above
+Author: Netskao
+Name: AwemeDisableBar
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.awemedisablebar.json
+
+Package: com.netskao.awemedownloadmedia
+Version: 1.1-8
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 456
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/AwemeDownloadMedia_1.1-8_iphoneos-arm64.deb
+Size: 147484
+MD5sum: f85f8748b8ad016f7b788ca675b6eef6
+SHA1: 3d8a87ff41003bc3fe50e5aee06407f359cecae5
+SHA256: 8bb9aed5f790e4573b30b3b95c58d2b5c60798a3ff1139205b8e65489525154e
+Section: Netskao-Tweaks
+Description: Aweme No Watermark Download Media. Tested only on version 31.7.0 and above
+Author: Netskao
+Name: AwemeDownloadMedia
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.awemedownloadmedia.json
+
+Package: com.netskao.awemefullscreen
+Version: 1.3-7
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 448
+Depends: firmware (>= 12.0), mobilesubstrate
+Filename: ./debs/AwemeFullScreen_1.3-7_iphoneos-arm64.deb
+Size: 191696
+MD5sum: ddd684d4da8cc2ab39b89b134deddd09
+SHA1: 2bc3da07facc6d79328627d8bf3fcf06507e56fc
+SHA256: 75f443b83287af072984d67e3063c6fefd9445a13da727d12ba6fd5036487a72
+Section: Netskao-Tweaks
+Description: Aweme HomePage Full Screen. Supported only for version 35.0.0 and above
+Author: Netskao
+Name: AwemeFullScreen
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.awemefullscreen.json
+
 Package: com.netskao.awemenoads
 Version: 1.1-3
 Architecture: iphoneos-arm64
@@ -4763,6 +4997,91 @@ Author: Netskao
 Icon: https://TrollStoreX.Github.io/sileodepiction/AwemeNoAds/icon.png
 Name: 抖音去广告 AwemeNoAds
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/AwemeNoAds/js.json
+
+Package: com.netskao.awemesaveemoji
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 224
+Depends: firmware (>= 12.0), mobilesubstrate
+Filename: ./debs/AwemeSaveEmoji_1.1-2_iphoneos-arm64.deb
+Size: 74980
+MD5sum: 95f5435e24a99c59888de62a8417d7af
+SHA1: 394aea0469b16e1fe1ab7447a32562990a4c29d2
+SHA256: a8d6641a9046a892a8888484834b91b318a541f273f7e5162d17f1ed13c333fd
+Section: Netskao-Tweaks
+Description: Aweme Save Comment Emoji. Tested on version 32.3.0 only
+Author: Netskao
+Name: AwemeSaveEmoji
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.awemesaveemoji.json
+
+Package: com.netskao.awemevideotime
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 124
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/AwemeVideoTime_1.1-2_iphoneos-arm64.deb
+Size: 31680
+MD5sum: b6f9b62f353535563d92aa2c9478730f
+SHA1: 9682c1731aaca00ee36436be3ae3b1bcaf4544af
+SHA256: 2b014c889589d5c757359c63a6275451f1c6d8561d7ddfd4347f1cac08fa430b
+Section: Netskao-Tweaks
+Description: Aweme Video Show Time. Tested only on version 30.3.0 and above
+Author: Netskao
+Name: AwemeVideoTime
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.awemevideotime.json
+
+Package: com.netskao.ccbadgeclear
+Version: 1.2-6
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 224
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/CCBadgeClear_1.2-6_iphoneos-arm64.deb
+Size: 25756
+MD5sum: e20fcb591f14a08bd1e94eb229b08da3
+SHA1: b25e85945f4e251fc6fa743342b5e3e948736580
+SHA256: 9c10c6c548439e0d2c1739c51e2a9bcdf73e82310df645f8e2534895f2b625b9
+Section: Netskao-Tweaks
+Description: Quickly clean up all red badge on desktop via Control Center, Support iOS15+
+Author: Netskao
+Name: CCBadgeClear
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.ccbadgeclear.json
+
+Package: com.netskao.cclifttowake
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 172
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/CCLiftToWake_1.1-1_iphoneos-arm64.deb
+Size: 16416
+MD5sum: 7a3e07248dafe2f07567908bb919147f
+SHA1: b687d73074da2b7ebf66133ed4245bceb23d8211
+SHA256: 6616299926eb53926a56cc71efc4d1b3060b36f2b7546f3068654e729e98a131
+Section: Netskao-Tweaks
+Description: Quickly enable or disable Wake on Lift from Control Center, Support iOS15+
+Author: Netskao
+Name: CCLiftToWake
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.cclifttowake.json
+
+Package: com.netskao.classickeyboardxs
+Version: 1.1-9
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 1044
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/ClassicKeyboardXS_1.1-9_iphoneos-arm64.deb
+Size: 275716
+MD5sum: 73ec900751547ebbe9bcb5b46963d813
+SHA1: e1b33b6f67f1e7096d9745593ce7eb7b86ed25e9
+SHA256: df96394eb4d64bd3f83c6a44bb0d2b9a24396ab55385ee2d0c842b7f2e0ef180
+Section: Netskao-Tweaks
+Description: Customize the height of the bottom of the X-keyboard, the height of the bottom of the earth, etc.
+Author: Netskao
+Name: ClassicKeyboardXS
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.classickeyboardxs.json
 
 Package: com.netskao.dumpdecrypter
 Version: 1.5-1
@@ -4927,10 +5246,10 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 256
 Depends: firmware (>= 7.0)
 Filename: ./debs/AltList_1.0.11_iphoneos-arm64.deb
-Size: 26984
-MD5sum: 603b962be0df4371ea5f93d69849a9a5
-SHA1: 36caedf2b51da618c46701d0ad9cec6ce6fad40a
-SHA256: a81966cbaa07beed2e376f68244ede0b1690b122ea4079b171158189810349f4
+Size: 26992
+MD5sum: 2a4fa1aa6fa6865d347a6e24786153ad
+SHA1: a9bd3d66131e0cbb7fe6dc8e78536e26cb997cd4
+SHA256: 69a3d1ae8dc178a57bc4cfe7427fb92561b85b89e9b56a521131c22ead221acf
 Section: Development
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
 Description: A modern AppList alternative
@@ -4951,10 +5270,10 @@ Conflicts: com.ioscreatix.silo
 Replaces: com.ioscreatix.silo
 Provides: com.ioscreatix.silo
 Filename: ./debs/CCSupport_1.3.13-2_iphoneos-arm64.deb
-Size: 28816
-MD5sum: fe4f867bb57e01e1d0bba585a30d3f2e
-SHA1: 0786b6c999cd467655566a666bbc483c5dfe6857
-SHA256: fa12108f8c37a3ae3180099d239e52a8c329653f7e279dce94451b6446555605
+Size: 58904
+MD5sum: ffbaa347fb491923bd56f1ae0442c3d5
+SHA1: 79d94687df3b3cd02e297e8d4f512f34e3b6ba96
+SHA256: 7f4fb674bed38a2efc85f8c324409fe9eed9ec03259a4dfe1ba7d7ebbfff3b62
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 Description: Support tweak for CC modules!
@@ -5671,6 +5990,60 @@ Icon: https://orig.shtm.best/descriptions/com.shtm.flexibleexpression/FlexibleEx
 Name: FlexibleExpression
 Sileodepiction: https://orig.shtm.best/descriptions/com.shtm.flexibleexpression/sileo.json
 
+Package: com.sini.actionbarreborn
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 796
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/ActionBar Reborn(rootless)_1.1-2_iphoneos-arm64.deb
+Size: 162176
+MD5sum: 2d1a25736e63e52b4fd532dd8a82a7e1
+SHA1: 43aa3fe9d272fb56a5f10bf5ecf22f4b2232f772
+SHA256: c396666b314af569cef32bb72c8f499f5e51ea339954fa30a222032cd97c1b66
+Section: 越狱插件
+Description: 在键盘底部增加撤消、重做、全选、复制、剪切和粘贴按钮。
+Author: Netskao
+Icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
+Name: ActionBar Reborn(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/actionbarreborn/js.json
+
+Package: com.sini.autofillfix
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: P2KDev
+Depends: mobilesubstrate
+Filename: ./debs/AutoFillFix(rootless)_0.1_iphoneos-arm64.deb
+Size: 3076
+MD5sum: 457374d03203828155e02bfbdf75ef75
+SHA1: 921a6fbbe39b98298839fbfde057da77c56e7d50
+SHA256: daa1d5a267489cc2ede5b8ec583a20428604246dfa189cf979774b90baffdc85
+Section: 越狱插件
+Description: 修复越狱后，短信验证码不自动填充问题
+Author: P2KDev
+Icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
+Name: AutoFillFix(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/autofillfix/js.json
+Sponsor: P2KDev
+
+Package: com.sini.baiduwangpanadkiller
+Version: 1.5.5
+Architecture: iphoneos-arm64
+Maintainer: ylr <ylr638058@gmail.com>
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/BaiDuWangPanAdKiller(rootless)_1.5.5_iphoneos-arm64.deb
+Size: 7628
+MD5sum: 92e8bd10e04515d7f4dab896c1b95c0d
+SHA1: 01047bf9a8fa3cbb8483bf3efde86690f18979dd
+SHA256: 7de38c2bb974b40effb336024e3b0d6f394a6296495d4d0e9e8476fd03b79363
+Section: 应用破解
+Description: 百度网盘去开屏及摇一摇跳转且秒进主页面，点击启动黑屏是百度原生设定。群友ylr制作投稿，感谢发电！
+Author: ylr <ylr638058@gmail.com>
+Icon: https://sini921.github.io/repo/sileodepiction/icon/baiduwangpanadkiller.png
+Name: BaiDuWangPanAdKiller(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/baiduwangpanadkiller/js.json
+
 Package: com.sini.marker
 Version: 2.0.1
 Architecture: iphoneos-arm64
@@ -6205,6 +6578,23 @@ Icon: file:///Applications/ADManager.app/AppIcon60x60@2x.png
 Name: Apps Manager
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.tigisoftware.filza
+Version: 4.0.1-2
+Architecture: iphoneos-arm
+Maintainer: TIGI Software
+Installed-Size: 34948
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
+Filename: ./debs/com.tigisoftware.filza_4.0.1-2_iphoneos-arm.deb
+Size: 13929994
+MD5sum: c68a629c82d46f5a49ec8c93b750bb92
+SHA1: 677bae75af27ed30af0934048c439565498a1908
+SHA256: 3bed517bf606e7849632b96a727fb1f4e105f6c70d8007dfc4f6789681db98f9
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Author: TIGI Software
+Name: Filza File Manager
+
 Package: com.tomaszpoliszuk.homescreenquickactions
 Version: 1.6.5-1
 Architecture: iphoneos-arm64
@@ -6721,6 +7111,25 @@ Description: 图片和颜色计算控件，Liddell小横幅插件的依赖。
 Author: Traurige <hello@traurige.dev>
 Name: libKitten(rootless)
 
+Package: ellekit
+Version: 1.1.3
+Architecture: iphoneos-arm
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: ./debs/ellekit_1.1.3_iphoneos-arm.deb
+Size: 353080
+MD5sum: a0c56c27d2bd4277dfa72bc0a72d42fd
+SHA1: c46de29f16c8cf76523ab8dc555fee5c684b800e
+SHA256: 4b412c334ff4b0a6e2baf121a3ca99ed467efd736b8605568eb2833f16b2f56c
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
 Package: fr.rootfs.rode
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -6772,6 +7181,22 @@ Icon: https://axs66.github.io/repo/icon/MilkyWay.png
 Name: MilkyWay4-rootless
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
+Package: jp.dcsyhi.adkeyboard
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: Dcsyhi
+Installed-Size: 628
+Depends: mobilesubstrate
+Filename: ./debs/ADKeyboard_1.3_iphoneos-arm64.deb
+Size: 288480
+MD5sum: b0145128fdd1370f841ea13891b25b44
+SHA1: 3d8f07c56bf29c04b8680ec2bc6225d061563d3c
+SHA256: 27880473ab9dbcb18b3e528f52f59ce441dcb1ca0f0c9778afd712d5b7cfeb5f
+Section: Tweaks
+Description: Make keyboard color adaptive to app color.
+Author: Dcsyhi
+Name: ADKeyboard
+
 Package: jp.dcsyhi.airaw
 Version: 1.6.7
 Architecture: iphoneos-arm64
@@ -6790,6 +7215,22 @@ Author: Dcsyhi <dcsyhi1998@gmail.com>
 Depiction: https://chariz.com/buy/airaw
 Icon: https://img.chariz.cloud/icon/airaw/icon@3x.png
 Name: Airaw
+
+Package: jp.dcsyhi.dashapp
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Dcsyhi
+Installed-Size: 1256
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/DashApp (Rootless)_1.1_iphoneos-arm64.deb
+Size: 896684
+MD5sum: 8222a01e3bb0abb3f974a443b193d7e1
+SHA1: 3e5ae8836cf8ef074924c255b8fc733f27e38f20
+SHA256: a120c6fe5efc6de7422a2b56147eb1501f43ab4424fc187b756cf9f377b30bde
+Section: Tweaks
+Description: DashApp😎Change the lock screen camera to your favorite app.⚡️
+Author: Dcsyhi
+Name: DashApp (Rootless)
 
 Package: jp.dcsyhi.zetsu
 Version: 1.6.2
@@ -6878,6 +7319,23 @@ Section: Tweaks
 Description: FreePIP is a tweak to un-snap and scale the view of Picture-in-Picture on iOS unlimitedly. Long Press PIP window to enable freepip mode. 解锁画中画的限制，可以放在任意位置和调整到任意大小。长按画中画窗口进入 FreePIP 模式进行调整。v0.0.3-1更新：改为默认是正常模式，略微美化FreePIP模式。
 Author: Soh Satoh
 Name: FreePIP
+
+Package: jp.uzra.cluri
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: uz.ra
+Installed-Size: 188
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Cluri_1.0_iphoneos-arm64.deb
+Size: 5096
+MD5sum: 1aedd4acba988b3013a8a49efdb6b7e9
+SHA1: b660f57811d365e990953cd8993b7b059644e270
+SHA256: cde82347843658c6b18a3fbf28a7e025b4ce8e9a52d25a3695b0d50bc36cbb34
+Section: Tweaks
+Description: Enables portrait & landscape rotate, orientation lock everywhere (HomeScreen, LockScreen & most apps) !
+Author: uz.ra
+Icon: https://media.discordapp.net/attachments/813615730473304064/1117706654348234793/0C38DA11-4CF0-434E-A5DC-A7344C7F96F9.png
+Name: Cluri
 
 Package: kr.xsf1re.vnodebypass
 Version: 0.4.2
@@ -7470,10 +7928,10 @@ Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), u
 Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
 Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
 Filename: ./debs/Alderis Color Picker_1.2.3_iphoneos-arm64.deb
-Size: 290744
-MD5sum: 612e3ea4a2838efab7089793a943a47c
-SHA1: 0eb03f64166ddde1071bbc550ab49e6979782d8a
-SHA256: 20a2f87a8225b9d732bf8ae2ff3cc879dcfd5ee28730b7d4b7f0d936f1ef3fbe
+Size: 290932
+MD5sum: 16acb05deb3fdabef64b40115942ab7d
+SHA1: dcca084f7c4655a569884ab714a3a360cc08e981
+SHA256: 91a927062c204cdaf121c6390289f90deeacda8ed1125c1519658d40c8801dbe
 Section: Development
 Description: Color picker support library for tweaks
 Tag: role::developer, compatible_min::ios12.0
@@ -7490,10 +7948,10 @@ Maintainer: HASHBANG Productions <support@hbang.ws>
 Installed-Size: 3132
 Depends: firmware (>= 15.0)
 Filename: ./debs/Cephei Tweak Support_2.0_iphoneos-arm64.deb
-Size: 198880
-MD5sum: fa2338121843edce81e98af0b151f07a
-SHA1: 75ef847340d89393ffc5077fcdeac965b7a60eab
-SHA256: e52ebcf29fd40b7dbdec0710d89b4fad2cd6c1946af05a714224513eb0ddc15e
+Size: 198892
+MD5sum: a3e5286279e40e333c15ceba432532e8
+SHA1: bce65bba51611b9b281581f412eeb38acadd37d1
+SHA256: 2e4e985a4dfa3e3d9405252a4e159f9597f83a6b09efae65efd8ed49029d79b9
 Section: Development
 Description: Support library for tweaks
 Tag: role::developer, compatible_min::ios15.0
@@ -7524,6 +7982,24 @@ Depiction: https://chariz.com/get/newterm-beta
 Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
 Name: NewTerm 3 Beta
 Support: https://hashbang.productions/support/
+
+Package: xyz.cypwn.alerto
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate
+Filename: ./debs/Alerto_1.1_iphoneos-arm64.deb
+Size: 110444
+MD5sum: 482cb43fb33f2bd93e99e4c496ab3eba
+SHA1: b473979aa2d729cf54feb39d9e0b1f5deaac26c5
+SHA256: a652018ef2db440ed2fc138d73d2de121abc05e48a6f472c1cfc7855dc0df0d8
+Section: Tweaks
+Description: A compact app group notification center
+Author: SGWC
+Depiction: https://repo.cypwn.xyz/depiction/1383
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/alerto.png
+Name: Alerto
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1383
 
 Package: xyz.cypwn.amonglock
 Version: 1.1.6
