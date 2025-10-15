@@ -834,6 +834,22 @@ Description: Paired your Apple Watch on new watchOS with older iOS
 Author: 34306
 Name: watched
 
+Package: com.3h6-1.imread
+Version: 1.2.3
+Architecture: iphoneos-arm64
+Maintainer: 3h6_1
+Installed-Size: 168
+Depends: firmware (>= 15.0)
+Filename: ./debs/IMRead_1.2.3_iphoneos-arm64.deb
+Size: 6208
+MD5sum: e1e597da42bde3667f5e1d8ccd0a5db5
+SHA1: 83d45902c088513cb4e086f6917f20b3d8f6e1cc
+SHA256: c0d5169f4f926147a868cd921fdcd3feac7107d82d4bda8a780ec38402867bda
+Section: Tweaks
+Description: Automatically marks messages as read after clearing their notifications
+Author: 3h6_1
+Name: IMRead
+
 Package: com.82flex.iconrestore
 Version: 1.7
 Architecture: iphoneos-arm64
@@ -1071,6 +1087,23 @@ Author: sunshinesong
 Icon: https://axs66.github.io/repo/icon/huaban.png
 Name: 录屏花瓣
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/recorder-bubble/js.json
+
+Package: com.axs.springanimations
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader
+Filename: ./debs/SpringAnimations桌面动画_1.1.1_iphoneos-arm64.deb
+Size: 57156
+MD5sum: 61ca7bf5077f2732d485095bbcf64ac7
+SHA1: 624f733b7229a5d315ea085b3e38f02c43db41b4
+SHA256: e520090d6af723124b63eab3d5f9c963cf17553110aaf42fd32b10bd43da5c5b
+Section: 系统增强
+Description: 桌面动画，原图标太丑，换了个图标以及汉化
+Author: CydiaGeek
+Icon: https://axs66.github.io/repo/icon/springanimations.png
+Name: SpringAnimations桌面动画
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/springanimations/js.json
 
 Package: com.b4db1r3.glassier3dtouch
 Version: 3.0
@@ -2137,10 +2170,10 @@ Installed-Size: 2068
 Depends: mobilesubstrate, com.foxfort.libfoxfortutils (>= 1.4.10)
 Conflicts: com.hackyouriphone.foxforthack, com.pulandres.foxforthack, org.cydia.kiimo.foxforthack, ru.rejail.foxforthack, me.pulandres.foxforttools, co.xrepo.appletweakjailbreak.foxforttools, net.kenhtao.foxforttools, sileoturkiye.foxforttools, com.yourepo.mohadu31.foxforttools, org.cydia.kiimo.foxforttools, com.hackyouriphone.foxforttools, com.hackyouriphone.mgspoof, org.mr.mgspoof, com.34306.foxforttools, roothide, com.roothide.manager
 Filename: ./debs/FoxFort Tools_1.4.16_iphoneos-arm64.deb
-Size: 48392
-MD5sum: 5dc8adbc2937e051a047a62dd27099dc
-SHA1: e294172dbc6c60f3f852331c589b9d68d676a5b7
-SHA256: 4a978f9d040a3ca90f951f8219dd920918e9ba6d3acca1ab45ed3f4561bc6dcf
+Size: 468808
+MD5sum: 2baf5b4b0db0526830241b5d7d556f10
+SHA1: b9575240ff64251e616fed4b294da8f48818fff0
+SHA256: b04b71f6861479917d9898d9533698b75a2caa56432c3a4bc390202b50fec6b6
 Section: Development
 Description: Helper tools for Foxfort tweaks
 Tag: role::developer
@@ -2172,10 +2205,10 @@ Installed-Size: 1272
 Depends: firmware (>= 11.0), com.opa334.libsandy
 Conflicts: co.xrepo.appletweakjailbreak.libfoxfortutils, co.xrepo.appletweakjailbreak.libfoxfortutils64, org.cydia.kiimo.libfoxfortutils64, org.cydia.kiimo.libfoxfortutils64e, com.hackyouriphone.libfoxfortutils64, com.hackyouriphone.libfoxfortutils64e, com.yourepo.mohadu31.libfoxfortutils64, me.pulandres.libfoxfortutils64, me.pulandres.libfoxfortutils64e, net.kenhtao.libfoxfortutils64, sileoturkiye.libfoxfortutils64, sileoturkiye.libfoxfortutils64e, com.badr.libfoxfortutils, com.hackyouriphone.mgspoof, org.mr.mgspoof, com.34306.libfoxfortutils, roothide
 Filename: ./debs/libfoxfortutils_1.4.11_iphoneos-arm64.deb
-Size: 274780
-MD5sum: f8b49d463987ab97966e776e8ac2dd23
-SHA1: 0eb4ea77be7fe3aab36d885adbdf19ab0bebacd3
-SHA256: f3f43d2f9075e7a444a2fddf680ae699ca8afcf3a9c972634bb7cb24b46276b5
+Size: 275460
+MD5sum: d47887aaaa60eb6bc5c27ff39c950904
+SHA1: 08b01fad6473572af728e091f140aaa30189ae5f
+SHA256: 9e6d8561d0feedea30bc7349376a8a58a8ba2928adb9cf57a0da0ea72cc466b0
 Section: Development
 Description: library for Foxfort tweaks
 Tag: role::developer
@@ -2199,6 +2232,24 @@ Description: Remove background from image
 Author: FoxfortMobile
 Icon: file:///Library/PreferenceBundles/picarizesettings.bundle/icon@3x.png
 Name: Picarize
+
+Package: com.foxfort.translomatic
+Version: 2.18.39
+Architecture: iphoneos-arm64
+Maintainer: FoxfortMobile
+Installed-Size: 5256
+Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.4.16), com.opa334.altlist
+Conflicts: me.pulandres.translomatic, me.pulandres.translomatice, co.xrepo.appletweakjailbreak.translomatic, net.kenhtao.translomatic, sileoturkiye.translomatic, sileoturkiye.translomatic12, com.yourepo.mohadu31.translomatic, com.yourepo.mohadu31.translomatice, org.cydia.kiimo.translomatic, com.hackyouriphone.translomatic, com.hackyouriphone.translomatice, co.hurouftech.translomatic, me.sa3odka.translomatic, com.cydiabc.translomaticzh, x7mii.vip.translomatic, com.bo7ios.translomatic, ru.rj.translomatichack, com.hk.translomatic.cn.rl, roothide
+Filename: ./debs/Translomatic_2.18.39_iphoneos-arm64.deb
+Size: 1215696
+MD5sum: fc1788e270869527a520b2ee27b62f95
+SHA1: fa96e2ee9cea112dfe61f9cf467a4d214fa8e8e7
+SHA256: 9b7486f34dd304fe1217290d49a646e1d91c99aa93bbcbc71072171f0cbf6123
+Section: Tweaks
+Description: Quickly translate any text
+Author: FoxfortMobile
+Icon: file:///Library/PreferenceBundles/translomaticsettings.bundle/icon@3x.png
+Name: Translomatic
 
 Package: com.ginsu.comet
 Version: 1.0.5
@@ -3350,6 +3401,24 @@ Section: Tweaks
 Description: Tweak to dim the screen even further with the brightness slider in Control Center
 Author: Jonas Schiefner
 Name: AdvancedBrightnessSlider
+
+Package: com.ketty.tweaktool
+Version: 0.0.1-252+debug
+Architecture: iphoneos-arm64
+Maintainer: Ketty Allen
+Installed-Size: 452
+Depends: firmware (>= 14.0)
+Filename: ./debs/TweakTool_0.0.1-252+debug_iphoneos-arm64.deb
+Size: 363052
+MD5sum: a473d05a77441068dfd5cd6f1d279474
+SHA1: e63a48bbd33487e05640f18440e76f1144be614c
+SHA256: 28068c4d914bd98ffcd8c9bf5dfa685b31525c2307f0e218c7084e9081cbf743
+Section: Tweaks
+Description: An awesome SwiftUI application!
+Author: Ketty Allen
+Icon: https://axs66.github.io/repo/icon/TweakTool.png
+Name: TweakTool
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/tweaktool/js.json
 
 Package: com.kingpuffdaddi.alwaysdark
 Version: 1.2.3
@@ -4584,10 +4653,10 @@ Architecture: iphoneos-arm64
 Maintainer: Muirey03
 Installed-Size: 168
 Filename: ./debs/libimagepicker_1.0.4_iphoneos-arm64.deb
-Size: 10152
-MD5sum: e718ab855f38e4034c100740e6f4c9b0
-SHA1: 4c394bb55a2bbe3b6bae0e62928ccc8e648c4e68
-SHA256: e11b6999af9be1076ccfcc02be61d67bd1929a67bf4dc4f8861f817c268eaba9
+Size: 10156
+MD5sum: f8c2ea2bdbc28d07f17d3f4ae3074193
+SHA1: 8de2b6f87ae145fc8b82c8e05f8bc9f835da95ea
+SHA256: c4c6b76cd77b7c486ce801e7b69dfd95211179412e8b34f2239edb4dde374749
 Section: Development
 Description: A simple library for choosing images in preference bundles.
 Tag: role::developer
@@ -5239,6 +5308,26 @@ Depiction: https://chariz.com/buy/albummanager
 Icon: https://img.chariz.cloud/icon/albummanager/icon@3x.png
 Name: AlbumManager
 
+Package: com.noisyflake.velvet2
+Version: 2.1.2-3
+Architecture: iphoneos-arm64
+Maintainer: NoisyFlake <support@noisyflake.com>
+Installed-Size: 629
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.initwithframe.velvet
+Filename: ./debs/Velvet 2_2.1.2-3_iphoneos-arm64.deb
+Size: 95860
+MD5sum: aa33e82455a5d6f65dd3eefad61ac222
+SHA1: 2dd31e6ed4395d03721ccbb80983b371ba23e603
+SHA256: 9f03f896ffb182ef1b29e18afb58a0ec722185a2791da260be64be499979b9da
+Section: Tweaks
+Description: A fully customizable notification experience
+Tag: compatible_min::ios15.0
+Author: NoisyFlake <support@noisyflake.com>
+Depiction: https://chariz.com/get/velvet-2
+Icon: https://img.chariz.cloud/icon/velvet-2/icon@3x.png
+Name: Velvet 2
+
 Package: com.opa334.altlist
 Version: 1.0.11
 Architecture: iphoneos-arm64
@@ -5293,9 +5382,9 @@ Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
 Filename: ./debs/libSandy_1.1.4_iphoneos-arm64.deb
 Size: 12536
-MD5sum: cbcc1f1d4fbe0aa37c14c2091024dfb1
-SHA1: ca89d67e1979b59b7f8b38144347896a26549316
-SHA256: d382a3555eedb7a5fff2ce1c686d87c328603a8e1e1721dc05de78d7026630f3
+MD5sum: e488049449965f3bb976e1e4d5ff4d8a
+SHA1: e2e829ceb4b6e568f1bbf58e4ba48dabc99a6e73
+SHA256: 7df58d35098d6de0ecc2891a97b33d9e21af8320f3d0d11b7962e566721285e6
 Section: System
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
 Description: Securely extend the sandbox of system processes and user applications
@@ -5830,6 +5919,27 @@ Depiction: https://chariz.com/get/altdaemon
 Icon: https://cdn.chariz.cloud/icon/altdaemon/icon@3x.png
 Name: AltDaemon
 
+Package: com.rpetrich.rocketbootstrap
+Version: 1.0.10~beta5
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 532
+Depends: firmware (>= 13.0), firmware (<< 16.0), mobilesubstrate
+Filename: ./debs/RocketBootstrap_1.0.10~beta5_iphoneos-arm64.deb
+Size: 19348
+MD5sum: 2cffc7f4c2ededeb0924adad01e89301
+SHA1: 21c8ae63bac52174c3424c8e30764b0c43cc1b2a
+SHA256: 57ae2cd9ef5fde4a575cc41015e5b190b2a3639c4daee11366e14035a3e80db5
+Section: Tweaks
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Tag: purpose::extension, role::developer
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Dev: rpetrich
+Name: RocketBootstrap
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.rpgfarm.a-font
 Version: 1.9.3-3
 Architecture: iphoneos-arm64
@@ -6044,6 +6154,60 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/baiduwangpanadkiller.pn
 Name: BaiDuWangPanAdKiller(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/baiduwangpanadkiller/js.json
 
+Package: com.sini.floating-keyboard
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 328
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/floating-keyboard(rootless)_0.0.1_iphoneos-arm64.deb
+Size: 60876
+MD5sum: 7c9bc434e1faf438e1d4cbdfcca6ddc6
+SHA1: 30ab368189e4f40d48043c5c4cbae628218843e9
+SHA256: 7372ab59d1bc40ed7e935a2c5f3568a7223c706ca26fac49981903e38d07a294
+Section: 越狱插件
+Description: 像ipad一样的悬浮键盘，备份
+Author: sunshinesong
+Icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
+Name: floating-keyboard(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/floating-keyboard/js.json
+
+Package: com.sini.gridswitcher
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: Nathan Senter
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/gridswitcher(rootless)_1.0.3_iphoneos-arm64.deb
+Size: 3180
+MD5sum: bbcb92703ab2a5bd10a257c628ec0adb
+SHA1: 16dc96c10f00cc01fd0a3f758065881f7801b1c5
+SHA256: b7d08dea46e79a16b89c032a5379ee50c444a999f467903e24095d86cec3b355
+Section: 越狱插件
+Description: 在iPhone上启用iPad切换器！
+Author: Nathan Senter
+Icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
+Name: gridswitcher(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/gridswitcher/js.json
+
+Package: com.sini.hidescreenshotpreview
+Version: 1.2-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/HideScreenshotPreview(rootless)_1.2-1_iphoneos-arm64.deb
+Size: 3880
+MD5sum: 0cdb49fc81562dd696257ba73414eaf6
+SHA1: 003617d7f41dcc31fe7e69275c98a5818df90e27
+SHA256: 9966ecc4ec4c46a304cfd806c6b24db242a94da99d6ba661fb58cf682ed5d07d
+Section: 越狱插件
+Description: 隐藏截图时左下角预览，保留闪屏无延迟
+Author: Netskao
+Icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
+Name: HideScreenshotPreview(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/hidescreenshotpreview/js.json
+
 Package: com.sini.marker
 Version: 2.0.1
 Architecture: iphoneos-arm64
@@ -6061,6 +6225,77 @@ Author: MiRO <tweaks_support@miro92.com>
 Icon: https://sini921.github.io/repo/sileodepiction/icon/marker.png
 Name: Marker(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/marker/js.json
+
+Package: com.sini.medousa
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: uz.ra
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/medousa(rootless)_1.1_iphoneos-arm64.deb
+Size: 3592
+MD5sum: 6ce68302e82dba51cf8ed4aa5e0c7d0c
+SHA1: 5e25d8b4f6fc3ff5a1d733d69aa93d609dbcf748
+SHA256: fe0189d9d86125c6158678ab923b42fe9e764d3485ea382d56a695bb02c4e8ce
+Section: 越狱插件
+Description: iPad样式的分屏，无设置项。
+Author: uz.ra
+Icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
+Name: medousa(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/medousa/js.json
+
+Package: com.sini.pancake
+Version: 2.3
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Depends: firmware (>= 11.0), mobilesubstrate, ws.hbang.common (>= 1.14), com.opa334.altlist, firmware (>= 11.0)
+Filename: ./debs/PanCake(rootless)_2.3_iphoneos-arm64.deb
+Size: 113044
+MD5sum: 2310d1ec724bf487bb9bac5965806942
+SHA1: 1433e509804c849bd8e18cdfcf1683b5dd47a502
+SHA256: 8d71d9cf4134973327df3d54b7704cc942950f72fd40c4dae648052922c16bf6
+Section: 越狱插件
+Description: 在屏幕上任何位置向右滑返回上一页
+Author: AnthoPak <anthopakdev@gmail.com>
+Icon: https://sini921.github.io/repo/sileodepiction/icon/pancake.png
+Name: PanCake(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/pancake/js.json
+
+Package: com.sini.smallbanners
+Version: 1.2-8
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 900
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 17.0)
+Filename: ./debs/SmallBanners(rootless)_1.2-8_iphoneos-arm64.deb
+Size: 202700
+MD5sum: 053c7f2a19da50d06c5a5fdf3388b587
+SHA1: f8d4aa650e15c55e4aafb75fbb77054745e78466
+SHA256: af7222d1ebf0fbd37e5e7e3270b279e2ccf22bef2998b755779e3d432c0ec9b5
+Section: 越狱插件
+Description: 小通知横幅。支持iOS15+
+Author: Netskao
+Icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
+Name: SmallBanners(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/smallbanners/js.json
+
+Package: com.sini.swipeselection
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: iCraze
+Installed-Size: 156
+Depends: mobilesubstrate
+Filename: ./debs/SwipeSelection(rootless)_2.0_iphoneos-arm64.deb
+Size: 14424
+MD5sum: 6a54342b1f65f50dc55879f120b401cc
+SHA1: 23fc03dd4141821d0ca26d3d05091bdf3cd591aa
+SHA256: 979f5f2413f24d3f0aaa84f7fd96833067c111e0c381bcd70372a2aefeae8700
+Section: 越狱插件
+Description: 沿键盘滑动以移动光标并选择文本。
+Author: Kyle Howells
+Icon: https://sini921.github.io/repo/sileodepiction/icon/swipeselection.png
+Name: SwipeSelection(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/swipeselection/js.json
 
 Package: com.sini.trollpad
 Version: 1.3
@@ -6115,6 +6350,24 @@ Author: Traurige & neilsardesai & SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/batterybuddy.png
 Name: BatteryBuddy(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/batterybuddy/js.json
+
+Package: com.sini921.zoomanimation
+Version: 0.0.1-12
+Architecture: iphoneos-arm64
+Maintainer: SINI
+Installed-Size: 396
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/ZoomAnimation(rootless)_0.0.1-12_iphoneos-arm64.deb
+Size: 33084
+MD5sum: d734ceeca3dc0b8771e227be96c3dcdf
+SHA1: 59ac53aad5f67a2afa1669b75020743d4086775c
+SHA256: 4cd142f6527694bd39082518b908df9a4aa554e63446ef058af77b7ea14d2a7b
+Section: 越狱插件
+Description: 桌面动画，可选动画样式，调节动画幅度。
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zoomanimation.png
+Name: ZoomAnimation(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/zoomanimation/js.json
 
 Package: com.sop.settingsrevamp
 Version: 2.1.0
@@ -6235,6 +6488,25 @@ Author: Spark & Dennis D. Bednarz
 Icon: https://sini921.github.io/repo/sileodepiction/icon/snowboard.png
 Name: SnowBoard(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/snowboard/js.json
+
+Package: com.spark.snowboard
+Version: 1.5.37-Beta4-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 3268
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debs/SnowBoard_1.5.37-Beta4-rootless_iphoneos-arm64.deb
+Size: 1124080
+MD5sum: 3701004a61685e89a7bc0a55c472c902
+SHA1: d3b9a5fa92fd559513819a53cad85dd0a32a15db
+SHA256: c437945c05a8a0810c01dda0afb95dc5d592c07b02df6974cca4e9f91d9fcbf0
+Section: Tweaks
+Description: Snowboard theming engine
+Author: Spark & Dennis D. Bednarz
+Name: SnowBoard
 
 Package: com.spark.snowboard.dock
 Version: 1.1.3~Beta4-rootless
@@ -6449,6 +6721,22 @@ Description: Beautiful UI music player for iOS15.
 Author: sugiuta
 Icon: https://sugiuta.github.io/repo/images/mochi15.png
 Name: Mochi15
+
+Package: com.sugiuta.sumusicwidget
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: sugiuta
+Installed-Size: 280
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/SUMusicWidget_1.1_iphoneos-arm64.deb
+Size: 30944
+MD5sum: baa4dcbd5535bf8fb95bd91a6ec7ec6c
+SHA1: 9e13d2e0f553d8be110bfb7e98fabe66ccf9d6cf
+SHA256: 2ef95435809995c3bb97929a07bf1875c788ed1a5ed6843971a6cefcdc85bec9
+Section: Addons
+Description: An awesome Airaw Widgets extension!
+Author: sugiuta
+Name: SUMusicWidget
 
 Package: com.sunshinesong.dynamic-notifier
 Version: 1.0.4
@@ -6989,6 +7277,21 @@ Author: zqbb
 Name: Hello Snapper3
 Sileodepiction: https://rootless.002599.xyz/web/com.zqbb.savephotos
 
+Package: cum.0xilis.unsigncuts
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: Snoolie K
+Installed-Size: 1148
+Filename: ./debs/Unsigncuts_2.0_iphoneos-arm64.deb
+Size: 809984
+MD5sum: 5e5f8636b1d4557c5d422bdcbf8d5016
+SHA1: f43a77e4a292ceb11805c1bcde861831cd3800a5
+SHA256: 5a598a58214af86c915ce41a807979f2c5d1301dbd5280e23f75869f5bd82100
+Section: Tweaks
+Description: Import unsigned shortcut files
+Author: Snoolie K
+Name: Unsigncuts
+
 Package: daniel.analytics
 Version: 0.0.4
 Architecture: iphoneos-arm64
@@ -7056,6 +7359,26 @@ Section: Tweaks
 Description: An awesome tweak for Instagram!
 Author: objc_msgSend
 Name: Theta
+
+Package: dev.theos.orion14
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: Theos Team <support@theos.dev>
+Installed-Size: 514
+Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000)
+Provides: dev.theos.orion (= 1.0.2)
+Filename: ./debs/Orion Runtime (iOS 14 – 17)_1.0.2_iphoneos-arm64.deb
+Size: 93660
+MD5sum: bda2996a67ff1cf151efd6e689f56d93
+SHA1: 91b5d90d3d855f3690cd6b2489e4a2620ffc85b4
+SHA256: be438404ab0f76ba74efb05d75288288f485af52eb72af074172d047ea1ad461
+Section: System
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer, compatible_min::ios14.0
+Author: Theos Team <support@theos.dev>
+Depiction: https://chariz.com/get/orion-runtime14
+Icon: https://img.chariz.cloud/icon/orion-runtime14/icon@3x.png
+Name: Orion Runtime (iOS 14 – 17)
 
 Package: dev.theos.orion14
 Version: 1.0.2
@@ -7162,6 +7485,21 @@ Author: Hitori
 Icon: https://repo.cypwn.xyz/packages/Hikari-Rootless/icon.png
 Name: Hikari
 
+Package: ipatool
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: daniel
+Depends: firmware (>= 12.2)
+Filename: ./debs/ipatool_0.0.1_iphoneos-arm64.deb
+Size: 727208
+MD5sum: 41b889ebf0cffa71c1203cf2a768beb4
+SHA1: 423d55fa07bad098839abbbcffb7fb9fda7d8a75
+SHA256: 864e42f81eb23cacf7b267b4809cd82b2edeabb195c153faa86c1f34ae404449
+Section: Tools
+Description: ipatool by Majd Alfhaily ported to iOS
+Author: Majd Alfhaily
+Name: ipatool
+
 Package: jp.akusio.milkyway4
 Version: 0.1.1
 Architecture: iphoneos-arm64
@@ -7231,6 +7569,23 @@ Section: Tweaks
 Description: DashApp😎Change the lock screen camera to your favorite app.⚡️
 Author: Dcsyhi
 Name: DashApp (Rootless)
+
+Package: jp.dcsyhi.kbappdock
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: Dcsyhi
+Installed-Size: 1364
+Depends: mobilesubstrate
+Filename: ./debs/KBApp_1.5_iphoneos-arm64.deb
+Size: 807208
+MD5sum: d0ca76366144cf0b0d4723b206d149bc
+SHA1: 083e836ea75fb09e40db8783dfcb9c485674e4b6
+SHA256: cdea73a3ad501ede6b0704f828f9a648de90c2302a718cca73ca23e0b3f44058
+Section: Tweaks
+Description: You can arrange apps on the dock of keyboard ⌨️.
+Author: Dcsyhi
+Icon: https://dcsyhi1998.github.io/icons/kbappdock/icon@2x.png
+Name: KBApp
 
 Package: jp.dcsyhi.zetsu
 Version: 1.6.2
@@ -7336,6 +7691,70 @@ Description: Enables portrait & landscape rotate, orientation lock everywhere (H
 Author: uz.ra
 Icon: https://media.discordapp.net/attachments/813615730473304064/1117706654348234793/0C38DA11-4CF0-434E-A5DC-A7344C7F96F9.png
 Name: Cluri
+
+Package: jp.uzra.fucklinead
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: uz.ra
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/FuckLINEad_1.0_iphoneos-arm64.deb
+Size: 3480
+MD5sum: b49e6a12824f0b8099f181d1c1acaf2b
+SHA1: ca21872f97e9ca6d81d863e9286caf1261bb763c
+SHA256: a50170669410f96269d08df34709f28ab174e42c0be81e58076baa19aca32dff
+Section: Tweaks
+Description: Get rid of shitty LINE ads (LINEのチャットタブ上部の広告バナーを削除。14.6.3でテスト済み)
+Author: uz.ra
+Name: FuckLINEad
+
+Package: jp.uzra.hazuki
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: uz.ra
+Installed-Size: 208
+Depends: mobilesubstrate
+Filename: ./debs/Hazuki_1.0_iphoneos-arm64.deb
+Size: 20864
+MD5sum: ed29b8c64a30e221881ed96e40883cc5
+SHA1: 3364aeab19a85fe045e1ecf64b1bc7c2937c7649
+SHA256: bb2f66fdffb027cc3f5fa7275920c38ba90bad959d0d1208fb4ccc1937abb1e9
+Section: Tweaks
+Description: Somewhat shitty LINE tweak
+Author: uz.ra
+Name: Hazuki
+
+Package: jp.uzra.pay2bypass
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: uz.ra
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/Pay2Bypass_1.0_iphoneos-arm64.deb
+Size: 5884
+MD5sum: ebedd706e5e50b7fa565618955237859
+SHA1: 1a3b1c8883581926297a7ce02fdb4ce148436398
+SHA256: 8dc26140e963d3cd233581b62345ffa04987b67c437bcc208659d20072585bc5
+Section: Tweaks
+Description: Bypass PayPay iOS version check
+Author: uz.ra
+Name: Pay2Bypass
+
+Package: jp.uzra.ymailbypass
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: uz.ra
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/YMailBypass_1.0_iphoneos-arm64.deb
+Size: 6076
+MD5sum: 6fa53f9f63d96920a063a917bce33e6f
+SHA1: 71df671ab992a8e67d1200474dae2aed6843eb7b
+SHA256: bfaea1ebe7d4f4c24aa0e13369bafb431cbf61860b75dc7b7557d75da10a98fd
+Section: Tweaks
+Description: Bypass Yahoo(JP) Mail app version check
+Author: uz.ra
+Name: YMailBypass
 
 Package: kr.xsf1re.vnodebypass
 Version: 0.4.2
@@ -7610,6 +8029,22 @@ Description: Stage Manager Reimagined for iPhone
 Author: tomt000
 Name: Dynamic Stage
 
+Package: movenotification16
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: JunesiPhone
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/MoveNotification16_1.0_iphoneos-arm64.deb
+Size: 17356
+MD5sum: 0285a2050157b6110d47b8fd3e1c15af
+SHA1: 65998534f16e6915682aca77504ae367e14f6d86
+SHA256: 7d8f4d486ccd163c355520ece9c218da30eeffd77ba9070a25062e7fee84f120
+Section: Tweaks
+Description: 在 iOS16 上自定义锁屏通知上下位置。
+Author: JunesiPhone
+Icon: https://repo.cypwn.xyz/packages/MoveNotification16-Rootless/icon.png
+Name: MoveNotification16
+
 Package: mterminal
 Version: 1.6
 Architecture: iphoneos-arm64
@@ -7806,10 +8241,10 @@ Installed-Size: 88
 Replaces: oldabi
 Provides: oldabi
 Filename: ./debs/oldabi-xina_1.0.0-2+debug_iphoneos-arm64.deb
-Size: 6852
-MD5sum: 052a3907ce06207b72e2ff827e7b4675
-SHA1: 0faea0236aab3108e9a2f17fbad618558f23e1ec
-SHA256: 6bb5aba2f682f014963e5e70daf25b85a24314f92c49d728a25d8011fd708e65
+Size: 6848
+MD5sum: ff20e35824a07ffb1c9448381966c0d9
+SHA1: 61ad3ef792c9c61d90e37f935899320aff39531d
+SHA256: 43972f3db57d88493d355f6ff7e20d64189286b8417fec85d204c57d9a71aea9
 Section: System
 Description: An awesome library of some sort!!
 Tag: role::developer
@@ -7855,10 +8290,10 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 386
 Depends: mobilesubstrate, firmware (>= 15.0)
 Filename: ./debs/PreferenceLoader_2.2.7_iphoneos-arm64.deb
-Size: 17636
-MD5sum: 827dbb513cdf4ed1562c14529a357266
-SHA1: 9c63566ad2f8ed2e408bf27de443ee8e68749ead
-SHA256: 21338391b5ec42fca7111f35fc20b1c47711efebe2213581f946d8524aa5283d
+Size: 17624
+MD5sum: 67bb3702e94313d8417ea4bb7ccbc1d6
+SHA1: 944f7c232620b53ac583daca135acde7be39f025
+SHA256: dbbe5c973762e710cda58047e32defc4331feb673c39deea38bc99b98d902add
 Section: System
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
 Description: load preferences in style
@@ -8152,24 +8587,6 @@ Depiction: https://repo.cypwn.xyz/depiction/2928
 Icon: https://repo.cypwn.xyz/packages/Griddy-Rootless/icon.png
 Name: Griddy
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2928
-
-Package: xyz.cypwn.movenotification16
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/MoveNotification16_1.0_iphoneos-arm64.deb
-Size: 12416
-MD5sum: e4c0cf7eefee52bee6ea7a09d9ec6a8a
-SHA1: 17c16bc6889196fcf6cc05eb0e9ecb5d158014f6
-SHA256: 9ff24687a943ded9d1641bf5287baedb079113fb0308b0420a07a979b856e71e
-Section: Tweaks
-Description: Move notifications on iOS16
-Author: JunesiPhone
-Depiction: https://repo.cypwn.xyz/depiction/3004
-Icon: https://repo.cypwn.xyz/packages/MoveNotification16-Rootless/icon.png
-Name: MoveNotification16
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3004
 
 Package: xyz.cypwn.snapper3qolfixes
 Version: 1.0
