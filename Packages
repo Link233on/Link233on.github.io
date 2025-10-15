@@ -1019,23 +1019,6 @@ Depiction: https://chariz.com/buy/appaze3
 Icon: https://img.chariz.cloud/icon/appaze3/icon@3x.png
 Name: Appaze 3
 
-Package: com.ash.milkyway4-ios16fix
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: ash
-Depends: firmware (>= 15.0), mobilesubstrate, jp.akusio.milkyway4
-Filename: ./debs/MilkyWay4-iOS16Fix_0.0.1_iphoneos-arm64.deb
-Size: 1048
-MD5sum: e652d7d3e3aa11845343ef59f948d889
-SHA1: 137e994be7b244eeacd18ed5cdf405937859caff
-SHA256: 9d7efc3680897de0e3039e3f6cda87592b172a768cecf41e6ee812475b0a1835
-Section: 分屏插件
-Description: An awesome MobileSubstrate tweak!
-Author: ash
-Icon: https://axs66.github.io/repo/icon/MilkyWay.png
-Name: MilkyWay4-iOS16Fix
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
-
 Package: com.audiomix.zh-hans
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -1050,25 +1033,6 @@ Section: 嗨-汉化
 Description: 为AudioMix提供简体中文，萧箫帅比倾情汉化。
 Author: 萧箫c
 Name: AudioMix 简体中文包(rootless)
-
-Package: com.axs.picturemodule
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Depends: firmware (>= 12.0), mobilesubstrate, com.opa334.ccsupport, oldabi
-Conflicts: com.4nni3.picturemodule
-Filename: ./debs/PictureModule控制中心视频_1.2_iphoneos-arm64.deb
-Size: 6689728
-MD5sum: 779926091c260b3f7a51c31d8a9eee63
-SHA1: a96333611bcdddb57ba2fa3cbb0e7446ed399436
-SHA256: c48e1e6e89ff312681f65f0dc5b8187bad0a4cd8da36dd24227f7c7a05a10b37
-Section: 控制中心
-Description: Decorate your control center with photos, videos and widgets!
-Author: 4nni3
-Depiction: Axs
-Icon: https://axs66.github.io/repo/icon/picturemodel.png
-Name: PictureModule控制中心视频
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/picturemodule/js.json
 
 Package: com.axs.recorder-bubble
 Version: 0.0.1
@@ -6332,25 +6296,6 @@ Author: 小果子
 Icon: https://sini921.github.io/repo/sileodepiction/icon/wy.png
 Name: 网易云去广告净化(rootless)
 
-Package: com.sini921.batterybuddy
-Version: 1.3.5-12
-Architecture: iphoneos-arm64
-Maintainer: Traurige & neilsardesai & SINI
-Installed-Size: 704
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
-Conflicts: love.litten.batterybuddy
-Filename: ./debs/BatteryBuddy(rootless)_1.3.5-12_iphoneos-arm64.deb
-Size: 237128
-MD5sum: a46cf4bfe8e2b201c75cecc293e19e63
-SHA1: 09709beb09e4a1ff59d882b38e1712f8cb29bece
-SHA256: f78ad303db563d300e2f36a798c276eea8dcfdcc7c36615e1f29a2027c4ab6c5
-Section: 越狱插件
-Description: 一个可爱的电池，基于开源修改编译。新增自定义颜色。
-Author: Traurige & neilsardesai & SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/batterybuddy.png
-Name: BatteryBuddy(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/batterybuddy/js.json
-
 Package: com.sini921.zoomanimation
 Version: 0.0.1-12
 Architecture: iphoneos-arm64
@@ -7500,25 +7445,6 @@ Description: ipatool by Majd Alfhaily ported to iOS
 Author: Majd Alfhaily
 Name: ipatool
 
-Package: jp.akusio.milkyway4
-Version: 0.1.1
-Architecture: iphoneos-arm64
-Maintainer: @akusio_RR
-Installed-Size: 3464
-Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
-Filename: ./debs/MilkyWay4-rootless_0.1.1_iphoneos-arm64.deb
-Size: 67924
-MD5sum: 3426998ff0479c08943c8fdc91de6b13
-SHA1: 09452a5fa7e4ddaed3dc5d60cd53f465d26fde8b
-SHA256: ab6d5028c24aa6210ab3e3dab6314749b0342721a4d43d9e6b7f1420e62ae751
-Section: 分屏插件
-Description: multitasking for iOS15 rootless.
-Author: @akusio_RR
-Depiction: https://akusio.github.io/descriptions/milkyway4/index.html
-Icon: https://axs66.github.io/repo/icon/MilkyWay.png
-Name: MilkyWay4-rootless
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
-
 Package: jp.dcsyhi.adkeyboard
 Version: 1.3
 Architecture: iphoneos-arm64
@@ -8569,24 +8495,6 @@ Depiction: https://repo.cypwn.xyz/depiction/1396
 Icon: https://media.havoc.app/64a42e09e02881606102d9ed
 Name: ENA - Extract Nearly Anything
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1396
-
-Package: xyz.cypwn.griddy
-Version: 1.0.5
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate
-Filename: ./debs/Griddy_1.0.5_iphoneos-arm64.deb
-Size: 1012
-MD5sum: 443976dfedff911e542e7440e7d8bc32
-SHA1: ad843f9e1095e9b16ac6544a9cd578b75ce97af9
-SHA256: a43383f51f5ef7f17006c4b91550e05a31eba6b358d6ee2de2592a843aaf9a02
-Section: Tweaks
-Description: Make your icons hit the griddy. Move them anywhere!
-Author: mikifp
-Depiction: https://repo.cypwn.xyz/depiction/2928
-Icon: https://repo.cypwn.xyz/packages/Griddy-Rootless/icon.png
-Name: Griddy
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2928
 
 Package: xyz.cypwn.snapper3qolfixes
 Version: 1.0
