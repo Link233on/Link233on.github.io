@@ -1,3 +1,40 @@
+Package: Eu.link.eneko
+Version: 1.4-5
+Architecture: iphoneos-arm64
+Maintainer: Link
+Installed-Size: 644
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: love.litten.eneko
+Filename: ./debs/Eu.link.eneko_1.4-5_iphoneos-arm64.deb
+Size: 210588
+MD5sum: 8c1aafdd17fda2b0f181e9710eec59c8
+SHA1: 1f16522956afc0a07b54ba04e5ff70438fc71a04
+SHA256: b6b60a237ce375b33fc2cbf5e518b5fe64f3786f5b5bb9959c62e94c509abcdc
+Section: Tweaks
+Description: Eneko SINI根据开源更好的适配新版本！
+Author: Traurige & SINI
+Icon: https:
+Name: Eneko
+Sponsor: Link
+
+Package: Eu.link.limneoscrack-rootless
+Version: 1.1-3
+Architecture: iphoneos-arm64
+Maintainer: Link
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/Eu.link.limneoscrack-rootless_1.1-3_iphoneos-arm64.deb
+Size: 10476
+MD5sum: 629b2f3b37948f2816d0856a0bdd166f
+SHA1: de5c690d8d82cac922112272496d884cb7ce5e03
+SHA256: f2347eb505cab41db7da3e76b9102210e767260d73ee78fca8d58ad0a947b032
+Section: Tweaks
+Description: Limneos Crack 源 http://limneos.net/repo
+Author: Netskao
+Icon: https
+Name: LimneosC-Rootless
+Sponsor: Link
+
 Package: alias20.altdaemonfix
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -63,6 +100,23 @@ Description: 系统相机开启全屏拍照，禁用拍照提示音。此插件�
 Author: iOSign
 Icon: https://chinesebuilding.club/pic/cydia.png
 Name: 全屏相机-Rootless
+Sponsor: 搬运工
+
+Package: byg.iosios.net.disablethermalmonitord
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Depends: plutil
+Filename: ./debs/Disable Thermalmonitord.deb
+Size: 1308
+MD5sum: 705fd67fe06c40d16d14ba8f60711d63
+SHA1: 05f295217c7fe178459848f5226e9a1a6d051d8e
+SHA256: 3370429658954ad582fee9f951d775c8800185d1a17e2cc6614a326d27ae9e2b
+Section: 系统增强
+Description: 阻止 thermalmonitord 运行，应该可以防降频，防温控降频，由无尽伤痛都锁进黑夜发现。需要玩游戏的小伙伴们可以试试！楠神yyds！
+Author: zhaonan
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: Disable Thermalmonitord解除温控降频
 Sponsor: 搬运工
 
 Package: byg.iosios.net.iwanttranslucent
@@ -2066,6 +2120,25 @@ Depiction: https://chariz.com/get/comet
 Icon: https://img.chariz.cloud/icon/comet/icon@3x.png
 Name: Comet
 
+Package: com.ginsu.comet
+Version: 1.0.9
+Architecture: iphoneos-arm64
+Maintainer: Link
+Installed-Size: 2136
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: ./debs/com.ginsu.comet_1.0.9_iphoneos-arm64.deb
+Size: 227736
+MD5sum: b0c147db302a48174331274ff2fc6ed1
+SHA1: 56f39fc08d60faf1a878d8def5ea3fa57d8e186b
+SHA256: 2a80cc52bd677791c5f835f2c5c7e739a5858a9797ae70f05b39aa80f1248a19
+Section: System
+Description: A SwiftUI Prefs Framework dodo锁屏依赖
+Tag: compatible_min::ios14.0
+Author: Ginsu
+Icon: https
+Name: Comet
+Sponsor: Link
+
 Package: com.ginsu.ytmusicultimate
 Version: 2.3.1
 Architecture: iphoneos-arm64
@@ -3366,6 +3439,24 @@ Author: leftyfl1p <carbridge@havoc.app>
 Depiction: https://havoc.app/package/carbridge
 Name: CarBridge
 
+Package: com.link.3dnetworkfixer-rootless
+Version: 1.1-8
+Architecture: iphoneos-arm64
+Maintainer: Link
+Installed-Size: 496
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.link.3dnetworkfixer-rootless_1.1-8_iphoneos-arm64.deb
+Size: 115928
+MD5sum: 92e738c4b01f7a9a77eb4a77f032b455
+SHA1: 813206fb6b8f514d8db3f3682dd4cd2651d5afcd
+SHA256: fe4e5379ec2e36fe25b448156b957bf93b3c5a8aab57cf240eedd82eaa99c5a6
+Section: Tweaks
+Description: 长按桌面图标唤出应用菜单 快捷修复该应用的联网权限！
+Author: Netskao
+Icon: H
+Name: 3DNetworkFixer-Rootless
+Sponsor: Link
+
 Package: com.link.LatchKeyThemes
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -3380,6 +3471,22 @@ Description: LatchKey Themes
 Author: POLLAPO
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/latchkeythemes.png
 Name: LatchKey Themes
+
+Package: com.link.akara
+Version: 2.0.2l
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, com.muirey03.libimagepicker, firmware (>= 15.0)
+Filename: ./debs/com.link.akara_2.0.2l_iphoneos-arm64.deb
+Size: 613452
+MD5sum: 9fc1275b272168b4c299475ed9de8d34
+SHA1: 08e3d39a6d40991ea76a27d2e280d3c9d6324675
+SHA256: cf9038486d3b39c6f4725edc756dd99bc9488d085e66482e2a540d3e6f568585
+Section: Tweaks
+Description: Minimal design without compromise
+Author: Tr1Fecta & Kennyroo
+Icon: https://img.chariz.cloud/icon/akara/icon@3x.png
+Name: Akara
 
 Package: com.link.arise
 Version: 1.2.4
@@ -3413,6 +3520,25 @@ Section: 嗨-工具
 Description: 跟随手指自动滚动页面无设置
 Author: pxcex
 Name: AutoScroll (Rootless)
+
+Package: com.link.batterybuddy
+Version: 1.3.5-12
+Architecture: iphoneos-arm64
+Maintainer: Traurige & neilsardesai & SINI
+Installed-Size: 704
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: love.litten.batterybuddy
+Filename: ./debs/com.link.batterybuddy_1.3.5-12_iphoneos-arm64.deb
+Size: 248740
+MD5sum: bae232e1c494c363178dadbd318c1ab5
+SHA1: 376c152c6eb0134bf1fa897ad790223a9a3e28db
+SHA256: 3e94795418482792b1643cec2e03e135cf9632338b582ecbe0302dfc9d341a18
+Section: Tweaks
+Description: 一个可爱的电池 基于开源修改编译 新增自定义颜色。
+Author: Traurige & neilsardesai & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/batterybuddy.png
+Name: BatteryBuddy(rootless)
+Sileodepiction: L
 
 Package: com.link.bigshotsnapper3plugin
 Version: 1.1
@@ -3466,6 +3592,24 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: 全屏相机-Rootless
 Sponsor: 搬运工
 
+Package: com.link.cardculator
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: Link
+Installed-Size: 784
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.opa334.ccsupport (>= 1.3.7), com.ginsu.comet
+Filename: ./debs/com.link.cardculator_2.1.1_iphoneos-arm64 .deb
+Size: 129488
+MD5sum: ba94eb3936aca545d98d7620e331da07
+SHA1: d2b05d0e254973565752b2ff367695e683a8c8f1
+SHA256: 379f20b23130bfa88a7d6510974fe259902db4207c76b84497638d8907604d72
+Section: Tweaks
+Description: Calculator, but smaller悬浮计算器
+Author: sourcelocation
+Icon: h
+Name: Cardculator-Rootless
+Sponsor: Link
+
 Package: com.link.designer
 Version: 1.5.5
 Architecture: iphoneos-arm64
@@ -3482,6 +3626,23 @@ Description: Design layouts for lockscreen and homescreen
 Author: JunesiPhone <junesgraphics@gmail.com>
 Icon: https://repo.cypwn.xyz/packages/Designer-Rootless/icon.png
 Name: Designer
+
+Package: com.link.disablebottombarlrswipe
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Link
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.link.disablebottombarlrswipe_1.1-2_iphoneos-arm64.deb
+Size: 5776
+MD5sum: 7bf9b0e8d799d92e319f1b403a3c5ca8
+SHA1: d9ced8f296c361e131a2630ae5f7037c088bcca5
+SHA256: 1f3e0d3e1573f16ce01ec9813e5764664d192b15cbbd492694331108f4aa161b
+Section: Tweaks
+Description: 禁用底部手势横条左/右滑动
+Author: Netskao
+Icon: https:
+Name: DisableBottomBarLRSwipe(rootless)
 
 Package: com.link.dleasy
 Version: 2.14.8
@@ -3593,6 +3754,38 @@ Description: Shake your phone to unhinge your icons!
 Author: Kritanta
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/gravitation.png
 Name: Gravitation
+
+Package: com.link.griddy
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: mikifp
+Depends: mobilesubstrate
+Conflicts: com.mikifp.griddy, xyz.cypwn.griddy
+Filename: ./debs/com.link.griddy_1.0.5_iphoneos-arm64.deb
+Size: 19640
+MD5sum: 30d8f05bdef05ce19b7f5598d90924e0
+SHA1: 56e20de094e9fb4d887053fc291158b107c9092a
+SHA256: 1327ed82c60aafaf58d89e872dfc2ffc81b8a43be22dba0ed25921bbda0b93db
+Section: Tweaks
+Description: 程序图标在桌面随意摆放 根据开源重新编译。
+Author: mikifp
+Name: Griddy(rootless)
+
+Package: com.link.h5gg
+Version: 7.9.1
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.link.h5gg_7.9.1_iphoneos-arm64.deb
+Size: 2104180
+MD5sum: b692204403d3aefda71f5cffd1669370
+SHA1: c9bb5a55d7139cf0ec907af153e6d6b815edaa24
+SHA256: 100540da13bda99acb19cf939d0376a914db406bc0ca47183384f77c71570894
+Section: Tweaks
+Description: 游戏开挂神器
+Author: tuancc
+Icon: https://axs66.github.io/repo/icon/h5gg.png
+Name: H5GG跨进程悬浮版
 
 Package: com.link.hinata
 Version: 1.0.0
@@ -3823,6 +4016,22 @@ Author: Frozen Penguin
 Icon: https://img.chariz.cloud/icon/pokecall/icon@3x.png
 Name: PokeCall
 
+Package: com.link.satella
+Version: 1.9.0-1
+Architecture: iphoneos-arm64
+Maintainer: Link
+Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
+Conflicts: xyz.cypwn.satella, emt.paisseon.satella, com.dao.satella.cn
+Filename: ./debs/com.link.satella_1.9.0-1_iphoneos-arm64.deb
+Size: 73468
+MD5sum: 748ebdb563e011109774a2d6331c20c4
+SHA1: bd2a51a6fb1af232dc868984e67b259d6905ee99
+SHA256: e8b37412503fd56a8630f3989d0c4f55555d4129b1cf4ea13f67619cd63aee86
+Section: Tweaks
+Description: 应用内购买破解器 已包含简体中文包。
+Author: Paisseon
+Name: Satella (rootless)
+
 Package: com.link.sneakycam
 Version: 2.2.2
 Architecture: iphoneos-arm64
@@ -3890,6 +4099,41 @@ Author: SOPPPra
 Icon: https://i.postimg.cc/430z6Q0x/statustime.png
 Name: Statustime
 
+Package: com.link.trollpad
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: khanhduytran0
+Installed-Size: 536
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), plistbuddy
+Filename: ./debs/com.link.trollpad_1.3_iphoneos-arm64.deb
+Size: 40528
+MD5sum: 7c4db1bde72df19c0fe1b429f0cb0820
+SHA1: 6d0fa5063a131082e5b51798b7010ba00787e731
+SHA256: fd8fa40684f7ec4ed29099c051faab9e75070e52a6327ae2e3e55c092554f254
+Section: Tweaks
+Description: 在iPhone上啟用iPad台前调度、分屏、小窗、Dock以及后台卡片样式，修复默认键盘下不能使用九宫格键盘的问题
+Author: khanhduytran0
+Icon: https://sini921.github.io/repo/sileodepiction/icon/trollpad.png
+Name: TrollPad(rootless)
+
+Package: com.link.twistnturn
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: Link
+Installed-Size: 1016
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Filename: ./debs/com.link.twistnturn_1.3_iphoneos-arm64.deb
+Size: 512924
+MD5sum: 875fc891ea9d857408bf91abf97a7b08
+SHA1: 725796602fb8b293998d4f324a5704aa10dbbf3f
+SHA256: babf708dd6658472a4ff2b86eefc41bbd560fd899f6fbfddb7a903b179cc92d7
+Section: Tweaks
+Description: 智能屏幕旋转建议！支持iOS 12-iOS 16.x的所有越狱设备。
+Author: Maxim Shnirman
+Icon: https://axs66.github.io/repo/icon/twistnturn.png
+Name: TwistNTurn
+Sponsor: Link
+
 Package: com.link.twitchdvn
 Version: 0.0.2
 Architecture: iphoneos-arm64
@@ -3905,6 +4149,23 @@ Description: Download your favorite clips, VODs and Live Streams with Dvnloader 
 Author: dvntm
 Icon: https://repo.cypwn.xyz/packages/TwitchDvnloader-Rootless/icon.png
 Name: TwitchDvnloader
+
+Package: com.link.uncar
+Version: 0.0.1-9
+Architecture: iphoneos-arm64
+Maintainer: Elias Limneos
+Installed-Size: 132
+Filename: ./debs/com.link.uncar_0.0.1-9_iphoneos-arm64.deb
+Size: 7344
+MD5sum: 51bba4bfc8a825b6f1bb44a2cca9f621
+SHA1: 214c1118bcbde45187e16d34da13309f6add78a4
+SHA256: f8afce9215aa284eed8b47fe45f4eb8a27b4914ecc2ce302593fa2efe3a836ef
+Section: Tweaks
+Description: 从捆绑包中提取 Asset.car 文件。从 Asset.car 文件中提取 png 图像的命令行工具。
+Tag: role::hacker
+Author: Elias Limneos
+Icon: https://axs66.github.io/repo/icon/TweakIcon.png
+Name: uncar(Rootless)
 
 Package: com.link.visionosdock
 Version: 1.0
