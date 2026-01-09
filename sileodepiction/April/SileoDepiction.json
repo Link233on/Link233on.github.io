@@ -1,0 +1,114 @@
+{
+    "minVersion": "0.3",
+    "class": "DepictionTabView",
+    "headerImage": "https://link233on.github.io/sileodepiction/April/SileoBanner.png",
+    "tintColor": "#1F6FB5",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabName": "Details",
+            "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "设定设置App的背景图/模糊等",
+                    "useRawMarkdown": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 12
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Preview"
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 8,
+                    "itemSize": "{160, 275}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot 1",
+                            "url": "https://link233on.github.io/sileodepiction/April/screenshot1.png",
+                            "fullSizeURL": "https://link233on.github.io/sileodepiction/April/screenshot1.png"
+                        }
+                    ],
+                    "ipad": {
+                        "class": "DepictionScreenshotView",
+                        "itemCornerRadius": 12,
+                        "itemSize": "{320, 550}",
+                        "screenshots": [
+                            {
+                            "accessibilityText": "Screenshot 1",
+                            "url": "https://link233on.github.io/sileodepiction/April/screenshot1.png",
+                            "fullSizeURL": "https://link233on.github.io/sileodepiction/April/screenshot1.png"
+                        }
+                        ]
+                    }
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Information"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Section",
+                    "text": "Tweaks"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Version",
+                    "text": "3.1"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Updated",
+                    "text": "December 10, 2025"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Compatibility",
+                    "text": "iOS 15.0+"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Developer",
+                    "text": "Luki"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 20
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabName": "Changelog",
+            "views": [
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Version 3.1",
+                    "text": "December 10, 2025"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<ul><li>Update generated from deb file.</li><li>Check description for details.</li></ul>",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                }
+            ]
+        }
+    ]
+}

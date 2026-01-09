@@ -1,0 +1,122 @@
+{
+    "minVersion": "0.3",
+    "class": "DepictionTabView",
+    "headerImage": "https://link233on.github.io/assets/default_banner.png",
+    "tintColor": "#1F6FB5",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabName": "Details",
+            "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "自定义3DTouch菜单 它具有基于应用程序图标的自适应着色、可定制的分隔符以及锁屏和主屏幕的精致玻璃背景效果等！3DGlassierTouch enhances your iOS experience by dynamically customizing 3D context menus. It features adaptive coloring based on app icons, customizable separators, and a refined glassier background effect for both the lockscreen and homescreen. Tailor thickness, color, and radius to suit your style, with distinct settings for each screen. Experience a sleek, personalized touch with every interaction!",
+                    "useRawMarkdown": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 12
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Preview"
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 8,
+                    "itemSize": "{160, 275}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot 1",
+                            "url": "https://link233on.github.io/sileodepiction/3DGlassierTouch/screenshot1.png",
+                            "fullSizeURL": "https://link233on.github.io/sileodepiction/3DGlassierTouch/screenshot1.png"
+                        },{
+                            "accessibilityText": "Screenshot 2",
+                            "url": "https://link233on.github.io/sileodepiction/3DGlassierTouch/screenshot2.png",
+                            "fullSizeURL": "https://link233on.github.io/sileodepiction/3DGlassierTouch/screenshot2.png"
+                        }
+                    ],
+                    "ipad": {
+                        "class": "DepictionScreenshotView",
+                        "itemCornerRadius": 12,
+                        "itemSize": "{320, 550}",
+                        "screenshots": [
+                            {
+                            "accessibilityText": "Screenshot 1",
+                            "url": "https://link233on.github.io/sileodepiction/3DGlassierTouch/screenshot1.png",
+                            "fullSizeURL": "https://link233on.github.io/sileodepiction/3DGlassierTouch/screenshot1.png"
+                        },{
+                            "accessibilityText": "Screenshot 2",
+                            "url": "https://link233on.github.io/sileodepiction/3DGlassierTouch/screenshot2.png",
+                            "fullSizeURL": "https://link233on.github.io/sileodepiction/3DGlassierTouch/screenshot2.png"
+                        }
+                        ]
+                    }
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Information"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Section",
+                    "text": "Tweaks"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Version",
+                    "text": "3.0"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Updated",
+                    "text": "December 10, 2025"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Compatibility",
+                    "text": "iOS 15.0+"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Developer",
+                    "text": "b4db1r3"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 20
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabName": "Changelog",
+            "views": [
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Version 3.0",
+                    "text": "December 10, 2025"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<ul><li>Update generated from deb file.</li><li>Check description for details.</li></ul>",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                }
+            ]
+        }
+    ]
+}

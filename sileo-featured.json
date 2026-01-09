@@ -1,0 +1,67 @@
+{
+  "class": "FeaturedBannersView",
+  "itemSize": "{296, 148}",
+  "itemCornerRadius": 10,
+  "banners": [
+    {
+      "url": "https://link233on.github.io/assets/banner1.png",
+      "title": "",
+      "action": "https://link233on.github.io/",
+      "hideShadow": false
+    },
+    {
+      "url": "https://link233on.github.io/assets/banner2.png",
+      "title": "",
+      "action": "https://link233on.github.io/",
+      "hideShadow": false
+    },
+    {
+      "url": "https://link233on.github.io/assets/banner3.png",
+      "title": "",
+      "action": "https://link233on.github.io/",
+      "hideShadow": false
+    },
+    {
+      "url": "https://link233on.github.io/assets/banner4.png",
+      "title": "",
+      "action": "https://link233on.github.io/",
+      "hideShadow": false
+    },
+    {
+      "url": "https://link233on.github.io/assets/banner5.png",
+      "title": "",
+      "action": "https://link233on.github.io/",
+      "hideShadow": false
+    },
+    {
+      "url": "https://link233on.github.io/assets/banner6.png",
+      "title": "",
+      "action": "https://link233on.github.io/",
+      "hideShadow": false
+    },
+    {
+      "url": "https://link233on.github.io/assets/banner7.png",
+      "title": "",
+      "action": "https://link233on.github.io/",
+      "hideShadow": false
+    },
+    {
+      "url": "https://link233on.github.io/assets/banner8.png",
+      "title": "",
+      "action": "https://link233on.github.io/",
+      "hideShadow": false
+    },
+    {
+      "url": "https://link233on.github.io/assets/banner9.png",
+      "title": "",
+      "action": "https://link233on.github.io/",
+      "hideShadow": false
+    },
+    {
+      "url": "https://link233on.github.io/assets/banner10.png",
+      "title": "",
+      "action": "https://link233on.github.io/",
+      "hideShadow": false
+    }
+  ]
+}

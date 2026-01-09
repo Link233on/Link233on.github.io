@@ -1,0 +1,33 @@
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Codename: Link233on
+Components: main
+Date: Sun, 14 Dec 2025 12:19:00 +0000
+Description: Link233on opens the repository for sharing
+Label: Link Repo
+Origin: Link Repo
+Suite: stable
+Version: 1.0
+MD5Sum:
+ 5371f666f5cf0f9d98ac01f7f120e561           640480 Packages
+ 61d3208bc7551d20d5c9d8cacd3488c6           140187 Packages.bz2
+ d1c199574141b5408555859fb55364ee           150036 Packages.xz
+ d32e8ad1c9e78081606a3ec847d836f6           157435 Packages.zst
+ c18a780f72151b0fd8130f1ac41feca3              252 Release
+SHA1:
+ 42373ead11a73881f269ef960ea6dd289b44e7cd           640480 Packages
+ 4383525d65cbd09666ee7cea1fca88780899869f           140187 Packages.bz2
+ f7b294345aab80131a3c0902fb5f11b8f889ac1f           150036 Packages.xz
+ 4980a4fe2ea4d9792a584fabd4bf009f6ab91b60           157435 Packages.zst
+ d21dcb4cd5c1121e3fa3622a917e0400fd24e134              252 Release
+SHA256:
+ 14a06fa85cc5320fbfde3e165494d884fbf66b0e33d575fe90bd1d7a350bce23           640480 Packages
+ 22efa110725f13c9685a57797d3a9e227e26e5f3816e90ecad94079dc90b1c9a           140187 Packages.bz2
+ 611605c7650c3135e9e21ff98a39d2601ad860f86a1b8c5c9ec72e954131cce9           150036 Packages.xz
+ ec147c0047a81b34e7a65afe38236916ddf8728193670ba2339ca4b3fa63fff6           157435 Packages.zst
+ 20861decf4b34f4aa9f0eee2b7d7b2c6599be070bd6bc4610bfe17605c3a5a81              252 Release
+SHA512:
+ fdffd13c7768649a07b9ce20f3bff5da6f25b8c47986457ea8f6bb4f4a66e540a3b136351bc106075789005cc9896996b55668e2baeb78e9405d4e84925a2386           640480 Packages
+ bb59828ab3bc5f9fdf5e07fab2b6cfc5a287ab066dcca74628b1abcab33771c3093b9ce31d8d422116307c3bd57f0dc29d2aaf19ef7fd42895884a72f3cab2d2           140187 Packages.bz2
+ 62c0d15505b6fd4efe078c305e933abfc3111c0895511ce7b2dd796b40f14261ae8fd5b5fed479ec452dfeaa9726b7cb09f3a936b8a2a73f932e20190509e357           150036 Packages.xz
+ 47c6856b20871256f173c20ddf03e6a604339f63a1d1bc3bef0ab6afe4f05312fbaa7862c25819ef3992e8964ad609f7012443df3d34597b8d7003e743164843           157435 Packages.zst
+ 78662907f29145ee3439fcca31886899e6c5e87ad61a14f8e88ff7a7c0d84ed8991013634761c8e9ea91843575685ee5d259c4b6b82b9f5b46e15c85bdf6cc73              252 Release
