@@ -1685,6 +1685,23 @@ Author: 妖刀
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Localization.PNG
 Name: zh-Hans for Zetsu
 
+Package: cn.zqbb.holdcpu
+Version: 2.3.5-1
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.ccsupport
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
+Filename: ./debs/Hello CPU_2.3.5-1_iphoneos-arm64.deb
+Size: 1279780
+MD5sum: 3b84e546e26e78f2e7eb4ddf5da0282d
+SHA1: 5533bda122fdfd728a8cb441b8658aedb89c23aa
+SHA256: 673cd21f1f8b361e47cfc7a7a26b17f8e198f3e437180b2267b36ce8fda577f9
+Section: Tweaks
+Description: (解除温控) (锁定低电量CPU频率)
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
+Name: Hello CPU
+
 Package: co.link.appstoretroller
 Version: 0.1.2
 Architecture: iphoneos-arm64
@@ -1785,23 +1802,6 @@ Author: Nebula
 Icon: https://img.chariz.cloud/icon/ding/icon@3x.png
 Name: Ding
 
-Package: co.link.eneko
-Version: 1.4-5
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
-Conflicts: love.litten.eneko
-Filename: ./debs/co.link.eneko_1.4-5_iphoneos-arm64.deb
-Size: 210532
-MD5sum: cd639754c7df0978e78d56bc606a8712
-SHA1: 9ce3cb318aef86d9f12e6b558812e68f1a6b754c
-SHA256: 2c6807c96c943ed6e7acf58129e9b10bf934aab2f65431de25e2629477631b89
-Section: Tweaks
-Description: Live wallpapers for iOS
-Author: Traurige & SINI
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Eneko.PNG
-Name: Eneko
-
 Package: co.link.filzacrack
 Version: 1.1-8
 Architecture: iphoneos-arm64
@@ -1850,22 +1850,6 @@ Author: Tomasz Poliszuk
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/HomeScreenQuickActions.PNG
 Name: Home Screen Quick Actions
 
-Package: co.link.indicators
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common, ws.hbang.alderis, xyz.cypwn.xinam1ne
-Filename: ./debs/co.link.indicators_1.2_iphoneos-arm64.deb
-Size: 76016
-MD5sum: f0b36a4dc2859677b25f356f31c2cae1
-SHA1: b19fa0b8c94e096b33c51becdf8309171848013f
-SHA256: d5c5269b7d8f854cfe4f2e5d7024b262de82ad7d4806e9aced24c7927d666258
-Section: Tweaks
-Description: 状态栏指示灯 More indicator dots! Flashlight, VPN, DND. Just like the camera and microphone dots.
-Author: LacertosusDeus
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Indicators.PNG
-Name: Indicators
-
 Package: co.link.laetus
 Version: 3.5.1
 Architecture: iphoneos-arm64
@@ -1881,22 +1865,6 @@ Description: 自定义键盘 可加载主题
 Author: Spark
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Laetus.PNG
 Name: Laetus
-
-Package: co.link.latchkey
-Version: 2.3
-Architecture: iphoneos-arm64
-Maintainer: Maxwell Dausch
-Depends: mobilesubstrate, ws.hbang.alderis
-Filename: ./debs/co.link.latchkey_2.3_iphoneos-arm64.deb
-Size: 5725664
-MD5sum: c947de6f2cfc41f2fd5a842ea70e9399
-SHA1: 83badfaff2dc5757ab47adfffa5672d6f6935d11
-SHA256: f3a0c286de08d72b1c17ae9e61b56073bacaba19bbaf761de809383d2282222b
-Section: Tweaks
-Description: Move and theme the Face-ID lock glyph
-Author: Maxwell Dausch
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/LatchKey.PNG
-Name: LatchKey
 
 Package: co.link.limneoscrack-rootless
 Version: 1.1-3
@@ -2091,6 +2059,23 @@ Description: 液态玻璃 此版本已包含简体中文 A recreation of Liquid 
 Author: MTAC
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Vitreux.PNG
 Name: Vitreux
+
+Package: com.82flex.touchvis
+Version: 4.0.2
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 4360
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/Touch-Viz_4.0.2_iphoneos-arm64.deb
+Size: 916412
+MD5sum: 22f38a8190af81a23bdb6832a8f99951
+SHA1: 15486e34db3aeba3c880f2d92278c3459daa6e6e
+SHA256: 99f4d79dbc2e444993f20e3ba60fba4b955d85bcefb5d887f581bceca0b950c7
+Section: Tweaks
+Description: Display your touch interactions!
+Author: Lessica <82flex@gmail.com>
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Touch-Viz.PNG
+Name: Touch-Viz
 
 Package: com.Link.filzaswipeselect
 Version: 0.0.2
@@ -2302,16 +2287,16 @@ Maintainer: Ginsu
 Installed-Size: 4340
 Depends: dev.theos.orion14, firmware (>= 14.0)
 Filename: ./debs/com.ginsu.gscore_1.1.1_iphoneos-arm64.deb
-Size: 443016
-MD5sum: 5b69b8bde571684292e7a2f7322b3bf2
-SHA1: a3a535bb1e7d5b6cc5346086c7ce1262a93a8462
-SHA256: 46e7a575c83531e193173bc58129627629d4ef3ecc1c3559190e12b4afbef36c
+Size: 443644
+MD5sum: 1684ed88e86345ad1d916ed1d6e46b6c
+SHA1: 25222626fd43c6f794e157c09859fe71715fff79
+SHA256: 406126ca4824871628b6cd4470284c8ed21d90877c8fdfeed9a452178bf725cb
 Section: Development
 Description: Environment and communication between my tweaks
 Author: Ginsu
 Depiction: https://ginsu.dev/#/depiction/com.ginsu.gscore
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/GSCore.PNG
-Name: GSCore(Rootless)
+Name: GSCore
 
 Package: com.ginsu.gsweather
 Version: 1.1.1
@@ -2319,15 +2304,15 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Depends: dev.theos.orion14, firmware (>= 14.0)
 Filename: ./debs/com.ginsu.gsweather_1.1.1_iphoneos-arm64.deb
-Size: 120536
-MD5sum: 0029a0c6465358cbd0ec30e67b0eed81
-SHA1: d4a3b8b2c474a2894e7e813b5003671b4975e375
-SHA256: a19fce8042ea56d10b2206cbffaa705cc0c19d42204e8280d9af6ccb310539fe
+Size: 121164
+MD5sum: bab0d6375b0db38196aaefd92b5ac256
+SHA1: fa1aa8c83a623bf4bc8b7bd05ffe645a9e972be5
+SHA256: e5d26cc963cf6d0c4ec8af5ec3eed96e432d8d48a74573afe51c746ed31c193b
 Section: Tweaks
 Description: A Weather fetching framework
 Author: Ginsu
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: GSWeather(Rootless)
+Name: GSWeather
 
 Package: com.huami.wcpluginsorders
 Version: 1.0-2
@@ -2352,21 +2337,55 @@ Author: huami
 Icon: https://TrollStoreX.Github.io/sileodepiction/WCPluginsOrder/icon.png
 Name: WCPluginsOrder
 
+Package: com.jontelang.snapper3
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: Jonathan Winger-lang
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: ./debs/Snapper 3_1.2.1_iphoneos-arm64.deb
+Size: 1031800
+MD5sum: 31cbb8ecc76b85bb512af79758f85b89
+SHA1: f49eed346ef42b41174301c26e8f211330ee76a8
+SHA256: 231ad46ec41da527d86b3a418af74d9851b533401ff8439b2453b8ba73cbcf37
+Section: Tweaks
+Description: Pin screenshots on the screen.
+Author: Jonathan Winger-lang
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Snapper3.PNG
+Name: Snapper 3
+
+Package: com.lclrc.hammerit
+Version: 1.7.0
+Architecture: iphoneos-arm64
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: ./debs/Hammer It_1.7.0_iphoneos-arm64.deb
+Size: 981276
+MD5sum: 49709bbe5b37a1c206d89e8d528afb77
+SHA1: d2e451c7b35fec8a2515ec23edede245f5ab8c0a
+SHA256: 78f56b95206e2aca599637f901014e70ebdf8e4892f6d01900abac69e3964f64
+Section: Tweaks
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/HammerIt.PNG
+Name: Hammer It
+
 Package: com.level3tjg.10passcode
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: level3tjg
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/10passcode_1.0_iphoneos-arm64.deb
-Size: 5964
-MD5sum: feed1c2bbe798262c73d73035f79064e
-SHA1: 41f19134315667b1f423dbbcfac5c6132a2ba1c5
-SHA256: c1ffd68f189f37e2eb7caeaf7c775fa5ca7ee9d5657f05a005560ceb5bb73404
+Filename: ./debs/Passcode10_1.0_iphoneos-arm64.deb
+Size: 5968
+MD5sum: f2b56cdd55b1b93d9e9421a6aaca6209
+SHA1: bfb215992389c21afa93e38414e2d17d30e6e78b
+SHA256: 79656106b58b7875c189b44751f16d08486db838648ffeaa8dcb0cd53b273607
 Section: Tweaks
 Description: ios10风格密码键盘 iOS 10 style passcode keypad for iOS 11+
 Author: level3tjg
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: 10Passcode
+Name: Passcode10
 
 Package: com.lik.ytmusicultimate
 Version: 2.3.1
@@ -2499,22 +2518,6 @@ Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main
 Name: 3DNetworkFixer
 Sponsor: Link
 
-Package: com.link.Huestatusbar
-Version: 1.0.8
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate, org.thebigboss.libcolorpicker
-Filename: ./debs/com.link.Huestatusbar_1.0.8_iphoneos-arm64.deb
-Size: 92420
-MD5sum: c4cdf0f33551e8ed3d1f149d20a36ed9
-SHA1: daa0c6845cadaa80a4cff741eec8a6aea0bee18e
-SHA256: 74e7e09d8cecdc35ac1371d276b41a0d1380e9012e6a8ced6ad7a0071c520e0f
-Section: Tweaks
-Description: 自定义状态栏颜色以及隐藏部分功能
-Author: CydiaGeek <lucaluca86@aol.com>
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: Huestatusbar
-
 Package: com.link.LatchKeyThemes
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -2545,54 +2548,6 @@ Description: 解锁拦截猫会员
 Author: HelloWorld_1024
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Maohook.PNG
 Name: Mao Premium
-
-Package: com.link.a-font
-Version: 1.10.1
-Architecture: iphoneos-arm64
-Maintainer: Baw Appie <pp121324@gmail.com>
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.link.a-font_1.10.1_iphoneos-arm64.deb
-Size: 493556
-MD5sum: 56ea790bfa53e06ee81beb3a6dc9f14c
-SHA1: 4d01af3aa6a87cfd73b397eda44652bb64975550
-SHA256: 4dbaa6701446b386268dd089e5edd325e146a42a023842520c733761cfc156f4
-Section: Tweaks
-Description: 更改字体工具 Change your font!
-Author: Baw Appie <pp121324@gmail.com>
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: A-Font
-
-Package: com.link.a-font
-Version: 1.9.3-3
-Architecture: iphoneos-arm64
-Maintainer: Baw Appie <pp121324@gmail.com>
-Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
-Filename: ./debs/com.link.a-font_1.9.3-3_iphoneos-arm64.deb
-Size: 496948
-MD5sum: 84f36ecf9be701e5875475a592bc6b70
-SHA1: 40fbbc45925b99e591494b54c15711dd648b200b
-SHA256: f0c1acaa9ba9b020d5eb6e029881a66b6c5487355bc34db925d80a6bbdf16319
-Section: Tweaks
-Description: 更改字体工具 Change your font!
-Author: Baw Appie <pp121324@gmail.com>
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: A-Font
-
-Package: com.link.a-shields
-Version: 1.7
-Architecture: iphoneos-arm64
-Maintainer: Baw Appie <pp121324@gmail.com>
-Depends: mobilesubstrate, ws.hbang.alderis (>= 1.2)
-Filename: ./debs/com.link.a-shields_1.7_iphoneos-arm64.deb
-Size: 50404
-MD5sum: 672a3fa520860e612f43bcd76891cf19
-SHA1: 25f8bdbd50e4a7238f7d1ea2f6e221f15b22f991
-SHA256: 354417b5c2f1f81da9c513af7926da9156af266a41b85678d29866fb72f3a280
-Section: Tweaks
-Description: Protect your device
-Author: Baw Appie <pp121324@gmail.com>
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: A-Shields
 
 Package: com.link.abstract
 Version: 1.0
@@ -2725,22 +2680,6 @@ Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.addtofolder-root
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/AddToFolder.PNG
 Name: AddToFolder(Rootless)
 
-Package: com.link.adkeyboard
-Version: 1.3
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate
-Filename: ./debs/com.link.adkeyboard_1.3_iphoneos-arm64.deb
-Size: 288520
-MD5sum: 712978f74cd2f54f95d7739e803be3e6
-SHA1: beeb4450a1d1dff7fe4e8019b65a7f11f7e55926
-SHA256: b9174cf927f484e63bcbd8786920a79148199d72755a51b0a5a28dee9dc5d068
-Section: Tweaks
-Description: 使键盘颜色适应应用程序颜色 Make keyboard color adaptive to app color.
-Author: Dcsyhi
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: ADKeyboard
-
 Package: com.link.aemulo
 Version: 2.0-82b9fb9
 Architecture: iphoneos-arm64
@@ -2845,15 +2784,15 @@ Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios1
 Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Filename: ./debs/com.link.afc2_1.1.7-1_iphoneos-arm64.deb
-Size: 11544
-MD5sum: eaa6c3970093b9c655a0d017f4837148
-SHA1: c3b825bd435ce1e5a482ab24add0caf151639137
-SHA256: 661f9d8053cc017fcb0da0b01af41873d5fbd5aea47dcd79d305e80bb5cdb405
+Size: 11520
+MD5sum: 760c99b0d6329b2acc070bc58d99e8f1
+SHA1: 1c3fe5741e97d09bab01634eb3f125b0984d4fab
+SHA256: c9d78d7cbf0c968c55aa51b652c8932722153cbb67fda4c035f50e9905cbf766
 Section: Tweaks
 Description: 允许设备通过USB访问完整的文件系统 神秘大佬修复支持rootless
 Author: saurik, Cannathea <csupport@cannathea.com>
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: AFC2(Rootless)
+Name: AFC2
 
 Package: com.link.afc2d-arm64
 Version: 1.2.0
@@ -2909,40 +2848,6 @@ Author: alimaulana
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/AIMPro.PNG
 Name: AIM Pro
 
-Package: com.link.airaw
-Version: 1.6.5
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), ws.hbang.common
-Filename: ./debs/com.link.airaw_1.6.5_iphoneos-arm64.deb
-Size: 10262160
-MD5sum: cf814ff4bb3f0feba4f78d990de9ed14
-SHA1: 107a44038289549ceea87dbfd7bd29f7f6b0569f
-SHA256: 70feb153b79a311f57c2b45e57d99d44f7e1892d7466b892b5248a1f33d9b019
-Section: Tweaks
-Description: An awesome CarPlay tweak.
-Author: Dcsyhi
-Depiction: https://chariz.com/buy/airaw
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Airaw.PNG
-Name: Airaw
-
-Package: com.link.airaw
-Version: 1.6.7
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), ws.hbang.common, com.opa334.ccsupport
-Filename: ./debs/com.link.airaw_1.6.7_iphoneos-arm64.deb
-Size: 10357580
-MD5sum: d91aaa249dfd18e678e3c45d1d3703f1
-SHA1: e8ef6951ab2a953f02023b9711ee046e4dc3314f
-SHA256: be7c70cf95307e4ef84bb05eb858a8c1862f80e9dec4d4a2cbcdaddd31e0a1e8
-Section: Tweaks
-Description: An awesome CarPlay tweak.
-Author: Dcsyhi <dcsyhi1998@gmail.com>
-Depiction: https://chariz.com/buy/airaw
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Airaw.PNG
-Name: Airaw
-
 Package: com.link.airpodscompanion
 Version: 1.5
 Architecture: iphoneos-arm64
@@ -2975,22 +2880,6 @@ Author: Tr1Fecta & Kennyroo
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Akara.PNG
 Name: Akara
 
-Package: com.link.albummanager
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.libsandy, com.opa334.ccsupport
-Filename: ./debs/com.link.albummanager_1.0.2_iphoneos-arm64.deb
-Size: 55612
-MD5sum: 9150615900d692727fabd158e30f62d0
-SHA1: a586f5898c8fd374552dc2ba2bfcad18759865ad
-SHA256: 05befe5e4c7e168515dd28affaa1304b2ac3799b513a6ecd034a5df28b9b7d2d
-Section: Tweaks
-Description: 整理和保护您的相册 Organize and protect your photo albums
-Author: NoisyFlake <support@noisyflake.com>
-Icon: https://img.chariz.cloud/icon/albummanager/icon@3x.png
-Name: AlbumManager
-
 Package: com.link.alerto
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -3006,23 +2895,6 @@ Description: 紧凑的应用程序组通知中心 A compact app group Notificati
 Author: SGWC
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Alerto.PNG
 Name: Alerto
-
-Package: com.link.allowkeyboardanywhere
-Version: 1.6
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/com.link.allowkeyboardanywhere_1.6_iphoneos-arm64.deb
-Size: 5864
-MD5sum: ba342c991fdc502c96609063f5562130
-SHA1: f55d1c51911795ba20109e44545006e5e2c8d500
-SHA256: 0103f844f375a105edc191f5394cd22e778316d87974987edfea259d2b543095
-Section: Tweaks
-Priority: optional
-Description: 允许第三方键盘在任意场景(例如密码输入框)中使用 Allow 3rd party keyboards anywhere. For example, in password text boxes.
-Author: llld
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: AllowKeyboardAnywhere
 
 Package: com.link.altdaemon
 Version: 1.0.1
@@ -3317,23 +3189,6 @@ Author: Fouad Raheb
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/AppData.PNG
 Name: AppData
 
-Package: com.link.apphide
-Version: 0.0.2
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate, firmware (>= 12.2), com.opa334.altlist
-Filename: ./debs/com.link.apphide_0.0.2_iphoneos-arm64.deb
-Size: 77028
-MD5sum: af2138ebc5b7570f0bd44dd1caff93b9
-SHA1: ef57f3e6e73d847f99de6958fa76a9fc4bb31121
-SHA256: 557d6b922175e9d37969be486698774c53b809360f7bf69fd5e21c9406a90ab8
-Section: Tweaks
-Description: 隐藏已经安装的APP 使其消失在搜索 资源库 主屏幕上
-Author: Paisseon
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: App Hider
-Sponsor: Link
-
 Package: com.link.appindex
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -3387,42 +3242,6 @@ Author: YangJiii
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Fonts.PNG
 Name: Apple Symbols
 
-Package: com.link.applist
-Version: 1.5.16
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
-Conflicts: applist
-Replaces: applist
-Provides: applist (=1.5.16)
-Filename: ./debs/com.link.applist_1.5.16_iphoneos-arm64.deb
-Size: 110092
-MD5sum: 790e08e010e29955308bdd0391359c9e
-SHA1: 4135c280728e902b8ff54bc5f4c64ef498b4e6d6
-SHA256: f066f2621c2f84b7847dc3949a6ce9743118de3a13a7fa765ada43310f27f450
-Section: Development
-Description: Allow extensions to read the list of installed apps
-Author: Ryan Petrich
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Placeholder.PNG
-Name: AppList
-
-Package: com.link.apppad
-Version: 1.1.2
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4), firmware (>= 9.0)
-Conflicts: com.yourepo.isaact1012.requirefullarm64e, com.matrix.requirefull
-Filename: ./debs/com.link.apppad_1.1.2_iphoneos-arm64.deb
-Size: 4672
-MD5sum: 16328c81807e6aabef734661357169be
-SHA1: d6305f276decd007a10f639340e8fa6df9df6d0c
-SHA256: e6e56fafdee16f74e5fae6215718282f2d83fa6989dc3c5b43de1e789b253c83
-Section: Tweaks
-Description: 为iPad设备的所有应用提供全屏 分屏 侧滑功能 Full screen, Split and Slideover for every app on iPad.
-Author: PoomSmart
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: AppPad
-
 Package: com.link.appstoretroller
 Version: 0.1.1
 Architecture: iphoneos-arm64
@@ -3454,6 +3273,22 @@ Description: Modified version of mineeks tweak that lets you specify the minimum
 Author: Mineek
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/AppStoreTroller.PNG
 Name: AppStoreTroller
+
+Package: com.link.appstoreupdatestab
+Version: 4.0
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate
+Filename: ./debs/com.link.appstoreupdatestab_4.0_iphoneos-arm64.deb
+Size: 5464
+MD5sum: 07b91ed260cf808057f67e2ded714143
+SHA1: 8995fffeccfd7ee31e3cdce1fa9af0a74670e1d9
+SHA256: 198cbc4fc605757737bc7a83dc7419206eccebf559f9846529b2ad5ca020075d
+Section: Tweaks
+Description: Replace Arcade button with "Show Updates" button in the AppStore app
+Author: Johnzaro & Hitori
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/AppStore.PNG
+Name: AppStoreUpdatesTab
 
 Package: com.link.appsyncunified
 Version: 116.0
@@ -3574,22 +3409,6 @@ Depiction: https://luki120.github.io/depictions/web/?p=me.luki.arizona
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Arizona.PNG
 Name: Arizona
 
-Package: com.link.arres
-Version: 0.9.0
-Architecture: iphoneos-arm64
-Maintainer: Luki
-Depends: mobilesubstrate
-Filename: ./debs/com.link.arres_0.9.0_iphoneos-arm64.deb
-Size: 7720
-MD5sum: 790fc4505592b3e58089d261a073932b
-SHA1: 77a442eb22d8fe4bd445bf1a2f9a195a0079104e
-SHA256: 450c0bbc311f8abaea54e74ebeb2c0728eed89caa606f1d7c12c817d89de9013
-Section: Tweaks
-Description: 禁用点击通知横幅0.8s Disables tapping on notifs banners for 0.8s
-Author: Luki
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: Arres
-
 Package: com.link.artstudioprocrack
 Version: 1.1-1
 Architecture: iphoneos-arm64
@@ -3703,23 +3522,6 @@ Author: Elias Limneos <limneoselias@gmail.com>
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/AutoAnswerXS.PNG
 Name: AutoAnswer XS
 
-Package: com.link.autofillfix
-Version: 0.1
-Architecture: iphoneos-arm64
-Maintainer: P2KDev
-Depends: mobilesubstrate
-Filename: ./debs/com.link.autofillfix_0.1_iphoneos-arm64.deb
-Size: 3088
-MD5sum: 7268ee925677a51b0aff89564a3ea0ee
-SHA1: 2a164c2bd0631bf891694d850791ba327a25e147
-SHA256: eb1df23a3bf3ed83e71ce012a3a57ec84e030b687d82f2e88e4431e57b7e70e7
-Section: Tweaks
-Description: 修复越狱后短信验证码不自动填充问题
-Author: P2KDev
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: AutoFillFix
-Sponsor: P2KDev
-
 Package: com.link.autoscroll
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -3727,15 +3529,15 @@ Maintainer: pxcex
 Depends: mobilesubstrate
 Conflicts: com.pxcex.autoscroll, com.axs.autoscroll, xyz.cypwn.autoscroll15, byg.iosios.net.autoscroll, com.autoscroll.jb
 Filename: ./debs/com.link.autoscroll_1.0.0_iphoneos-arm64.deb
-Size: 5400
-MD5sum: 6096820ca235ee5ab7f1475e0565d702
-SHA1: 964683721b05cbcec3972b981894bbc206c44eed
-SHA256: 1790501e936bcd4b5f8a9a4dd3ff078cd7ec9c6dadd961e05da6ce48bfcb4792
+Size: 5376
+MD5sum: 8e3359856067904b54be83d3c26a564d
+SHA1: c64975792bb2652e46db9b3390b44e225288cf04
+SHA256: eefe2ba41928cf56110eeda6849e7d7ca731f58b75787c33594680c66ac8bab0
 Section: Tweaks
-Description: 自动滚动页面
+Description: Auto scroll the page
 Author: pxcex
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/AutoScroll.PNG
-Name: AutoScroll(Rootless)
+Name: AutoScroll
 
 Package: com.link.autounlockx
 Version: 1.1.0-rootless
@@ -3753,22 +3555,6 @@ Author: Spark
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/AutoUnlockX.PNG
 Name: AutoUnlockX
 
-Package: com.link.avlock
-Version: 1.0.4
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate, cy+cpu.arm64v8 | oldabi-xina | oldabi
-Filename: ./debs/com.link.avlock_1.0.4_iphoneos-arm64.deb
-Size: 20188
-MD5sum: a6c8d4d80e72b796c5d6747dce099bf7
-SHA1: daf299b1280a4f7da2ce2f9b4dad51b18fe30663
-SHA256: b7cde6fafe8051d4e3f4ccba127a459b2c2f7aa6cc66359264ca744f8e23bf4f
-Section: Tweaks
-Description: 为IOS原生视频播放器添加"方向锁定"按钮 Add an orientation lock button to the stock iOS video player
-Author: gilshahar7
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: AVLock
-
 Package: com.link.avphotos
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -3785,40 +3571,6 @@ Author: MiRO 来了老弟
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/FreePIP.PNG
 Name: AVPhotos
 
-Package: com.link.avplayer
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: Daniel Levi <daniellinkblock@gmail.com>
-Depends: mobilesubstrate
-Filename: ./debs/com.link.avplayer_0.0.1_iphoneos-arm64.deb
-Size: 2940
-MD5sum: 2332b3961ac5629644a604dfd445eb81
-SHA1: c68260102cd4df8b3504a52e539ba13c68dbb7d6
-SHA256: 8e97d92fd7b8229c69bb18f3c2b32646d58fc291363b2697a09b1902c4641d66
-Section: Tweaks
-Description: 还原AVPlayerViewController(iOS原生视频播放控制器)的初代控制界面  Restore the first generation controls of AVPlayerViewController
-Tag: compatible_min::ios16.0
-Author: Daniel Levi <daniellinkblock@gmail.com>
-Depiction: https://chariz.com/get/avplayer
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/AVPlayer.PNG
-Name: AVPlayer
-
-Package: com.link.awemealwaysshowtime
-Version: 1.1-1
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: ./debs/com.link.awemealwaysshowtime_1.1-1_iphoneos-arm64.deb
-Size: 2396
-MD5sum: abcfb6be544bf2b97398190c22c004b4
-SHA1: 9afe3a479d8757a97ba0e01a4dbf47ff4bebe018
-SHA256: abb4e681242ff7953781746680c8a1d07a2cbb81139e10b08e1afadff2de1400
-Section: Tweaks
-Description: 显示视频发布时间 Aweme always shows the video creation time
-Author: Netskao
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Douyin.PNG
-Name: AwemeAlwaysShowTime
-
 Package: com.link.awemeclearlikes
 Version: 1.1-2
 Architecture: iphoneos-arm64
@@ -3834,22 +3586,6 @@ Description: 一键清空所有点赞 喜欢页面摇晃设备触发 Aweme Clear
 Author: Netskao
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Douyin.PNG
 Name: AwemeClearLikes
-
-Package: com.link.awemedisablebar
-Version: 1.1-6
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Depends: firmware (>= 12.0), mobilesubstrate
-Filename: ./debs/com.link.awemedisablebar_1.1-6_iphoneos-arm64.deb
-Size: 304700
-MD5sum: 01958e9e86b3a04fa3f5a871b29ba469
-SHA1: 3ce66e5274b0c96896f80a61cc72ab5c96d48de5
-SHA256: 82d5ef78901c9380c44e20e6458f24ec873eae0461047d68bac548dd72fa6f8a
-Section: Tweaks
-Description: 隐藏顶部 底部 右侧标签栏按钮 Aweme Disable Top/Bottom/Right Tab Button. Tested only on version 30.3.0 and above
-Author: Netskao
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Douyin.PNG
-Name: AwemeDisableBar
 
 Package: com.link.awemedownloadmedia
 Version: 1.1-8
@@ -3898,38 +3634,6 @@ Description: FuckAd
 Author: Netskao
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Douyin.PNG
 Name: AwemeNoAds
-
-Package: com.link.awemesaveemoji
-Version: 1.1-2
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Depends: firmware (>= 12.0), mobilesubstrate
-Filename: ./debs/com.link.awemesaveemoji_1.1-2_iphoneos-arm64.deb
-Size: 74956
-MD5sum: 13815c4ec138a2b0e349bf597a3191ae
-SHA1: 6e573cb6b591d2287c3b286e6efbe92a6b5e2187
-SHA256: 81ca3463e956c00bf1f26ac38c775b8c0a707850c5bb9362ef2c94afba57f937
-Section: Tweaks
-Description: 保存评论区表情包 Aweme Save Comment Emoji. Tested on version 32.3.0 only
-Author: Netskao
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Douyin.PNG
-Name: AwemeSaveEmoji
-
-Package: com.link.awemevideotime
-Version: 1.1-2
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/com.link.awemevideotime_1.1-2_iphoneos-arm64.deb
-Size: 31704
-MD5sum: 3f494c91c5d5117c18470fdec32b2e9a
-SHA1: 4b74da98348990e523193e1c6e1491b6f74272a5
-SHA256: 39bb1aa74d10fbbb804f40d6454958d78a9df77b894b61fb8b9667f8aa452a4c
-Section: Tweaks
-Description: 显示视频发布时间 Aweme Video Show Time. Tested only on version 30.3.0 and above
-Author: Netskao
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Douyin.PNG
-Name: AwemeVideoTime
 
 Package: com.link.axon
 Version: 1.5.5
@@ -4080,22 +3784,6 @@ Author: x✨
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/BDHook.PNG
 Name: 百度地图
 
-Package: com.link.baiduwangpanadkiller
-Version: 1.5.5
-Architecture: iphoneos-arm64
-Maintainer: ylr <ylr638058@gmail.com>
-Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./debs/com.link.baiduwangpanadkiller_1.5.5_iphoneos-arm64.deb
-Size: 7572
-MD5sum: 48abb21673842f497f505f7a6eb68592
-SHA1: 7878b1e35d1223c7e469fc982dfc7a8f940df14f
-SHA256: ba34b92156f8d6e051f4c7a77b535ef11dab2323f1ba3cbfeef59e0043be8f24
-Section: Tweaks
-Description: 百度网盘去开屏及摇一摇跳转 点击启动黑屏是百度原生设定 ylr制作
-Author: ylr <ylr638058@gmail.com>
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/BdHook.PNG
-Name: BaiDuWangPanAdKiller
-
 Package: com.link.bantoulizti
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -4111,38 +3799,6 @@ Description: 半透立体遮罩
 Author: Byg
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Themes.PNG
 Name: 半透立体遮罩
-
-Package: com.link.bartime
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate
-Filename: ./debs/com.link.bartime_1.0.1_iphoneos-arm64.deb
-Size: 3508
-MD5sum: 56b68d34607637924e79fe63c600889a
-SHA1: 48906b5c9871445e2eab5b45877f0975867d001a
-SHA256: f4fe251b50d04ff57b0e1730cae3529f7d63896a37178b6d1dc2d58687d103c9
-Section: Tweaks
-Description: 在锁屏状态栏显示时间
-Author: CydiaGeek <lucaluca86@aol.com>
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: BarTime
-
-Package: com.link.batteryalert
-Version: 1.2.1
-Architecture: iphoneos-arm64
-Maintainer: iCraze
-Depends: mobilesubstrate (>= 0.9.5000), com.cokepokes.libnotifications
-Filename: ./debs/com.link.batteryalert_1.2.1_iphoneos-arm64.deb
-Size: 9128
-MD5sum: 7b1acc5d2add2bbfc16b731a6e8e4e2c
-SHA1: 7a828b22e3cf75b9b2d6a543d7d31333da258d3a
-SHA256: dc2e1b72bcfcd446fa5791cf533268ca91043ee9895046e2bd1c0fd8ca67eb7d
-Section: Tweaks
-Description: 设备断开电源连接时弹出通知提醒 Show a notice when the device is disconnected from power.
-Author: iCraze
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: BatteryAlert
 
 Package: com.link.batterybuddy
 Version: 1.3.5-14
@@ -4177,38 +3833,6 @@ Description: 修复更换电池后电池健康显示维修或无法验证的问�
 Author: PoomSmart
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Hammer.PNG
 Name: BatteryHealth
-
-Package: com.link.batteryswipeup
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate
-Filename: ./debs/com.link.batteryswipeup_1.0.0_iphoneos-arm64.deb
-Size: 6512
-MD5sum: 6b918634e6f5eff132dce9b00f9e8d7b
-SHA1: 57c24f2d11230dda211c1a4f65053407ba75c364
-SHA256: 933f4219278025f07212f28fb2f5ad67448b3666e834b4e8c9cdfa94ddef2958
-Section: Tweaks
-Description: 锁屏向上滑动显示电池百分比Battery Percent on Swipe Up to Open!
-Author: CydiaGeek <lucaluca86@aol.com>
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: BatterySwipeUp
-
-Package: com.link.better.bili
-Version: 2.3.3
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.link.better.bili_2.3.3_iphoneos-arm64.deb
-Size: 6812212
-MD5sum: 031415a623b96660eb57ec032a38c121
-SHA1: 52318f92076ce39905af7c34d249332112ae3ce5
-SHA256: 53605836b9b86d277360ab643181cb1db93eaf2a974217b72af8aa37b703789c
-Section: Tweaks
-Description: 哔哩哔哩增强 支持港澳版与原版
-Author: LF
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/BiliBili.PNG
-Name: BetterBiliBili
 
 Package: com.link.betteralarm
 Version: 1.5
@@ -4342,22 +3966,6 @@ Author: nicho1asdev
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/BigSurCenter.PNG
 Name: BigSurCenter
 
-Package: com.link.bigsurrootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: byg.iosios.net.laetus
-Filename: ./debs/com.link.bigsurrootless_1.0_iphoneos-arm64.deb
-Size: 86404
-MD5sum: d7a5224ec282da8f393a053e5c9f60c1
-SHA1: 8bad7b19ce85a4ee02fd8ba59ac4cb9dd966dad8
-SHA256: ce248e7078968a38de6b1fecb0c20dfb77bb806a5a13072164a3ceaa47290476
-Section: Themes
-Description: Laetus键盘主题
-Author: unknown
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/LaetusThemes.PNG
-Name: BigSur (Laetus)
-
 Package: com.link.bindfs
 Version: 0.5.5-1
 Architecture: iphoneos-arm64
@@ -4397,12 +4005,12 @@ Architecture: iphoneos-arm64
 Maintainer: Link
 Depends: mobilesubstrate, preferenceloader
 Filename: ./debs/com.link.bioprotectxs-rootless_4.7-4_iphoneos-arm64.deb
-Size: 567432
-MD5sum: 6ea5d480ce7a2523acde92f567fb871d
-SHA1: 6244f670d41d3eb6e1ce2ded487c002bae224109
-SHA256: 920cd719a6b5ef12b60934b9c11d5cf95b06ff7f83bd4061ea40356c51fed90a
+Size: 567124
+MD5sum: 2442d732b2f2e05d7e3c9414057ea4c5
+SHA1: dcfc8ff5cb459c5d2111388e31b0aea0149ab3ab
+SHA256: fe4eaea1180c3c7956ce6f34ef746cd012198a96a5966ac725a15d3cb48a033a
 Section: Tweaks
-Description: 为应用程序访问增加身份验证！ Protect your apps with Touch/Face ID!
+Description: Protect your apps with Touch/Face ID!
 Author: Elias Limneos <limneoselias@gmail.com>
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/BioProtect.PNG
 Name: BioProtect
@@ -4471,6 +4079,22 @@ Description: 保护相册 Hide private photos in your library. Unlock with Face 
 Author: MrDeNsor
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Blurify6.PNG
 Name: Blurify6
+
+Package: com.link.boardswipe
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.link.boardswipe_1.0.0_iphoneos-arm64.deb
+Size: 486812
+MD5sum: e4e83595b296f2cbaf80e56042e05219
+SHA1: 4a48e6d414bfdedba980862f1a932c3cc61dd770
+SHA256: b5dfb41077a2e2a2e33fd66435220cd81f5b44d4d5fee6ed1ffc3092cd9f0652
+Section: Tweaks
+Description: Swipe down to dismiss keyboard, swipe up to switch keyboards
+Author: AnubisTweaks
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/BoardSwipe.PNG
+Name: BoardSwipe
 
 Package: com.link.boldersreborn
 Version: 1.1.2
@@ -4940,22 +4564,6 @@ Author: gilesgc & paisseon & lclrc
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/CCCalc.PNG
 Name: CCCalc
 
-Package: com.link.cclifttowake
-Version: 1.1-1
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Filename: ./debs/com.link.cclifttowake_1.1-1_iphoneos-arm64.deb
-Size: 16500
-MD5sum: 50609cc8805edc807b97f8ed640e3fea
-SHA1: 417d7b8094843329b7974595d0598976fbc5088a
-SHA256: 22a0b91ef5d712653c9ea4fcf4ffec1e598ab188da22c12cc51ff4e26d31c6cf
-Section: Tweaks
-Description: 抬起唤醒控制中心模块 Quickly enable or disable Wake on Lift from Control Center, Support iOS15+
-Author: Netskao
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: CCLiftToWake
-
 Package: com.link.ccplusplus
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -4988,25 +4596,6 @@ Author: SuSu
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/PictureModule.PNG
 Name: CCUIPlayer
 
-Package: com.link.cephei-compat
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate
-Conflicts: com.nightwind.cephei-compat
-Replaces: com.nightwind.cephei-compat
-Provides: com.nightwind.cephei-compat (= 0.0.1)
-Filename: ./debs/com.link.cephei-compat_0.0.1_iphoneos-arm64.deb
-Size: 3856
-MD5sum: 4ae5204c73af8d776df36f4dafb423a8
-SHA1: 4266c57821fc72daa863dc5f3eb596849983b335
-SHA256: 48f79f2a749d9e0da399e33632cd8a0fa1105d624064d48a5e391e2426683c31
-Section: Tweaks
-Description: Fixes an incompatibility with new versions of Cephei that certain tweaks have. Adds back the old `translucentNavigationBar` property from earlier versions of Cephei in order to prevent a `didNotRecognizeSelector:` exception being thrown. Tested with Shortmoji 2.
-Author: Nightwind
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: Cephei-compat
-
 Package: com.link.chatgptloginfix
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -5024,33 +4613,17 @@ Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main
 Name: ChatGPTLoginFix
 
 Package: com.link.choicy
-Version: 1.5.3
-Architecture: iphoneos-arm64
-Maintainer: opa334 <opa334@protonmail.com>
-Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
-Filename: ./debs/com.link.choicy_1.5.3_iphoneos-arm64.deb
-Size: 161308
-MD5sum: 6fab9d0ceabe31d502b087fb069132a7
-SHA1: f7ef4c8ebe55adf49d2ae1905afd9e2a6d52c74a
-SHA256: 67c44b30bf3e8b13738c6ac32b750a4382b9c80f7e0ae3859604c19df2ec5e01
-Section: Tweaks
-Description: 插件配置工具 精细化控制插件行为 Advanced Tweak Configuration!
-Author: opa334 <opa334@protonmail.com>
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Choicy.PNG
-Name: Choicy
-
-Package: com.link.choicy
 Version: 1.5.3-2
 Architecture: iphoneos-arm
 Maintainer: opa334 <opa334@protonmail.com>
 Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
 Filename: ./debs/com.link.choicy_1.5.3-2_iphoneos-arm.deb
-Size: 258828
-MD5sum: 612b0a1d20ba70e6071fc817c2476d86
-SHA1: b00f1c690567f986a3cedf4b0d5a63ce70a1ec51
-SHA256: fc6d64f7daa95fed9104e3424ab2e9796fd62f579f2e9d8519f6d55b3321b3a1
+Size: 258744
+MD5sum: ab99fc01f64ba7af18d7769dd9fdd143
+SHA1: 9055ea23dd8cfde40587baecf1049c6979372673
+SHA256: c58ae06039ce27c9fb45b2439618e24f6c4b98b04d981c84f41a1173e709f594
 Section: Tweaks
-Description: 插件配置工具 精细化控制插件行为 Advanced Tweak Configuration!
+Description: Advanced Tweak Configuration!
 Author: opa334 <opa334@protonmail.com>
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Choicy.PNG
 Name: Choicy
@@ -5086,23 +4659,6 @@ Description: 自定义底部小横条颜色
 Author: Afnan Ahmad & SINI
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/ChromaHomeBarX.PNG
 Name: ChromaHomeBarX
-
-Package: com.link.chromatic.rootless
-Version: 3.0
-Architecture: iphoneos-arm64
-Maintainer: Saily Team <support.0xa1@qaq.wiki>
-Pre-Depends: firmware (>= 13.0), dpkg, uikittools
-Conflicts: wiki.qaq.chromatic
-Filename: ./debs/com.link.chromatic.rootless_3.0_iphoneos-arm64.deb
-Size: 3400692
-MD5sum: b58ff45cc7def5ba9e4e823bcb39198f
-SHA1: 5fda25e3d54d1fa70444e1ee079cfc7a4fe2d2fe
-SHA256: 91b27c7a03aaf38ce4b004083fab635f968fe4becfc63224411626ea0b1f0351
-Section: Packaging
-Description: Modern. Fast. Beautiful.
-Author: Saily Team <support.0xa1@qaq.wiki>
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Saily.PNG
-Name: Saily
 
 Package: com.link.classicfolders3
 Version: 3.0.4.3
@@ -5168,21 +4724,6 @@ Description: 显示电池百分比 Display battery percent without blur battery 
 Author: 34306
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/SnoolieBattery.PNG
 Name: ClearBatPer rootless
-
-Package: com.link.closeall
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Ethan Whited
-Filename: ./debs/com.link.closeall_1.0_iphoneos-arm64.deb
-Size: 21892
-MD5sum: 481946ff25520da00085b55354070a91
-SHA1: 914687c1b9914ac39b4c908597cc65e7c5c4ac55
-SHA256: 1a16c2df73d69775ea961ecaf11ee29f4c407b3eb95b70cba8fccdc1c33e018a
-Section: Tweaks
-Description: 一键清理后台 An awesome MobileSubstrate tweak!
-Author: Ethan Whited
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: CloseAll
 
 Package: com.link.cluri
 Version: 1.0
@@ -5350,25 +4891,6 @@ Description: CC脚本模块 每个模块可运行独立的Shell脚本 通过修�
 Author: Capt Inc, Korboy
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/CommandModules.PNG
 Name: CommandModules
-
-Package: com.link.common
-Version: 2.0
-Architecture: iphoneos-arm64
-Maintainer: HASHBANG Productions <support@hbang.ws>
-Depends: firmware (>= 15.0)
-Filename: ./debs/com.link.common_2.0_iphoneos-arm64.deb
-Size: 198984
-MD5sum: bdd730d6d05f6e21a9558526e6975024
-SHA1: 3091acf663c745290dcc00943597ddced1a3b450
-SHA256: a5b515a2687befbc68e7c06588bbe598367964537c6725405ae14ced22989b44
-Section: Development
-Description: Support library for tweaks
-Tag: role::developer, compatible_min::ios15.0
-Author: HASHBANG Productions <support@hbang.ws>
-Depiction: https://chariz.com/get/cephei
-Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
-Name: Cephei Tweak Support
-Support: https://hashbang.productions/support/
 
 Package: com.link.compactbatteryavocado
 Version: 2.0.6
@@ -5538,22 +5060,6 @@ Author: opa334
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Crane.PNG
 Name: Crane
 
-Package: com.link.crashreportdetails
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.link.crashreportdetails_0.0.1_iphoneos-arm64.deb
-Size: 585252
-MD5sum: d928b66a58beb97709edfa789600f96c
-SHA1: e105c9b50e581e39cc96138a279d91e900974f39
-SHA256: aeb04028f95542a9b8e432b699e5a203286e401149a7ff37fcbb40b4fb14fc98
-Section: Tweaks
-Description: 在崩溃日志中添加反汇编指令(附带符号化的函数名标注)和内存查看内容 增强iOS崩溃日志的信息维度 Improves iOS crash reports by adding disassembled instructions, annotated with symbolicated function names and memory peeking, to crash report files.
-Author: ethanarbuckle
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: crashreportdetails
-
 Package: com.link.crc
 Version: 0.3.0
 Architecture: iphoneos-arm64
@@ -5569,22 +5075,6 @@ Description: 检查软件源变更然后使用 bark 推送的守护进程，主�
 Author: zhaonan
 Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
 Name: Check repo change
-
-Package: com.link.csdnplus
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate
-Filename: ./debs/com.link.csdnplus_1.2_iphoneos-arm64.deb
-Size: 3220
-MD5sum: c0575ed50ea4ced5f282bf6fb403d20d
-SHA1: f533173bdffcc5ae77c49530ce7b32df94d825ec
-SHA256: a17977d0d1ca0bd1a4c12f40e3ac279bd32472ca6ef9ad97e3c8825cdacd2f0a
-Section: Tweaks
-Description: CSDN去广告
-Author: M哥
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: CSDN Noads
 
 Package: com.link.ct5extra
 Version: 0.0.3-1
@@ -5679,38 +5169,6 @@ Author: Ryan Nair <ryannairtweaks@gmail.com>
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/CylinderReborn.PNG
 Name: Cylinder Reborn
 
-Package: com.link.darkpods
-Version: 2.1
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.link.darkpods_2.1_iphoneos-arm64.deb
-Size: 3164
-MD5sum: 1d7c8fafd4e706f49e87357e2416dbef
-SHA1: 8bcf97f0aed60de10e5df0959f06d51bc86447d2
-SHA256: 48f857226b0b56886d7c1a1e3f72b9dc24d8ed182fa07d0af95b0ff3e62f9648
-Section: Tweaks
-Description: IOS17的AirPods弹窗样式Backport the iOS 17 AirPods popup to iOS 14-16
-Author: iCraze
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: DarkPods
-
-Package: com.link.dashapp
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.link.dashapp_1.1_iphoneos-arm64.deb
-Size: 896832
-MD5sum: e837f7214fb76a344dfcb6400c8ec1a7
-SHA1: 32fb42d2c60fb301a0e780452f3024120d132449
-SHA256: e9a844a8fe45e7cfccbc395cfda782546e6ba25a025c7a40370261b199434b01
-Section: Tweaks
-Description: 将锁屏相机按钮替换成你喜欢的APP(快捷打开方式) DashApp Change the lock screen camera to your favorite app.
-Author: Dcsyhi
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: DashApp
-
 Package: com.link.davevancrack
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -5758,23 +5216,6 @@ Description: 轻量 deb 下载工具，不支持付费才能下的插件
 Author: zhaonan <invalidunit@icloud.com>
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/MTerminal.PNG
 Name: debd
-
-Package: com.link.debhoarder
-Version: 1.0.4
-Architecture: iphoneos-arm64
-Maintainer: udevs
-Depends: mobilesubstrate
-Filename: ./debs/com.link.debhoarder_1.0.4_iphoneos-arm64.deb
-Size: 38144
-MD5sum: f591a5d1cb47fe6d03026c1810bee667
-SHA1: 5627093b162035b8a27b33b6cbb27746e46306f1
-SHA256: 85c288e304bff99315ce723164a4c52fa7bf4bef0742b8aa59c931ed135ec757
-Section: Tweaks
-Description: Backup deb file for Cydia, Zebra, Installer, and Sileo
-Author: udevs
-Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.debhoarder
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: DebHoarder
 
 Package: com.link.debra
 Version: 2.9.9
@@ -5985,22 +5426,6 @@ Author: AhmedBafkir
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/DLEasy.PNG
 Name: DLEasy
 
-Package: com.link.dockpadrl
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate
-Filename: ./debs/com.link.dockpadrl_1.1_iphoneos-arm64.deb
-Size: 4068
-MD5sum: 88791c4a5cb81d5535665aed764eb67b
-SHA1: 63896d50b120bbc38bed02f6c9f33122f90f2c25
-SHA256: 34a88835d861e051f7d6e30c6fe7bc4c6e0bcbc20ed003cfc4056ae3cd290a5b
-Section: Tweaks
-Description: IPad样式的Dock栏! A simple tweak that turn your dock into iPadOS dock on iOS 15!
-Author: 34306
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: DockPad
-
 Package: com.link.dockx
 Version: 2.6.2
 Architecture: iphoneos-arm64
@@ -6036,21 +5461,6 @@ Description: An APT client for rootless jailbreaks
 Author: Saily Team
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Saily.PNG
 Name: Saily
-
-Package: com.link.dotless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Link
-Filename: ./debs/com.link.dotless_1.0_iphoneos-arm64.deb
-Size: 3492
-MD5sum: 79712fb33bc87131a4546d87398523d7
-SHA1: 2cb360ff6bdc4b33157a9d76a37d11348f7a3140
-SHA256: a52c223ac070d9405504109195d358f8404bc5b061bd90e177fd29ab02ee5ad6
-Section: Tweaks
-Description: 删除翻页点 Remove page dots
-Author: Snoolie K
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: Dotless
 
 Package: com.link.doubletapflipcamera
 Version: 1.1
@@ -6234,39 +5644,6 @@ Author: x✨&逆无止境
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Douyin.PNG
 Name: 抖音图层
 
-Package: com.link.dynamic-notifier
-Version: 1.0.4
-Architecture: iphoneos-arm64
-Maintainer: sunshinesong
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/com.link.dynamic-notifier_1.0.4_iphoneos-arm64.deb
-Size: 36436
-MD5sum: 1f40256ab7980813107fd3be1988d274
-SHA1: 17874e4fa7d39278a4cfc2da6015496505cdaf3f
-SHA256: 1ca4fd3a76291ddcdbdbbb5344c5884d10bc4564e487fe9744cda41c2d6bac7b
-Section: Tweaks
-Description: 灵动消息通知
-Author: sunshinesong
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Notifier.PNG
-Name: Dynamic Notifier
-
-Package: com.link.dynamic120hz
-Version: 3.2.1-15
-Architecture: iphoneos-arm64
-Maintainer: zqbb
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
-Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, cn.zqbb.fix120hz
-Filename: ./debs/com.link.dynamic120hz_3.2.1-15_iphoneos-arm64.deb
-Size: 277828
-MD5sum: b53f29709efcbe32b02dd816be9b54ff
-SHA1: fc9519e1d30d7bd86a2e5445b62b0e036b0cda70
-SHA256: ff636a418df3023eb4ec413999896d175bdb9175db85ccf6af4b3bf72a118fa9
-Section: Tweaks
-Description: Unlock dynamic refresh rate from 80hz to 120hz
-Author: zqbb
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Dynamic120hz.PNG
-Name: Dynamic120hz
-
 Package: com.link.dynamicpeninsula-rootless
 Version: 0.6-25
 Architecture: iphoneos-arm64
@@ -6332,22 +5709,6 @@ Description: 微软身份验证器快捷操作 长按账户可直接复制验证
 Author: iCraze
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/MicrosoftAuthenticator.PNG
 Name: EasyAuthentication
-
-Package: com.link.easynotifications
-Version: 3.0
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.link.easynotifications_3.0_iphoneos-arm64.deb
-Size: 2900
-MD5sum: fbf77410bccc1e1e26f7693a1cdf11aa
-SHA1: 401c7eebe5da374e29170c08894ef923f35623cd
-SHA256: ff6c5b869fbf6de2c552f62a82409ba6427d9fd67b6dda38fa1d940cb2d3f381
-Section: Tweaks
-Description: 轻扫即可清除通知 Dismiss notifications with just one swipe
-Author: iCraze
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: EasyNotifications
 
 Package: com.link.edge2
 Version: 1.0.3.1
@@ -6662,22 +6023,6 @@ Author: P2KDev
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/EZSwipe.PNG
 Name: EZSwipe
 
-Package: com.link.facedrl
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Little 34306
-Depends: mobilesubstrate
-Filename: ./debs/com.link.facedrl_1.0_iphoneos-arm64.deb
-Size: 4736
-MD5sum: b54ef339aad3f4e65a2281731ce81b1c
-SHA1: 7dc4b947a6b7728c54a0c377d4e9b87cfb233279
-SHA256: 9ab778c3fc7c007f215746dfee106bbc7e90090fc133341ee80ece1c036429cd
-Section: Tweaks
-Description: A simple tweak that disable ads on facebook. Support rootless
-Author: 34306
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Facebook.PNG
-Name: Facebook Noads
-
 Package: com.link.fakedualsim
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -6776,6 +6121,22 @@ Author: Netskao
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Filza.PNG
 Name: Filza Crack(Rootless)
 
+Package: com.link.filzacrack
+Version: 1.1-9
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.link.filzacrack_1.1-9_iphoneos-arm64.deb
+Size: 28684
+MD5sum: 62be7a7e2db61d7f41829fe1369966b8
+SHA1: fccbef9093062f76001e697a67a7bab323e5c249
+SHA256: 58b78f639910530a962f3d7ac539200dd0500ca9bda374b79bca4e8a4cc84228
+Section: Tweaks
+Description: Filza Crack
+Author: Netskao
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Filza.PNG
+Name: Filza Crack
+
 Package: com.link.filzadirprobe
 Version: 1.6.2
 Architecture: iphoneos-arm64
@@ -6868,6 +6229,38 @@ Author: CyPwn
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Filza%20Scripts.PNG
 Name: Filza Scripts
 
+Package: com.link.filzaswipeselect
+Version: 0.0.4
+Architecture: iphoneos-arm64
+Maintainer: Korboy <korboybeats@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.link.filzaswipeselect_0.0.4_iphoneos-arm64.deb
+Size: 13252
+MD5sum: ec706626f2445f9d5ca004936265809c
+SHA1: acd3aac863a6a7a6c35ac42e1153f0e2a2f8e55f
+SHA256: 947cbb41d5a8ab9d9b460120275a9e518e4ff51050596bafa3e2eb5c07524e10
+Section: Tweaks
+Description: Filza滑动选择文件 Swipe to multi-select functionality for Filza. No more individually tapping each file to select.
+Author: Korboy <korboybeats@gmail.com>
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/FilzaSwipeSelect.PNG
+Name: FilzaSwipeSelect
+
+Package: com.link.filzathumbnails
+Version: 0.0.4
+Architecture: iphoneos-arm64
+Maintainer: Korboy <korboybeats@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.link.filzathumbnails_0.0.4_iphoneos-arm64.deb
+Size: 53484
+MD5sum: 732ec87400a2d3ac48f9f1a7e9413ac5
+SHA1: 485eceb0c0a8cdf70793bf8e41abaf541e3420ff
+SHA256: e07c85badeb7932381647910d06bc341600b00edb073bd7cd6616aad1313d8a4
+Section: Tweaks
+Description: Enable video thumbnails in Filza with options to enlarge thumbnails and icons. Includes a menu to manage allowed thumbnail paths.
+Author: Korboy <korboybeats@gmail.com>
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/FilzaThumbnails.PNG
+Name: FilzaThumbnails
+
 Package: com.link.fingerlock
 Version: 3.0.2
 Architecture: iphoneos-arm64
@@ -6892,14 +6285,14 @@ Depends: mobilesubstrate
 Conflicts: cn.llld.fivecolumnscc, com.4nni3.fivecolumnscc, xyz.cypwn.fivecolumnscc
 Filename: ./debs/com.link.fivecolumnscc_1.0.B4_iphoneos-arm64.deb
 Size: 5364
-MD5sum: e2582252ef35cc4c46446ef771f10652
-SHA1: b6f1361c0e06994cf397625e2481be01a0167e55
-SHA256: 690a7e28e958a95d0eea038d5875e6d31299762db7977938eaf014e5eeed29cb
+MD5sum: 638fe55d956a825347acc34158eabe5d
+SHA1: c8ced4e5d27ad9521e6c1e931fb8d4be9316572d
+SHA256: cbc8c206232a85e7272622f425e28afb30675ba2fd4f9d0d22e7d550d56c28fd
 Section: Tweaks
-Description: 控制中心模块五列排布
+Description: 控制中心五列设定 容纳更多模块
 Author: 4nni3
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/CC5.PNG
-Name: CC5(Rootless)
+Name: CC5
 
 Package: com.link.flexibleexpression
 Version: 1.2.0
@@ -7014,89 +6407,6 @@ Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main
 Name: Flow for Messenger
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/Flow/main/Sileo/depiction.json
 
-Package: com.link.folded
-Version: 1.2.01
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟
-Depends: mobilesubstrate, preferenceloader, com.creaturesurvive.libcscolorpicker, cn.llld.hhxt, oldabi
-Conflicts: com.burritoz.cartella, com.thomz.foldy, com.spark.snowboard.dock
-Replaces: com.burritoz.cartella, com.thomz.foldy
-Filename: ./debs/com.link.folded_1.2.01_iphoneos-arm64.deb
-Size: 415948
-MD5sum: e543007c589dff59de19b05f3d64855c
-SHA1: f8b9c781be4382f6feec44500d0411d2c3ff308f
-SHA256: d7bc476bdc37e3a219e1b166992479adf243151662d29f1c823c445ec16d4eae
-Section: Tweaks
-Description: 自定义文件夹 功能最丰富的文件夹插件。出现弹窗则这个路径创立文件/var/lib/dpkg/info/xyz.burritoz.thomz.folded.list Customize your folders with the most feature-rich folder tweak
-Author: Thomz and burrit0z
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Folded.PNG
-Name: Folded
-
-Package: com.link.folderpro
-Version: 0.0.1-10
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.link.folderpro_0.0.1-10_iphoneos-arm64.deb
-Size: 37376
-MD5sum: 04e709557ce2f00d92c1410bbd75588e
-SHA1: 422edeb7386a3462e11856273efeb67bd4dd01bc
-SHA256: df1dcaa5124f064aeecca4e3690bf494ee8d591ee4f8f29a4ce9c33e9a94fc9c
-Section: Tweaks
-Description: 文件夹简单优化
-Author: SINI
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Folderpro.PNG
-Name: FolderPro
-
-Package: com.link.folderpro
-Version: 0.0.1-6
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.link.folderpro_0.0.1-6_iphoneos-arm64.deb
-Size: 31676
-MD5sum: 0407e18fcdacfb8899509845e607e18d
-SHA1: 3b17c821f47a5579a17017f10c3bd929c942f417
-SHA256: aa006fafa07342a0180d4ac4ae766bdad80c3605f32f885bf93a76b8d9979879
-Section: Tweaks
-Description: 文件夹优化
-Author: SINI
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Folderpro.PNG
-Name: FolderPro
-
-Package: com.link.folderpro
-Version: 0.0.1-7
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.link.folderpro_0.0.1-7_iphoneos-arm64.deb
-Size: 32584
-MD5sum: bfb4fcc23d88ed5b7972b528f0eeb716
-SHA1: d34d3c20dd5a4bff9301ecba67ce3a6272f6c5a4
-SHA256: 518af4fdece1b1d0203cd8cfca79820fcf9b16d1640b609f4376d66d9963da48
-Section: Tweaks
-Description: 文件夹优化
-Author: SINI
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Folderpro.PNG
-Name: FolderPro
-
-Package: com.link.folderx
-Version: 2.0
-Architecture: iphoneos-arm64
-Maintainer: Lizynz <lizynz@ya.ru>
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), com.ichitaso.iconorder
-Conflicts: com.twickd.sirius24.folderplus, xyz.burritoz.thomz.folded, com.yourepo.i0s-tweak3r-betas.foldercontroller14, ca.ndoizo.bolders, com.4nni3.coolfolder, com.lizynz.foldercolor, com.ginsu.4ders, com.iadam1n.statusfolder, com.nightwind.dockapplibrary, com.tomaszpoliszuk.dockcontroller
-Filename: ./debs/com.link.folderx_2.0_iphoneos-arm64.deb
-Size: 80020
-MD5sum: 821a5df9ea42fb44050365c8ea9f733d
-SHA1: 69efda9d29247e6f5c504a6306f46a79c352d5c9
-SHA256: fd7e98c0466d9cd5bb6cc872711d71afe5de5fb1cac821e9d8aff3a4bd7f411d
-Section: Tweaks
-Description: 自定义文件夹 Allows you to configure folders
-Author: Lizynz <lizynz@ya.ru>
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Folded.PNG
-Name: FolderX
-
 Package: com.link.fontarisima
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -7190,56 +6500,6 @@ Conflict: com.yourepo.greg0109.forwardnotifier8
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/ForwardNotifier.PNG
 Name: ForwardNotifier
 
-Package: com.link.frame
-Version: 3.0.1
-Architecture: iphoneos-arm64
-Maintainer: Zerui Chen
-Depends: mobilesubstrate, firmware (>= 13.9.9)
-Conflicts: com.zx02.frame.ios13, com.zx02.frame.ios14
-Filename: ./debs/com.link.frame_3.0.1_iphoneos-arm64.deb
-Size: 2281648
-MD5sum: 4de115e81543435779fbb917ddefb6b0
-SHA1: 34f669b5bb0842718b2e15a9c33df7e88e2bc17d
-SHA256: a0717e90d392f7c4adf472d50ea630b1594158c5224c71acaded8d6ca93ef994
-Section: Tweaks
-Description: 视频壁纸 效果自测 Bring your iDevice to life with true video wallpapers.
-Author: Zerui Chen
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: Frame
-
-Package: com.link.freepip
-Version: 0.0.6-3
-Architecture: iphoneos-arm64
-Maintainer: Soh Satoh & SINI
-Installed-Size: 440
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.link.freepip_0.0.6-3_iphoneos-arm64.deb
-Size: 44128
-MD5sum: f4302ba7a843e25a86539c7330ce5564
-SHA1: 42e7f16c94018998fa367784decc0f7798272391
-SHA256: 53cfd5d9209b75e62493b161521192af8ef94be490efb8baa0308a88fbef5373
-Section: Tweaks
-Description: SINI基于开源编译版
-Author: Soh Satoh & SINI
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/FreePIP.PNG
-Name: FreePIP(Rootless)
-
-Package: com.link.fucklinead
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: uz.ra
-Depends: mobilesubstrate
-Filename: ./debs/com.link.fucklinead_1.0_iphoneos-arm64.deb
-Size: 3564
-MD5sum: 40cd52845a5edec29033dd56e5a3b302
-SHA1: 7c1cdd94cfe7ebeaca3c1a8ca213324dc2b543b5
-SHA256: 540a4fe82da6d244167802428ef753ed6f76140869f653b0d3a85d7557398205
-Section: Tweaks
-Description: Get rid of shitty LINE ads (LINEのチャットタブ上部の広告バナーを削除。14.6.3でテスト済み)
-Author: uz.ra
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Line.PNG
-Name: FuckLINEad
-
 Package: com.link.fuckthatanimation
 Version: 0.9.0
 Architecture: iphoneos-arm64
@@ -7319,22 +6579,6 @@ Description: A theme with beautiful 3D looking icons with minimal gradients and 
 Author: JustNewDesigns
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/GemIcons.PNG
 Name: Gem Icons
-
-Package: com.link.gestures15
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate
-Filename: ./debs/com.link.gestures15_1.0_iphoneos-arm64.deb
-Size: 5136
-MD5sum: 040a71102623073e2e49efa25e12da18
-SHA1: 07d08c562df6696d77eb1b0673a533c2f59cb8d3
-SHA256: a3c5476d81607a2ff4dd9bf7ad1a6054c13a5c1be5195af65125df13def40197
-Section: Tweaks
-Description: Iphone X手势和IPad 状态栏iPhone X gestures and iPad status bar for all devices
-Author: iCraze
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: Gestures15
 
 Package: com.link.glass
 Version: 1.0.14
@@ -7518,22 +6762,6 @@ Author: tuancc
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/H5gg.PNG
 Name: H5GG
 
-Package: com.link.hammerit
-Version: 1.7.0
-Architecture: iphoneos-arm64
-Maintainer: lclrc(SquidForce)
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
-Filename: ./debs/com.link.hammerit_1.7.0_iphoneos-arm64.deb
-Size: 983236
-MD5sum: fad9ef2ec88c9257a174531842972e18
-SHA1: fbd3c5e9d1e1d7c81923b5415571f6b7fc35f7d0
-SHA256: 77c3ca2f955adc39554affd0cdf5b157833a63e51a7cb40a5f83ae8ec79bbf7c
-Section: Tweaks
-Description: 锤子大爆炸！一个简约的文字处理插件 可通过选中文本菜单亦或是点击复制文本后出现的悬浮球 对于选中或者剪切板中的内容进行分词 翻译 搜索等操作  Control your text or translate as you wish.
-Author: lclrc(SquidForce)
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/HammerIt.PNG
-Name: Hammer It
-
 Package: com.link.harlemshakereborn
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -7581,40 +6809,6 @@ Description: rootful tweak can be used on xina2 or rootless (first release the f
 Author: 来了老弟
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Placeholder.PNG
 Name: xina2
-
-Package: com.link.hidekbsettings
-Version: 1.0.6
-Architecture: iphoneos-arm64
-Maintainer: ichitaso
-Pre-Depends: firmware (>= 11.0)
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.link.hidekbsettings_1.0.6_iphoneos-arm64.deb
-Size: 41052
-MD5sum: 916fc5a5ea8b0b8ea2a59a2406d51437
-SHA1: 572ae5673ede20da85e363853a507e802c63069a
-SHA256: 5f49afb763f6731e82dcde602d783cdd35ae6bb5bcf210940f7cfbdc58c3db0f
-Section: Tweaks
-Description: 从键盘地球按钮的切换菜单中隐藏"键盘设置"选项 Hide "Keyboard Settings" from the globe button switcher
-Tag: purpose::extension, compatible_min::ios11.0, compatible_max::ios16.3.1
-Author: ichitaso <willfeeltips+hks@gmail.com>
-Dev: ichitaso
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/HideKBSettings.PNG
-Name: HideKBSettings
-
-Package: com.link.hidemyvpn
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: Snoolie K
-Filename: ./debs/com.link.hidemyvpn_1.0.0_iphoneos-arm64.deb
-Size: 3560
-MD5sum: f8c5c82adcdc04b919a1ee07b56e24a3
-SHA1: 72c4bd78c8ba1a9cf62b39d9f588e1e08d002517
-SHA256: 8180f38440edf0d7f42946ca397dee119186ba6b2bef1e6ea71045082a84f827
-Section: Tweaks
-Description: 隐藏状态栏VPN图标
-Author: Snoolie K
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: HideMyVPN
 
 Package: com.link.hidescreenshotpreview
 Version: 1.2-1
@@ -7680,23 +6874,6 @@ Description: 锁屏自定义 Custom lockscreen tweak for iOS15
 Author: sugiuta
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Hinata.PNG
 Name: Hinata
-
-Package: com.link.holdcpu
-Version: 2.3.4-15
-Architecture: iphoneos-arm64
-Maintainer: zqbb
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.ccsupport
-Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
-Filename: ./debs/com.link.holdcpu_2.3.4-15_iphoneos-arm64.deb
-Size: 1267940
-MD5sum: c28b05e3fa7f386f598942a7afc121be
-SHA1: 270811caa163b15ed4395f1a5fb17ec02b7d581c
-SHA256: 7ce825cfb50eecf7571a92a70d1490e8362314d8dc7319fba51cff070431ce9d
-Section: Tweaks
-Description: (解除温控) (锁定低电量CPU频率)
-Author: zqbb
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: Hello CPU
 
 Package: com.link.homescreenquickactions
 Version: 1.6.5-1
@@ -7874,16 +7051,16 @@ Architecture: iphoneos-arm64
 Maintainer: ETHN <ethanwhited2208@gmail.com>
 Depends: firmware (>= 13.0), mobilesubstrate
 Filename: ./debs/com.link.iconrotation-rootless_1.1_iphoneos-arm64.deb
-Size: 5952
-MD5sum: 3889f1e6c03a5df7d56150e42dacef2f
-SHA1: 2e1a30d30411093d89a3e2389315a6baff3a02be
-SHA256: 510674dfd376a55e29955670c485bb7fded51b485d6e51b79b93e9dead55ad6a
+Size: 5956
+MD5sum: 6b7b0ddb93cac18191921a5900b2aa98
+SHA1: 6f3750781e041a310ccba38eab73665856e7d0f6
+SHA256: 021edb7096d2cad7fcc75cccc53d8de647e20fb171979fac4a9d06253cbeb5c9
 Section: Tweaks
 Description: 图标随设备方向旋转 Rotate your icons with device orientation!
 Tag: role::enduser
 Author: ETHN <ethanwhited2208@gmail.com>
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/IconRotation.PNG
-Name: IconRotation-Rootless
+Name: IconRotation
 Tags: compatible_min::ios13.0, compatible_max::ios16.5
 
 Package: com.link.igformat
@@ -7998,22 +7175,6 @@ Description: 清除通知后自动将消息标记为已读 Automatically marks m
 Author: 3h6_1
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
 Name: IMRead
-
-Package: com.link.indicators
-Version: 1.2-17
-Architecture: iphoneos-arm64
-Maintainer: LacertosusDeus & SINI
-Depends: mobilesubstrate
-Filename: ./debs/com.link.indicators_1.2-17_iphoneos-arm64.deb
-Size: 51504
-MD5sum: be1b332126e4ef5eca45508c94d76032
-SHA1: 12527b0c0ce785ce963c90194ab3599196f63cda
-SHA256: c53c61f7525abae01583f3cc9ce6a692dffc48e2ebabde0ce006dcd4e54e959b
-Section: Tweaks
-Description: 状态栏指示灯 SINI修改版
-Author: LacertosusDeus & SINI
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Indicators.PNG
-Name: Indicators(rootless)
 
 Package: com.link.infuseplus
 Version: 2.4
@@ -8375,6 +7536,22 @@ Author: Alexandra Aurora Göttlicher
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Kayoko.PNG
 Name: Kayoko
 
+Package: com.link.kayoko
+Version: 3.0
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: ./debs/com.link.kayoko_3.0_iphoneos-arm64.deb
+Size: 131316
+MD5sum: c3f6ee3c77bb65e664e2dac6f405c716
+SHA1: 94a9e51a80123bd8026fad0d8af620d867a250af
+SHA256: 01530089580dee0ffcf1759fcfbd5680e10f26c03a9fa82e0da75f0b8aedac82
+Section: Tweaks
+Description: Clipboard manager for iOS.
+Author: Alexandra Aurora Göttlicher
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Kayoko.PNG
+Name: Kayoko
+
 Package: com.link.kbappdock
 Version: 1.5
 Architecture: iphoneos-arm64
@@ -8490,22 +7667,6 @@ Author: Antoine
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Kiyoharu.PNG
 Name: Kiyoharu
 
-Package: com.link.kodelay
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate
-Filename: ./debs/com.link.kodelay_1.0_iphoneos-arm64.deb
-Size: 3484
-MD5sum: 268dc9d98231ae8662ec15162ddf74eb
-SHA1: cbe4f8b2961742a7e864a884fe67a73e12f41f0e
-SHA256: 240a2c877b2fa9397a9d9794518e3a3c6037663ff86ae3c5845032c1cbf66e2e
-Section: Tweaks
-Description: 删除键盘延迟并强制使用第三方键盘 安装将立即生效
-Author: koman
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: KOdelay
-
 Package: com.link.krashkop
 Version: 1.0.2
 Architecture: iphoneos-arm64
@@ -8570,44 +7731,6 @@ Author: Spark
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Laetus.PNG
 Name: Laetus
 
-Package: com.link.laetus.1-rootless
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: Alo <bbscydia@gmail.com>
-Depends: firmware (>= 13.0)
-Filename: ./debs/com.link.laetus.1-rootless_1.1_iphoneos-arm64.deb
-Size: 130624
-MD5sum: b917213665d977723c91e88bc11c4e10
-SHA1: d35aedda9dc4b76fdb02b0e89d8be534c71f131c
-SHA256: 4ab7efadb25d5af00cb8bf8ff1cd8157f8ade18dba8d93cf3a4c7aced7c02e54
-Section: Themes
-Homepage: https://alo.works/
-Description: Laetus #1: Reva UI inspired. The original Blue
-Author: Alo <bbscydia@gmail.com>
-Depiction: https://alo.works/depiction/web/works.alo.laetus.1-rootless.html
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/LaetusThemes.PNG
-Name: Alo-Blue (Laetus)
-Sileodepiction: https://alo.works/depiction/native/works.alo.laetus.1-rootless.json
-Tags: compatible_min::ios13.0, compatible_max::ios16.6.1
-
-Package: com.link.laetus.twixy-rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: happysolucki <happysolucki@outlook.com>
-Depends: firmware (>= 13.0)
-Filename: ./debs/com.link.laetus.twixy-rootless_1.0_iphoneos-arm64.deb
-Size: 2440996
-MD5sum: eb1f563d8413f826653b801ea3901056
-SHA1: d8568c4bdf1971f9cd3de6a6238d5e99c5eb2a19
-SHA256: 52ed5216a0079098c5b61d6bafcae1d11234298750ae86c18b8c8cae021432fd
-Section: Themes
-Homepage: https://alo.works/
-Description: A modern laetus theme.
-Author: happysolucki <happysolucki@outlook.com>
-Icon: https://alo.works/assets/io.hsl.laetus.twixy-rootless/icon.png
-Name: HSL Laetus Theme - Twixy
-Tags: compatible_min::ios13.0, compatible_max::ios16.6.1
-
 Package: com.link.lastlook
 Version: 4.2.2
 Architecture: iphoneos-arm64
@@ -8656,23 +7779,6 @@ Tag: purpose::extension, role::developer
 Author: MTAC
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/LaunchLogo.PNG
 Name: LaunchLogo
-
-Package: com.link.ldd
-Version: 1.2.1
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.link.ldd_1.2.1_iphoneos-arm64.deb
-Size: 774624
-MD5sum: 440ce6b02d35462a357b9e53a036b8e1
-SHA1: 0029b0c75650ae32348959ad2237e1631ed59dad
-SHA256: 3d010b0f609b275f701c2daf985f055a4627c90fa14af31ca0c9b06f911d95fe
-Section: Tweaks
-Description: 调节原生灵动岛上下左右的偏移 大小值 modify the upper and lower offset, left and right offset of the smart island，You need to install Dynamic or bring up Dynamic to match this tweak
-Author: 来了老弟 X：h_h_x_t
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: 灵动岛偏移
-Sponsor: 搬运工
 
 Package: com.link.leftpan
 Version: 1.0-6
@@ -9119,16 +8225,16 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: ETHN <ethanwhited2208@gmail.com>
 Filename: ./debs/com.link.loopvideos-rootless_1.0_iphoneos-arm64.deb
-Size: 3144
-MD5sum: 979ea332e5b6ba76ad1cff9a22695602
-SHA1: 851e2778549e01aa80abd9a191ae82112143b97a
-SHA256: 62f2199381b579c26e2a2b99a10f76f6bfd5a44388dc3a809dec290b25b9d048
+Size: 3140
+MD5sum: ad379367d383f5daeb024a725c87d4c6
+SHA1: c29a17fc863209bd6a7f13506d683a6879574744
+SHA256: 365d5a025e078f70647d5040f09fc01ac7ae895dd78290083f4f104a54faa82c
 Section: Tweaks
 Description: 相册视频循环播放 Loop videos in Photos app!
 Author: ETHN <ethanwhited2208@gmail.com>
 Depiction: https://nahtedetihw.github.io/depiction/web/com.nahtedetihw.loopvideos-rootless.html
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/LoopVideos.PNG
-Name: LoopVideos-Rootless
+Name: LoopVideos
 Tags: compatible_min::ios14.0, compatible_max::ios16.7.1
 
 Package: com.link.lottiestatusbar
@@ -9146,38 +8252,6 @@ Description: 动态的状态栏图标 Animated status bar icons using lottie eff
 Author: MiRO
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/LottieStatusBar.PNG
 Name: Lottie StatusBar
-
-Package: com.link.lower
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate
-Filename: ./debs/com.link.lower_1.1_iphoneos-arm64.deb
-Size: 5044
-MD5sum: d6e8c55ce67f0f6c830e24c2db924f3d
-SHA1: 0b2cae7ed38f9b7b07c0c14b1908e4b48ac62f1d
-SHA256: 8ecbe64c6d56d25bb6d9674ceef16330090f99a912e44c88539cf63f5f20ce84
-Section: Tweaks
-Description: IPhone上所有可见文本(En)均为小写！All visible text everywhere on iPhone is lowercase!
-Author: YulkyTulky
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Lower.PNG
-Name: Lower
-
-Package: com.link.lower1
-Version: 1.5.21
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟 h_h_x_t
-Depends: mobilesubstrate, firmware (>=11.0)
-Filename: ./debs/com.link.lower1_1.5.21_iphoneos-arm64.deb
-Size: 20508
-MD5sum: c441d3d45b74cf59f8e045c3b0752b4e
-SHA1: 7f0b65ed0a4436f15092af797f2cbf0935da1716
-SHA256: b29c36c12cfd5d1d16c0588d8b81cee81821b5284df44c95adad136bb4716270
-Section: Tweaks
-Description: 调整通知中心播放器的位置和宽度Change media controls/notifications height
-Author: s1ris 来了老弟
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: Lower
 
 Package: com.link.lowpowersleep
 Version: 0.0.1-1
@@ -9543,22 +8617,6 @@ Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main
 Name: Latchkey锁头自定义
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.mdaus.latchkey/depiction.json
 
-Package: com.link.menusupport
-Version: 1.3.0
-Architecture: iphoneos-arm64
-Maintainer: r_plus
-Depends: mobilesubstrate, firmware (>= 11.0)
-Filename: ./debs/com.link.menusupport_1.3.0_iphoneos-arm64.deb
-Size: 36436
-MD5sum: d3e0a2d4a2fcbe312371b355eaa511d7
-SHA1: b4bd3bda886fcacd78e3a42621e504c9e45d129f
-SHA256: 78fcbc640144155d8dd820bf4dea7a04eb8399fe62def8434b8faf2f73a309e0
-Section: Tweaks
-Description: iOS系统菜单的插件加载器Simply plugin loader for iOS system menu.
-Author: r_plus
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/MenuSupport.PNG
-Name: MenuSupport
-
 Package: com.link.messagesxi
 Version: 2.3
 Architecture: iphoneos-arm64
@@ -9575,22 +8633,6 @@ Description: Messages增强
 Author: Excalibur
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/MessagesXI.PNG
 Name: MessagesXI
-
-Package: com.link.messed
-Version: 3.2
-Architecture: iphoneos-arm64
-Maintainer: Little 34306
-Depends: mobilesubstrate
-Filename: ./debs/com.link.messed_3.2_iphoneos-arm64.deb
-Size: 310096
-MD5sum: 47d2f8688aecc66db300abaa85fbba40
-SHA1: 95aa919db4a06498b449efa31b4674b876d89f35
-SHA256: 1500b617e00e36f32cbda488192bc124b97bc03c576b31c046b3799b50007822
-Section: Tweaks
-Description: Messenger移除广告和"已读"状态 Messed, Messenger with No Ads and No seen.
-Author: 34306
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Messenger.PNG
-Name: Messed
 
 Package: com.link.mginspector
 Version: 1.0.0
@@ -9639,24 +8681,6 @@ Description: 设备状态栏中的通知样式风格
 Author: Muirey03
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Minotaur.PNG
 Name: Minotaur
-
-Package: com.link.mirage-rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Alo <bbscydia@gmail.com>
-Depends: firmware (>= 13.0)
-Filename: ./debs/com.link.mirage-rootless_1.0_iphoneos-arm64.deb
-Size: 898880
-MD5sum: 17c97b0a534faf1f26ecec1c4bce7acf
-SHA1: 8c7a5b3db9a386514f850018b7182736503a88de
-SHA256: f5c09b95793adff3d1e66ef666f2b3cc8c336b382d390c3a80d730eff9483111
-Section: Themes
-Description: A modern blurry laetus theme
-Author: Alo <bbscydia@gmail.com>
-Depiction: https://alo.works/depiction/web/works.alo.laetus.mirage-rootless.html
-Icon: https://alo.works/assets/works.alo.laetus.mirage-rootless/icon.png
-Name: Mirage Laetus Theme
-Tags: compatible_min::ios13.0, compatible_max::ios16.6.1
 
 Package: com.link.misaka
 Version: 0.1-1
@@ -9795,12 +8819,12 @@ Architecture: iphoneos-arm64
 Maintainer: D.F (MTAC) <mtac@mtac.app>
 Depends: coreutils, firmware (>= 11.0), gettext-localizations, system-cmds, zsh
 Filename: ./debs/com.link.mterminal_1.6_iphoneos-arm64.deb
-Size: 86476
-MD5sum: f3724405732b8157ad803d5cda139986
-SHA1: 79d4b6799512e2b3e7e9f73a5de6031f4819294b
-SHA256: 4c4fec5d6dd0d4f54f852d1f99476766887223297ccd7b85d38f9077d7cbb359
+Size: 86472
+MD5sum: 12fadd153ee4a131d47240cba7dee47b
+SHA1: 42a50d22631913e4dff9ba234f069c7ba4d101d3
+SHA256: ff3dff3c20d0d8989846ad2814fc5db814b5e52f53473d584aa399bf5639a4a1
 Section: Utilities
-Description: 终端应用 A MobileTerminal fork
+Description: A MobileTerminal fork
 Author: lordscotland <admin@officialscheduler.com>
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/MTerminal.PNG
 Name: MTerminal
@@ -9810,16 +8834,16 @@ Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: ETHN <ethanwhited2208@gmail.com>
 Filename: ./debs/com.link.musicartworksave-rootless_1.2_iphoneos-arm64.deb
-Size: 10768
-MD5sum: e197349f0b5bfdf0050f96be0aad962e
-SHA1: 92d08b6f2cf35fb999e44c9aeccaeceb0dc4eb67
-SHA256: 6bc5c29d44dc28abe486a817545b0b3c4b91554fb4b3b1888022eb4cb24fbae8
+Size: 10752
+MD5sum: da8f9c1d49036585b07e8d19a48454da
+SHA1: 231b6bf781172d0d94ad84b208fc87a8534e157d
+SHA256: e6589d32f8b401217f76a7e9094ebf7eb5393b035c113bb286a577a564aacb42
 Section: Tweaks
 Description: 在音乐应用中添加"保存专辑封面"功能  Save Album Artwork in Music.app!
 Author: ETHN <ethanwhited2208@gmail.com>
 Depiction: https://nahtedetihw.github.io/depiction/web/com.nahtedetihw.musicartworksave-rootless.html
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/MusicArtworkSave.PNG
-Name: MusicArtworkSave-Rootless
+Name: MusicArtworkSave
 Tags: compatible_min::ios13.0, compatible_max::ios16.4
 
 Package: com.link.musictrail
@@ -10069,38 +9093,6 @@ Author: xybp888
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Hammer.PNG
 Name: No Apple MobileRepair
 
-Package: com.link.nochargingsound
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: CydiaGeek <lucaluca86@aol.com>
-Depends: mobilesubstrate
-Filename: ./debs/com.link.nochargingsound_1.0.0_iphoneos-arm64.deb
-Size: 3272
-MD5sum: 3422561f8692ec392598049f575ecb18
-SHA1: 90ef2641977b0781c18176bed69ffedda18c7239
-SHA256: 27613c7c009c291043f15aa0a6b7ecd129e19a77a49f2e05440c2ead25b705a1
-Section: Tweaks
-Description: 禁用充电提示音 Disable Sound when Connecting Charger!
-Author: CydiaGeek <lucaluca86@aol.com>
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: NoChargingSound
-
-Package: com.link.nolockwhenfullycharged
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: CydiaGeek <lucaluca86@aol.com>
-Depends: mobilesubstrate
-Filename: ./debs/com.link.nolockwhenfullycharged_1.0.0_iphoneos-arm64.deb
-Size: 3704
-MD5sum: fe47f183376ef2f1972e0aac4091e761
-SHA1: 185be3d9463b3571101f276fa60312d46635c551
-SHA256: 36f6ba7d31eb1456cf3b9272193c98e72ca1641100467f9dfe895464c83e9d57
-Section: Tweaks
-Description: 当设备充满电时禁用自动锁屏 No LockScreen Auto Lock when Device Fully Charged!
-Author: CydiaGeek <lucaluca86@aol.com>
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: NoLockWhenFullyCharged
-
 Package: com.link.nolowpowermode30secautolock
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -10312,22 +9304,6 @@ Author: opa334
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/NotRecording.PNG
 Name: NotRecording
 
-Package: com.link.nowplayingindicator
-Version: 2.0
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.link.nowplayingindicator_2.0_iphoneos-arm64.deb
-Size: 4436
-MD5sum: 803db1f3b549bad35f31f87940dbd16c
-SHA1: 602cc210b7a7fdcaa3a40517a200c3b5155a4753
-SHA256: 1a2eb04af92342b182ffaf9f9c34539773404cfef9f25aec1a193ebb01e096f7
-Section: Tweaks
-Description: 播放音乐时在状态栏中显示图标Show an icon in the status bar whilst playing music
-Author: iCraze
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: NowPlayingIndicator
-
 Package: com.link.noytpremium
 Version: 1.0.6
 Architecture: iphoneos-arm64
@@ -10344,24 +9320,6 @@ Author: PoomSmart
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/YouTube.PNG
 Name: NoYTPremium
 
-Package: com.link.nyx
-Version: 1.3.0
-Architecture: iphoneos-arm64
-Maintainer: BigBoss
-Depends: firmware (>= 14.0), mobilesubstrate
-Filename: ./debs/com.link.nyx_1.3.0_iphoneos-arm64.deb
-Size: 2360620
-MD5sum: fcc9168b5284b658134c3075c900c479
-SHA1: 3eb5569062b2888814bcbfe0e1fcf444ae0a01c0
-SHA256: 4741af167a8343fb6caa23237b9fe9b54797e42e01b63e69dacce88d9a76ff6b
-Section: Tweaks
-Priority: optional
-Description: Supercharge your experience on Instagram!
-Author: Sezo <support@sezo.app>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nyxDp
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: Nyx for Instagram
-
 Package: com.link.ocd
 Version: 5.4.1.1
 Architecture: iphoneos-arm64
@@ -10369,12 +9327,12 @@ Maintainer: b4db1r3 <nfive060@gmail.com>
 Depends: com.mrgcgamer.libgcuniversal, preferenceloader, org.thebigboss.libcolorpicker, ws.hbang.common
 Conflicts: com.noisyflake.cozybadges
 Filename: ./debs/com.link.ocd_5.4.1.1_iphoneos-arm64.deb
-Size: 558460
-MD5sum: 0be257c83bdcb05daf08cb0347a29377
-SHA1: 1c956b44a428620226f394daa5c5dfd5c71b0648
-SHA256: da5ec46889de5caf7325934e1401b3a245fe0da024e5db2e895ff8191ebb7410
+Size: 558304
+MD5sum: 9243b6b42192c353b23866e0fa0815f6
+SHA1: 365de0ce70b12c0fbfd38fbca0788337711d6598
+SHA256: 338325c423486f06d2ad6ebc01f0bd851040fa13b03e4c1ad5a99b22041302c4
 Section: Tweaks
-Description: 角标自适应APP/自定义颜色 更有看好的圆点/空心圆点角标 OCD - Obssesive Color Disorder.
+Description: OCD - Obssesive Color Disorder.
 Author: b4db1r3 <nfive060@gmail.com>
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/OCD.PNG
 Name: OCD
@@ -10419,12 +9377,12 @@ Architecture: iphoneos-arm64
 Maintainer: @fr0st & b4db1r3 <nfive060@gmail.com>
 Depends: mobilesubstrate, firmware (>= 13.0)
 Filename: ./debs/com.link.oleddarkmode_0.5.1-11_iphoneos-arm64.deb
-Size: 9536
-MD5sum: 784b7fa08882045ec15214642bf266d9
-SHA1: 8413900c052a1a89c501eea6f7c080496e04bc6e
-SHA256: 07b1c08477838d5e0f04a82a261148b190a28266394844c9f9e6286500e1ed8a
+Size: 9456
+MD5sum: 10908683bb1dd7a1a270aa064050a754
+SHA1: be0875f8ef1b582eac61d0f88571c1faa06104cd
+SHA256: 84b7516f97bf611dbafc5deeedd3f16bafd14ddf16b3e7384fcc11dabaf29d1d
 Section: Tweaks
-Description: 强化深色模式的显示效果(Gray0 纯黑) Make dark mode actual dark.
+Description: Make dark mode actual dark.
 Author: @fr0st & b4db1r3 <nfive060@gmail.com>
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/OLEDDarkMode.PNG
 Name: OLED Dark Mode
@@ -10436,12 +9394,12 @@ Maintainer: dvntm
 Installed-Size: 152
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.link.oledkeyboard_0.0.3_iphoneos-arm64.deb
-Size: 4872
-MD5sum: ab4fe961066b155d7a554243ca7099e5
-SHA1: 866bc55117fef85c4bd5f9c71f5a42ec6cf19a98
-SHA256: b748f26fcf7e5b57cb46fa392e18fad25875fdca5d4f5764186a99d21115af35
+Size: 4816
+MD5sum: 8b880bff805075c4fd55c58a77c10367
+SHA1: 62a577e0f0f8a065f42c7bc5a7246a9612b28e97
+SHA256: fe3f12cc70e73ab4677ab0790b9cdbdb064adb1fedea1048893e9225cf23fc81
 Section: Tweaks
-Description: 深色模式系统键盘调整为纯黑色 而不是灰色 OLED Dark Mode for iOS System Keyboard
+Description: OLED Dark Mode for iOS System Keyboard
 Author: dvntm
 Icon: https://raw.githubusercontent.com/dayanch96/OledKeyboard/refs/heads/main/Sileo/icon.png
 Name: OLED Keyboard
@@ -10585,16 +9543,16 @@ Architecture: iphoneos-arm64
 Maintainer: AnthoPak <anthopakdev@gmail.com>
 Depends: firmware (>= 11.0), mobilesubstrate, ws.hbang.common (>= 1.14), com.opa334.altlist, firmware (>= 11.0)
 Filename: ./debs/com.link.pancake-rootless_2.3_iphoneos-arm64.deb
-Size: 111708
-MD5sum: d096d4e45656de163162ec165708a21b
-SHA1: 4e230c625f8328ef7977d785c671ffec0ed4e4cf
-SHA256: 593010bf044b51f925bac59092631cadac6257088c43bcc323464211874f73e2
+Size: 111804
+MD5sum: 270ebea8844494a99d8926df47cb6a02
+SHA1: 413ebd27824aedfc9038a66bc28ac42325579bf5
+SHA256: 3d5ca244727e334a2a4c7e6c461b0df84619a2c93046a4d46500fc809bb7deef
 Section: Tweaks
 Description: 所有应用程序中整个屏幕上的交互式关闭手势以及恢复上一页的能力  Interactive dismiss gesture on the whole screen in all apps and ability to restore previous page
 Author: AnthoPak <anthopakdev@gmail.com>
 Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.pancake-rootless.php
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/PanCake.PNG
-Name: PanCake (Rootless)
+Name: PanCake
 
 Package: com.link.passtext
 Version: 1.0.1
@@ -10816,15 +9774,15 @@ Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
 Conflicts: pro.ikghd.pmp
 Replaces: pro.ikghd.pmp
 Filename: ./debs/com.link.pmp_2.0_iphoneos-arm64.deb
-Size: 54520
-MD5sum: 3a825a1d6dbed318850837bc5820f9cf
-SHA1: e05a804fd60c38a371700c24f4a706647ded4341
-SHA256: 4d7ce9c565f8b3521294f6a9a31d5e2c937c459543f52aa9c7deb9ccb5c3e865
+Size: 54500
+MD5sum: 595b34a2baf2694f3a2b424e7b360f03
+SHA1: 67261458001d7646c8dcb67dfb511ad176a9b6af
+SHA256: a2a0506e2692abfce9c4a88e6731951e528cd2f32995bf837554207b76fbc083
 Section: Tweaks
 Description: 一键隐藏所有照片等 系统设置添加到控制中心 下拉开启
 Author: iKarwan
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/PMP.PNG
-Name: PMP(Rootless)
+Name: PMP
 
 Package: com.link.pogr
 Version: 0.5.1
@@ -11098,57 +10056,6 @@ Author: c1d3r
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/PullOvePro.PNG
 Name: PullOver Pro
 
-Package: com.link.purple-rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Alo <bbscydia@gmail.com>
-Depends: firmware (>= 13.0)
-Filename: ./debs/com.link.purple-rootless_1.0_iphoneos-arm64.deb
-Size: 130384
-MD5sum: af7fe9cee48b54101ae76b87011c76e9
-SHA1: fef60a59e3e6eb8e0a3b46c352e130e078e9465b
-SHA256: 4bb9488d5c17c8b71d776338438a7d3c001b526cd6a4a0bcaa4b08c5561e6d61
-Section: Themes
-Description: Laetus #1: Reva UI inspired. The Purple Variant
-Author: Alo <bbscydia@gmail.com>
-Depiction: https://alo.works/depiction/web/works.alo.laetus.1.purple-rootless.html
-Icon: https://alo.works/assets/works.alo.laetus.1.purple-rootless/icon.png
-Name: Alo-Purple(Laetus)
-Tags: compatible_min::ios13.0, compatible_max::ios16.6.1
-
-Package: com.link.pyoncord
-Version: 0.8.1
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: app.enmity, mod.vendetta, app.unbound
-Filename: ./debs/com.link.pyoncord_0.8.1_iphoneos-arm64.deb
-Size: 28896
-MD5sum: 9cb137608c3064c2f02735ffc8e78578
-SHA1: bf5332a94dc663ac987717c8edba568a4b35a5fa
-SHA256: c0496a66d17bd699dcd9beeedc79be595ddd24eb769700e044d16a278e82cf94
-Section: Tweaks
-Description: Discord增强 A client modification for Discord's mobile app.
-Author: Adrian Castro, Pylix, FieryFlames
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Discord.PNG
-Name: Bunny
-
-Package: com.link.qinxinjianpan
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: byg.iosios.net.laetus
-Filename: ./debs/com.link.qinxinjianpan_1.0_iphoneos-arm64.deb
-Size: 417352
-MD5sum: 53e027bb774de2e0f872b4933dfc0066
-SHA1: 295976e81e5095689aca498249e9f1b520a0be14
-SHA256: 8ecb1c1980fed6a74ab6299b666149899dac3f00d04b16e7f4c018358f5041af
-Section: Themes
-Description: Laetus键盘主题。
-Author: unknown
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/LaetusThemes.PNG
-Name: 清新 (Laetus)
-
 Package: com.link.qqmail
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -11230,54 +10137,6 @@ Author: Byg
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Themes.PNG
 Name: 全透立体遮罩
 
-Package: com.link.quark
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: mobilesubstrate
-Filename: ./debs/com.link.quark_0.0.1_iphoneos-arm64.deb
-Size: 13648
-MD5sum: 63ec3c7df9daec134252ace7ce89ac79
-SHA1: 1371a2724972d68fb1a659e7c82f2c78fde85e2b
-SHA256: eff47314fb384a9b8c7febcae7e813fff7a4d452224d4bcf72549c764dd64498
-Section: Tweaks
-Description: 解锁会员 自测
-Author: fly
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Quark.PNG
-Name: Quark Premium
-
-Package: com.link.quickactions
-Version: 1.0.1-5
-Architecture: iphoneos-arm64
-Maintainer: Cameron Katri & SINI
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: ./debs/com.link.quickactions_1.0.1-5_iphoneos-arm64.deb
-Size: 48944
-MD5sum: 1a64a6372025c765cd5237e49c9d51d3
-SHA1: c1ebc21b13e2596437ce92aa18dc33e78ecc715d
-SHA256: c9be7e3a6ed7d7d5d577b3e39480a9f7f54689d1d6e6ea3ad3e2356d41c9ae3c
-Section: Tweaks
-Description: 锁屏界面的相机与手电筒按钮自定义 基于开源修改编译 添加一些电源操作
-Author: Cameron Katri & SINI
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/QuickActions.PNG
-Name: QuickActions
-
-Package: com.link.quickappskill
-Version: 0.0.1-9
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.link.quickappskill_0.0.1-9_iphoneos-arm64.deb
-Size: 55308
-MD5sum: fb31ad954e10c8adcc0de3d82c27d553
-SHA1: 21cc56bdb0a7e658363a9f9d47326ad8318315bb
-SHA256: a6b0fac48b4b2a1ca345f6800786228aff310634839d8b619cc2a3b51d08a634
-Section: Tweaks
-Description: 应用切换器界面添加一键清理后台的按钮
-Author: SINI
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Quickappskill.PNG
-Name: QuickAppsKill
-
 Package: com.link.quickccdismiss-rootless
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -11295,22 +10154,6 @@ Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.quickccdismiss-r
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/QuickCCDismiss.PNG
 Name: QuickCCDismiss(Rootless)
 
-Package: com.link.quickpowerbutton
-Version: 0.0.1-28
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.link.quickpowerbutton_0.0.1-28_iphoneos-arm64.deb
-Size: 58864
-MD5sum: bc786d2f2ee845c4ecc51d7b8b00b034
-SHA1: c93bd87591693b42abc96120d74ee4c8a7db917b
-SHA256: 9a0dce907f82bbfc08418d4628205eb1cf7d0aa8562d8c81ff4f91e388d22b8b
-Section: Tweaks
-Description: 在锁屏界面手电筒与相机中间添加一个电源选项快捷按钮
-Author: SINI
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/QuickPowerButton.PNG
-Name: QuickPowerButton
-
 Package: com.link.quickprefs
 Version: 1.3.5
 Architecture: iphoneos-arm64
@@ -11326,23 +10169,6 @@ Description: 通过3DTouch菜单快速访问自定义的系统/插件设置项 Q
 Author: AnthoPak, Sudo
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/QuickPrefs.PNG
 Name: QuickPrefs
-
-Package: com.link.quickprefs-rootless
-Version: 1.3.3
-Architecture: iphoneos-arm64
-Maintainer: AnthoPak <anthopakdev@gmail.com>
-Depends: firmware (>= 11.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 11.0)
-Filename: ./debs/com.link.quickprefs-rootless_1.3.3_iphoneos-arm64.deb
-Size: 511528
-MD5sum: 21f5ec2baa254073e8ae3ea9c27e34ea
-SHA1: e7229642dccd612bbad2607609165100bb45a631
-SHA256: 3428e655f834685fc5c49bd7d14942d798d9d3da895a1dc15f159f80c6cc0465
-Section: Tweaks
-Description: 通过3D Touch菜单快速访问自定义的系统/插件设置项 Quickly access settings prefs from 3D Touch Menu
-Author: AnthoPak <anthopakdev@gmail.com>
-Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.quickprefs-rootless.php
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/QuickPrefs.PNG
-Name: QuickPrefs(Rootless)
 
 Package: com.link.quietdown
 Version: 1.1.2
@@ -11366,33 +10192,17 @@ Architecture: iphoneos-arm64
 Maintainer: ETHN <ethanwhited2208@gmail.com>
 Depends: firmware (>= 13.0), mobilesubstrate
 Filename: ./debs/com.link.reachplayer-rootless_2.6_iphoneos-arm64.deb
-Size: 117348
-MD5sum: ce01147bb85031546ff1eb5a9c49fcbd
-SHA1: cf65cd015f7c9e4b2efe9c4aea7e416efd7d9551
-SHA256: b84f868f25e852006c8698ca64dfbc731da958f279379ab6c808b727d0fce571
+Size: 117316
+MD5sum: b6f832366abf952c512b50baf4324dc4
+SHA1: af06aaa1adeeea5f2d54b41e21eebad88155e325
+SHA256: 3aed4b501b206acf7b3cd5fd785240c36bd733df20ec2d624e7325d05875bda2
 Section: Tweaks
 Description: Now Playing info in Reachability Window!
 Author: ETHN <ethanwhited2208@gmail.com>
 Depiction: https://nahtedetihw.github.io/depiction/web/com.nahtedetihw.reachplayer-rootless.html
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/ReachPlayer.PNG
-Name: ReachPlayer-Rootless
+Name: ReachPlayer
 Tags: compatible_min::ios13.0, compatible_max::ios16.4
-
-Package: com.link.reachspring
-Version: 0.9.2
-Architecture: iphoneos-arm64
-Maintainer: Luki
-Depends: mobilesubstrate
-Filename: ./debs/com.link.reachspring_0.9.2_iphoneos-arm64.deb
-Size: 3684
-MD5sum: f94324b50e22bfc15a0bacdd6b5dbddf
-SHA1: 2f4b56c54c5fe11751ac7db139db75be6bae3df7
-SHA256: 093318dae4e6a00b875db08e6393c88b6767114cd47e5ec6917d0fabdd4627de
-Section: Tweaks
-Description: 通过手势来注销设备 Respring smoothly and with ease invoking the reachability gesture
-Author: Luki
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: ReachSpring
 
 Package: com.link.realitytmp
 Version: 0.2.2
@@ -11575,23 +10385,6 @@ Author: retromp3
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Retro2.PNG
 Name: Retro2
 
-Package: com.link.reverie
-Version: 0.7
-Architecture: iphoneos-arm64
-Maintainer: 刀刀
-Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, com.opa334.ccsupport
-Conflicts: lilliana.reverie, com.hk.reverie, com.qms.reverie
-Filename: ./debs/com.link.reverie_0.7_iphoneos-arm64.deb
-Size: 99624
-MD5sum: ba8e65fbb734e5a51a9cc597414c1497
-SHA1: 57d4891269824faa94c11eddd3d59c9d6c78aa10
-SHA256: 3d3b790430b4a58aab064384cf927134cc102581cc470b5a922dcef9d32c924a
-Section: Tweaks
-Description: 自由的休眠设备来节省电量
-Author: Paisseon
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: Reverie
-
 Package: com.link.rgboard
 Version: 1.0.5
 Architecture: iphoneos-arm64
@@ -11761,53 +10554,21 @@ Author: CydiaGeek <lucaluca86@aol.com>
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Settings.PNG
 Name: roundPrefs
 
-Package: com.link.safarix
-Version: 1.9.9
-Architecture: iphoneos-arm64
-Maintainer: 0xkuj
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: ./debs/com.link.safarix_1.9.9_iphoneos-arm64.deb
-Size: 315156
-MD5sum: 993593c7566aa38df649e4bb039f3cd3
-SHA1: c5b43c87870cfb06782c476511a8dfc29956a959
-SHA256: d01ea80f2c7ecd2d47e065aaec4ea6bd44ef465acc900ce91f15b91cac3db4b0
-Section: Tweaks
-Description: Safari Essential Features
-Author: 0xkuj
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Safarix.PNG
-Name: SafariX
-
-Package: com.link.safarix
-Version: 1.9.9.1
-Architecture: iphoneos-arm64
-Maintainer: 0xkuj
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: ./debs/com.link.safarix_1.9.9.1_iphoneos-arm64.deb
-Size: 315320
-MD5sum: 5678fdd2c007c0f7ab1a1f9b907cc91f
-SHA1: afc5df9a99a1e920eb1381ed4b81e314df34857d
-SHA256: 4da955280be2c9751b6cf7840a34d3ab4784cf982057de823fabc3966f4f2517
-Section: Tweaks
-Description: Safari Essential Features
-Author: 0xkuj
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Safarix.PNG
-Name: SafariX
-
 Package: com.link.safemodemutetoggle-rootless
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: ETHN <ethanwhited2208@gmail.com>
 Filename: ./debs/com.link.safemodemutetoggle-rootless_1.0_iphoneos-arm64.deb
-Size: 6788
-MD5sum: 3d8a1d3802cb95bd1c4f708ec27cbef2
-SHA1: 2ba720d04022bbb5b4429f530f9cbdce1c438791
-SHA256: 6dfc9a47b1009d71526dba960d3fda2abeaaeb3f437c5a849aeeb48d5380cbaa
+Size: 6784
+MD5sum: 0b10e981bdbf49b09417c7a5c848ff69
+SHA1: 5df5ceda08188899b6cc18536bcf68eb0daba2ca
+SHA256: 12f7038caab1b96f038cdf171e557ac167f2750ba134e8818cf9a14b94f6949b
 Section: Tweaks
 Description: 通过拨动静音开关来触发安全模式Toggle mute switch to invoke Safe Mode!
 Author: ETHN <ethanwhited2208@gmail.com>
 Depiction: https://nahtedetihw.github.io/depiction/web/com.nahtedetihw.safemodemutetoggle-Rootless.html
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/SafeModeMuteToggle.PNG
-Name: SafeModeMuteToggle-Rootless
+Name: SafeModeMuteToggle
 Tags: compatible_min::ios10.0, compatible_max::ios16.4
 
 Package: com.link.sanjeh
@@ -11892,22 +10653,6 @@ Author: SoCuul
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Instagram.PNG
 Name: SCInsta
 
-Package: com.link.screenshotactions
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: P2KDev <p2kdev@gmail.com>
-Depends: firmware (>= 11.0), mobilesubstrate
-Filename: ./debs/com.link.screenshotactions_1.2_iphoneos-arm64.deb
-Size: 19168
-MD5sum: cbb302f889cca5c8ecca3879d9d73f01
-SHA1: 6846d3210088a19d92c12ce62d1ab3738fc4c9bd
-SHA256: fe57b944c6eda95dd0bc79b81e8914e523daa1b1171380b3f56ed59e37fc02f6
-Section: Tweaks
-Description: 截图预览界面添加快捷操作 Add Quick Actions to the screenshot preview!
-Author: P2KDev <p2kdev@gmail.com>
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/ScreenshotActions.PNG
-Name: ScreenshotActions
-
 Package: com.link.screenshotcolor
 Version: 0.0.3
 Architecture: iphoneos-arm64
@@ -11945,34 +10690,17 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: ETHN <ethanwhited2208@gmail.com>
 Filename: ./debs/com.link.seesaw-rootless_1.0_iphoneos-arm64.deb
-Size: 3372
-MD5sum: 6aa0d825f23ed9cf4a75ceae04046f01
-SHA1: e809e85e1678b7b8babb92697d186e93b5ae20c4
-SHA256: b97a8db5b8e58dfa3bb33060baeaa7e5dc2d3166a64e3861a44d03ab37ddaf5c
+Size: 3368
+MD5sum: d28ebaf642147090b97053e5c672cb72
+SHA1: 1629fdf8884271014a2716ee1f5c2bcdeb09e8d7
+SHA256: 6e44dd816b1c62dd86d76dc8d1257e12ea742cc15b04aa0ea7cfc2fd9e0a88fe
 Section: Tweaks
 Description: 重新映射iPad横屏状态下的音量按键 Remap iPad volume buttons in landscape!
 Author: ETHN <ethanwhited2208@gmail.com>
 Depiction: https://nahtedetihw.github.io/depiction/web/com.nahtedetihw.seesaw-Rootless.html
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/SeeSaw.PNG
-Name: SeeSaw-Rootless
+Name: SeeSaw
 Tags: compatible_min::ios16.0, compatible_max::ios16.7.4
-
-Package: com.link.selene
-Version: 0.9.0
-Architecture: iphoneos-arm64
-Maintainer: Luki
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.link.selene_0.9.0_iphoneos-arm64.deb
-Size: 18028
-MD5sum: 90d3de6cf6f35c42758c948b51702526
-SHA1: 2b450d1f696e939997ece62d0536c453f19439ce
-SHA256: 6eb606ed79ad93fcc57e9a2a6f45145ce95ed1d9a0053fac09470febd532613b
-Section: Tweaks
-Description: 双击锁屏保存壁纸 Triple tap on LS to save the stock walls on the fly
-Author: Luki
-Depiction: https://luki120.github.io/depictions/web/?p=me.luki.selene
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tap.PNG
-Name: Selene
 
 Package: com.link.senri
 Version: 1.1
@@ -11996,16 +10724,16 @@ Architecture: iphoneos-arm64
 Maintainer: ETHN <ethanwhited2208@gmail.com>
 Depends: firmware (>=13.0), com.spark.libsparkcolourpicker
 Filename: ./debs/com.link.settingsbuttons-rootless_1.8_iphoneos-arm64.deb
-Size: 114324
-MD5sum: d4e7e36465295631170ac331d7eeead0
-SHA1: 4b8fbca6680e5680df633791c36fe6a3eaf7ee94
-SHA256: a38f5632d41442e9336c38ddfb2632903373197fe3369088435be2625aca9b3a
+Size: 114448
+MD5sum: 01f72789437b29adf7490bc1bdd99eaf
+SHA1: 4a45ed4a45c93669523556cfd76bd2b20b0d9c4e
+SHA256: 84185f50a8992291fbf4abcee9a627df63d0a5674d6437a71e51a0decb6520e1
 Section: Tweaks
 Description: 设置导航栏添加实用按钮 Useful buttons in the Settings Nav Bar.
 Author: ETHN <ethanwhited2208@gmail.com>
 Depiction: https://nahtedetihw.github.io/depiction/web/com.nahtedetihw.settingsbuttons-rootless.html
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/SettingsButtons.PNG
-Name: SettingsButtons-Rootless
+Name: SettingsButtons
 Tags: compatible_min::ios13.0, compatible_max::ios16.7.7
 
 Package: com.link.settingsrevamp
@@ -12074,44 +10802,6 @@ Author: Nightwind
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Settings.PNG
 Name: SettingsWiFiPassword
 
-Package: com.link.shadow
-Version: 3.7.6
-Architecture: iphoneos-arm64
-Maintainer: jjolano
-Pre-Depends: dpkg
-Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
-Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
-Suggests: com.ps.injectionfoundation
-Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
-Replaces: me.jjolano.shadow.beta
-Provides: me.jjolano.shadow.beta
-Filename: ./debs/com.link.shadow_3.7.6_iphoneos-arm64.deb
-Size: 166436
-MD5sum: 54be4c8b15e493995130b1033352ac14
-SHA1: 875c3850c7477a0f984a5d370222e2f96855914b
-SHA256: 56b2fc78808475d344df751f308d6a6c921bcba0a49bcbb5284385a275d2b3ac
-Section: System
-Description: 越狱屏蔽 A modern jailbreak detection bypass.
-Author: jjolano
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: Shadow
-
-Package: com.link.shadowbuster.rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Lizynz <lizynz@ya.ru>
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.link.shadowbuster.rootless_1.0_iphoneos-arm64.deb
-Size: 2452
-MD5sum: 0f044d9c248e91187deb95f7e460262c
-SHA1: 32e87bb1395ef14b9d650c24bba8f41c60c0dfa8
-SHA256: 1cc0b037b5161afb93a151cf4de17f1aac9b9975b3c9bd4b2e053a5b54201b84
-Section: Tweaks
-Description: Get rid shadows
-Author: Lizynz <lizynz@ya.ru>
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: ShadowBuster
-
 Package: com.link.shakespring
 Version: 0.9.0
 Architecture: iphoneos-arm64
@@ -12127,55 +10817,6 @@ Description: 摇动您的设备以重新启动 Shake your device to respring, ez
 Author: Luki
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/ReSpring.PNG
 Name: ShakeSpring
-
-Package: com.link.shortmoji
-Version: 4.7-1
-Architecture: iphoneos-arm64
-Maintainer: Link
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11), applist, com.creaturesurvive.libcscolorpicker, emt.paisseon.xinamine (>= 0.0.5), oldabi
-Conflicts: com.cpdigitaldarkroom.barmoji
-Filename: ./debs/com.link.shortmoji_4.7-1_iphoneos-arm64.deb
-Size: 1737356
-MD5sum: 0f04d87ebe73eb3449526416a34c1e77
-SHA1: 6888137a736c51fd4d1c095b2dc4188dcc0def62
-SHA256: b9e81242b715e751b1cf90177b4dd60866e5c83791c3d6ad7455b962c109f58b
-Section: Tweaks
-Description: 键盘增加预测栏，键盘增加底部栏，支持显示表情，方便快速选择，支持快捷方式，包含复制、剪贴、粘贴、全选、撤销、重做等。来了老弟修复支持多巴胺 仅测试用,有问题卸载！依赖较多，小心使用！
-Author: MiRO  laileld
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: Shortmoji(Rootless)
-
-Package: com.link.showmytouches
-Version: 1.1.2
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate
-Filename: ./debs/com.link.showmytouches_1.1.2_iphoneos-arm64.deb
-Size: 53348
-MD5sum: f2b197b1503bee5c54aa52068fa00040
-SHA1: 3ce402b64d2e26ebd215fb01801be8781439ccac
-SHA256: ff4bcb9a20dac0c8a73095e03fafcfe99bf30453b35bc2c0f37407dcb7059e85
-Section: Tweaks
-Description: 显示触摸轨迹 Display screen touches
-Author: dvntm
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: ShowMyTouches
-
-Package: com.link.showmytouches
-Version: 1.2.1
-Architecture: iphoneos-arm64
-Maintainer: dvntm & SINI
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.link.showmytouches_1.2.1_iphoneos-arm64.deb
-Size: 82764
-MD5sum: ecb03ed3b5769f6b9755d1747082775e
-SHA1: 3dbfb4ecb7c0559508eef7a4191491c1ff08fa9a
-SHA256: ffe2d833c448881b421046d4833ecabc75a4811144912bcda6c69314906739da
-Section: Tweaks
-Description: 触摸轨迹 基于开源编译增加滑动效果
-Author: dvntm & SINI
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: ShowMyTouches
 
 Package: com.link.shuffle
 Version: 1.6.2
@@ -12261,22 +10902,6 @@ Author: Elias Limneos <limneoselias@gmail.com>
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
 Name: SimpleActivationActions
 
-Package: com.link.simpledateview
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: Baw Appie <pp121324@gmail.com>
-Depends: mobilesubstrate, com.peterdev.libpddokdo
-Filename: ./debs/com.link.simpledateview_1.0.1_iphoneos-arm64.deb
-Size: 7264
-MD5sum: 2341f1b782285adb57c4694a882e468b
-SHA1: 1daa60982290de92bff703970a7f83a0ecc6de1c
-SHA256: d1991ed1f0016003c381701eabab31ed0203c4a1ec49899a0fa10919dab6a0a3
-Section: Tweaks
-Description: 锁屏简洁的日期视图 Simple date view
-Author: Baw Appie <pp121324@gmail.com>
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: BawAppie Simple DateView
-
 Package: com.link.simplehome
 Version: 1.1.0
 Architecture: iphoneos-arm64
@@ -12322,6 +10947,22 @@ SHA1: 597558b5bc043c55cbdd6ff831f60ab20a7694b1
 SHA256: 210e32d838659bed70dd5e206aff3dc2fbaffa3e9f649433a7a600477ec1b616
 Section: Tweaks
 Description: VPN开启状态为数据图标着色  Combine VPN state and wireless state into one icon.
+Author: 82Flex <82flex@gmail.com>
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/SingleVPN.PNG
+Name: Single VPN
+
+Package: com.link.singlevpn
+Version: 2.1-2
+Architecture: iphoneos-arm64
+Maintainer: 82Flex <82flex@gmail.com>
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/com.link.singlevpn_2.1-2_iphoneos-arm64.deb
+Size: 35368
+MD5sum: 550d662f7d86f22cd254e85082b5fe29
+SHA1: 49f8b86e2808611ea31d0c5789472a43c5461f69
+SHA256: c92e7d5cb4a38a6912e4e67bd2159a78982cbc2071da3c5305941c42106f570b
+Section: Tweaks
+Description: Combine VPN state and wireless state into one icon.
 Author: 82Flex <82flex@gmail.com>
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/SingleVPN.PNG
 Name: Single VPN
@@ -12475,23 +11116,6 @@ Author: CBZ
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
 Name: Snail Crack
 
-Package: com.link.snapper3
-Version: 1.2.1
-Architecture: iphoneos-arm64
-Maintainer: Jonathan Winger-lang
-Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
-Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: ./debs/com.link.snapper3_1.2.1_iphoneos-arm64.deb
-Size: 1030924
-MD5sum: b62c5313a05bacffd4fe0a388b28ecf9
-SHA1: 00b6c1153c312d2a106de7d944e31a3546d8f130
-SHA256: eca3e01a542ed916da52f87f4c1c231efd8963a9df225677c970b7c8e8e04056
-Section: Tweaks
-Description: Pin screenshots on the screen.
-Author: Jonathan Winger-lang
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Snapper3.PNG
-Name: Snapper 3
-
 Package: com.link.snapper3qolfixes
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -12539,25 +11163,6 @@ Description: 移除部分应用的广告 Remove Ads from some Applications
 Author: Sniper
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/SniperTool.PNG
 Name: SniperTool
-
-Package: com.link.snmessenger
-Version: 1.1.0
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate, firmware (>= 12.4)
-Conflicts: com.haoict.messengernoads
-Replaces: com.haoict.messengernoads
-Provides: com.haoict.messengernoads
-Filename: ./debs/com.link.snmessenger_1.1.0_iphoneos-arm64.deb
-Size: 681508
-MD5sum: 02cd8cd4697f9b9756340cd1644cc45b
-SHA1: bacad52f7c6204f3d24b7934e3fc9c02efdc1024
-SHA256: 5b120feaaf155fe8cf2b51f4fde24a8b0ef36fdaf35093eb2f26a14b233420af
-Section: Tweaks
-Description: Messenger增强 A full-featured tweak for Messenger.
-Author: NguyenASang
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Messenger.PNG
-Name: SNMessenger
 
 Package: com.link.snooliebattery
 Version: 1.0
@@ -12721,37 +11326,6 @@ Author: alias20
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Speedy.PNG
 Name: Speedy
 
-Package: com.link.splitvieweverywhere
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Ethan Whited
-Filename: ./debs/com.link.splitvieweverywhere_1.0_iphoneos-arm64.deb
-Size: 3508
-MD5sum: e53f6c26189f268a901b5bb7f90df029
-SHA1: 46e8beff35a0090b15edcad96f4c542694c7edce
-SHA256: 922ff5dd53328fcf7c8315c96c1ce3ea075e890a031a68b749b6d44e7ac31252
-Section: Tweaks
-Description: 为IPados上不支持的应用启用分屏和侧滑功能 Enable SplitView/SlideOver on unsupported apps on iPadOS!
-Author: Ethan Whited
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/SplitViewEverywhere.PNG
-Name: SplitViewEverywhere
-
-Package: com.link.splitviewpro
-Version: 1.1.6
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate, preferenceloader, com.sunshinesong.split-view-pro-helper (>= 999.1)|com.link.split-view-pro-helper
-Filename: ./debs/com.link.splitviewpro_1.1.6_iphoneos-arm64.deb
-Size: 130740
-MD5sum: c311bc9dcbf7d0856ebfb410e1447e3a
-SHA1: b2d3b49d203597a0d7319dac02ddccc10c8c186b
-SHA256: 9567ff6b07df88afddef61bf736f4f481502d5d76725dc92c37037ae95aaa563
-Section: Tweaks
-Description: Free multi-tasking splitscreen tweak developed by Sunshinesong.
-Author: sunshinesong
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/SplitViewPro.PNG
-Name: Split View Pro
-
 Package: com.link.springanimations
 Version: 1.1.1
 Architecture: iphoneos-arm64
@@ -12774,15 +11348,15 @@ Architecture: iphoneos-arm64
 Maintainer: AnthoPak <anthopakdev@gmail.com>
 Depends: firmware (>= 14.0), mobilesubstrate, firmware (>= 14.0)
 Filename: ./debs/com.link.springcuts-rootless_1.4_iphoneos-arm64.deb
-Size: 32132
-MD5sum: f0be1176c570cde20a3265d6c9e7e02b
-SHA1: 13cfda19d5813f6569a7fa6e07c1792232124bdc
-SHA256: 3555ff634e73d282aaea332f1e19cb1cee189ed1c97d31220fa1fe266dd9d550
+Size: 32148
+MD5sum: 52f8bb17a76e0034a29ead08117da4c0
+SHA1: b79e23be67654b321c623709e38ec833ee423e8c
+SHA256: 7dd96ed18a24031639a930aa4f85e3eb7d018cdb8e5db7b22f46127dfcdf7dba
 Section: Tweaks
-Description: 主屏幕直接运行快捷指令 支持库调用、Activator动作触发、命令行指令等Run Shortcuts from SpringBoard (Support library, Activator actions, CLI command)
+Description: 主屏幕直接运行快捷指令 支持库调用、Activator动作触发、命令行指令等 Run Shortcuts from SpringBoard (Support library, Activator actions, CLI command)
 Author: AnthoPak <anthopakdev@gmail.com>
 Icon: https://repo.anthopak.dev/assets/com.anthopak.springcuts-rootless/icon.png
-Name: SpringCuts (Rootless)
+Name: SpringCuts
 
 Package: com.link.spy2
 Version: 1.3-1
@@ -12799,22 +11373,6 @@ Description: 限制/监控设备使用行为 Spy mode. Track who snoops on your 
 Author: elias
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Spy2.PNG
 Name: Spy 2
-
-Package: com.link.squidextender
-Version: 3.7.4
-Architecture: iphoneos-arm64
-Maintainer: SquidForce
-Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
-Filename: ./debs/com.link.squidextender_3.7.4_iphoneos-arm64.deb
-Size: 2306980
-MD5sum: 451a1913adcde17acedeced9e8944877
-SHA1: ce9775b3add88c8638330b9b5a38df2b16b67078
-SHA256: 280e3179ac10348940aeb0cc71d65645742c6c220b839ce13dc5a9a64345fa16
-Section: Tweaks
-Description: 鱿鱼键盘 Extend your keyboard to be more POWERFULL!
-Author: SquidForce
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/keyboard.PNG
-Name: SquidExtender
 
 Package: com.link.startupoptimizations
 Version: 2.3.6
@@ -12903,16 +11461,16 @@ Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: ETHN <ethanwhited2208@gmail.com>
 Filename: ./debs/com.link.stepup-rootless_1.2_iphoneos-arm64.deb
-Size: 43296
-MD5sum: 584b684bedd1c5c3b384a5da23fb073b
-SHA1: 2fb48229fa2c6c1ef1510d872adb0b295fa16ace
-SHA256: ff0ecd67d6e81ba3facb6e9d304c7fa2152fb8ec8c5f4f00ccbf78f143dd6e93
+Size: 43248
+MD5sum: 8ecbe910d2e8c59d0316dde7e99c9c28
+SHA1: 530473da0006966cbda1e120dfb4193f37968489
+SHA256: bcd8c555a4d946b64c448b47b27d12ef138640582b3ced900c0e7f7392e40352
 Section: Tweaks
-Description: 设置音量调整的步进值 Change the amount of steps for volume!
+Description: 音量调整的步进值 Change the amount of steps for volume!
 Author: ETHN <ethanwhited2208@gmail.com>
 Depiction: https://nahtedetihw.github.io/depiction/web/com.nahtedetihw.stepup-rootless.html
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/StepUp.PNG
-Name: StepUp-Rootless
+Name: StepUp
 Tags: compatible_min::ios13.0, compatible_max::ios16.4
 
 Package: com.link.stopautolaunchapps
@@ -13000,22 +11558,6 @@ Author: iOS Creatix, kasiimh1, p2kdev
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/BatteryPercentage.PNG
 Name: SugarCane 16
 
-Package: com.link.sumusicwidget
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: sugiuta
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.link.sumusicwidget_1.1_iphoneos-arm64.deb
-Size: 31204
-MD5sum: 647e8a3aee7f3330c56c3b7acb69a539
-SHA1: 609c4ab440c73502b50513b3b4cac616ed7179b7
-SHA256: 667d5329c386638ff51929501741606761405a42f53543be48508d876671d5cc
-Section: Addons
-Description: Airaw拓展组件 An awesome Airaw Widgets extension!
-Author: sugiuta
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: SUMusicWidget
-
 Package: com.link.superlizti
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -13032,41 +11574,6 @@ Author: @百度主题源
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Themes.PNG
 Name: 超级立体遮罩
 
-Package: com.link.surgepro
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.link.surgepro_1.0.0_iphoneos-arm64.deb
-Size: 77404
-MD5sum: 6e7b2b21b7114c76d7e108bad819285d
-SHA1: ef7d2c4223144fce76c4fdb9c9539ae644156961
-SHA256: a1342cdbf161325230ee9d6519ec4d96c7e49abbfe10a105cb4bb957ba4751db
-Section: Tweaks
-Description: Surge Pro for free
-  - Supports app version 5.14.2
-  - Only supports jailbreak environment
-  - Last updated January 3, 2025
-Author: x✨
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Surge.PNG
-Name: Surge Pro
-
-Package: com.link.surgepro.pxx
-Version: 0.6
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
-Filename: ./debs/com.link.surgepro.pxx_0.6_iphoneos-arm64.deb
-Size: 143768
-MD5sum: d9a1fe2bf2ac18286be4a521713592cc
-SHA1: 38183bb7c6a67f899de4b78dfb89d72ee1cd80a7
-SHA256: d3858e9a6e8e67fe84f3e7c186aa943cbe315ea420b965f94f0cba61f7b6ddf4
-Section: Tweaks
-Description: 修复已知问题 无效就降级
-Author: pxx917144686
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Surge.PNG
-Name: Surge++
-
 Package: com.link.sushi
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -13082,23 +11589,6 @@ Description: 集成媒体控件播放横幅
 Author: Skitty
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Sushi.PNG
 Name: Sushi
-
-Package: com.link.swapforcer
-Version: 0.0.2-7+debug
-Architecture: iphoneos-arm64
-Maintainer: Dopamine User
-Depends: mobilesubstrate
-Filename: ./debs/com.link.swapforcer_0.0.2-7+debug_iphoneos-arm64.deb
-Size: 5964
-MD5sum: 57ea231f8322e0dad5922af6b6feb654
-SHA1: 64d7daa22984f162dc5c1d139be0413a32c7bdd6
-SHA256: fda58013a08cada1e615f39bb585c872dc48eb066e6b269f2b5cd9ebe1d38186
-Section: Tweaks
-Description: 强制启用并稳定运行iOS16的Swap机制 提高应用留存率。
-Author: colorBlack
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: SwapForcer
-Prefix: /var/jb
 
 Package: com.link.swiftgramcrack
 Version: 1.1-5
@@ -13227,22 +11717,6 @@ Author: ARX8x 来了老弟
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/System.PNG
 Name: System Info
 
-Package: com.link.systemmemoryresetfix
-Version: 2.0
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate
-Filename: ./debs/com.link.systemmemoryresetfix_2.0_iphoneos-arm64.deb
-Size: 2996
-MD5sum: 8e6da8e6ac2f946b678d354cc06e7575
-SHA1: 1fb65b687d5069fdfb3830db697533b537b24fe6
-SHA256: 066fd95b0781fe5a21e611407dd69662ea3821663f636586f64e77ea1112b8ef
-Section: System
-Description: 修复夜间iCloud备份时由maintenanced守护进程触发的用户空间重启问题 Prevent overnight userspace reboots triggered by maintenanced daemon when iCloud backup occurs. This is a must have for users with nightly reboots.
-Author: Pwn20wnd
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: System Memory Reset Fix
-
 Package: com.link.tako
 Version: 3.5.2.1
 Architecture: iphoneos-arm64
@@ -13340,21 +11814,6 @@ Description: 终端美化:包含彩色命令提示符 文本高亮 目录颜色 
 Author: Sudo
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/TermColors.PNG
 Name: Term Colors
-
-Package: com.link.terminal
-Version: 1.11.2
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Filename: ./debs/com.link.terminal_1.11.2_iphoneos-arm64.deb
-Size: 18277176
-MD5sum: c8fe65be16567dbfdf3a6395aa8a83ca
-SHA1: c02a4ad8f77cde7dee67706dc4471416d65fc569
-SHA256: 69b48f62685018a5aa43dee9dc1ab33f0ac6f3e8512b4d87f23f7d90efc6e057
-Section: Applications
-Description: Secret Native Apple Terminal for iOS
-Author: Tim Apple
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Terminal.PNG
-Name: Terminal
 
 Package: com.link.theos
 Version: 2.5
@@ -13498,22 +11957,6 @@ Description: 个性化控制中心 让控制中心外圈发光 Personalized cont
 Author: smokin1337 来了老弟
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Togglow.PNG
 Name: Togglow
-
-Package: com.link.touchvis
-Version: 4.0.1
-Architecture: iphoneos-arm64
-Maintainer: Lessica <82flex@gmail.com>
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.link.touchvis_4.0.1_iphoneos-arm64.deb
-Size: 915896
-MD5sum: fbcda73228686aca107ee48fbbfd522e
-SHA1: 7fd255486516f1a9e90be8f81e0e86b58e1599f3
-SHA256: 72539bfa6bb86b65c212f148d6b3e64346416bd78a601b2ef3a345f5c2926c7f
-Section: Tweaks
-Description: 显示触摸轨迹 Display your touch interactions!
-Author: Lessica <82flex@gmail.com>
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Touch-Viz.PNG
-Name: Touch-Viz
 
 Package: com.link.translucent3dmenus
 Version: 2.0
@@ -13859,22 +12302,6 @@ Author: Ethan Arbuckle
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
 Name: UnredactPrivateLogs
 
-Package: com.link.upsidedowned
-Version: 1.1-4+debug
-Architecture: iphoneos-arm64
-Maintainer: Little 34306
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: ./debs/com.link.upsidedowned_1.1-4+debug_iphoneos-arm64.deb
-Size: 4796
-MD5sum: 649b0efe9bf2ab90b373548c80a29405
-SHA1: 60d7be3f64f5c58b0cd4717bebfa416fe0aec537
-SHA256: 0054cdc075f931de6bcc57d39583bd642aa9ae1aafa2dbfb8748f7f9b988c9fd
-Section: Tweaks
-Description: 支持屏幕横向/纵向旋转 大多数情况下 Rotate left, right, up side down your iPhone. I take the code from TrollPad by @TranKha50277352
-Author: 34306, KhanhDuyTran
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: upsidedowned
-
 Package: com.link.ve
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -14072,22 +12499,6 @@ Author: rob311 <rob@rob311.com>
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/VolSkip11.PNG
 Name: VolSkip11
 
-Package: com.link.volumemixer
-Version: 0.0.7~beta3
-Architecture: iphoneos-arm64
-Maintainer: Brend0n <brendonjkding@126.com>
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: ./debs/com.link.volumemixer_0.0.7~beta3_iphoneos-arm64.deb
-Size: 174716
-MD5sum: 3531ac4671585b63dcd8ca1d31347e8b
-SHA1: 5508e3a885e5082db3f69a184f41666708b3d420
-SHA256: b47394c5a8cd2055a9f5d68ff88a8b350c2db51fdd93304903d7afa419a7c6d5
-Section: Tweaks
-Description: 应用程序独立音量控制 Volume control for individual app
-Author: Brend0n <brendonjkding@126.com>
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/VolumeMixer.PNG
-Name: VolumeMixer
-
 Package: com.link.volumepercent
 Version: 1.0.2
 Architecture: iphoneos-arm64
@@ -14200,22 +12611,6 @@ Description: Pro features unlocked for "Wallcraft - Wallpapers, live" from AppSt
 Author: Hoang_Anhp
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Wallcraft.PNG
 Name: Wallcraft  Pro Crack
-
-Package: com.link.watched
-Version: 1.1-9+debug
-Architecture: iphoneos-arm64
-Maintainer: Little 34306
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
-Filename: ./debs/com.link.watched_1.1-9+debug_iphoneos-arm64.deb
-Size: 5852
-MD5sum: 4ba49e0324a76fd8142e97875c0dd66c
-SHA1: e91a205f5466d04c926b34d135ad99c49d163b62
-SHA256: c6643a5bb3627468491e607bf8a1c6443a1ae675874da3ee48628de9fd83505f
-Section: Tweaks
-Description: 让低版本IOS可以和新Apple Watch配对 Paired your Apple Watch on new watchOS with older iOS
-Author: 34306
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: watched
 
 Package: com.link.wazeplus
 Version: 1.2
@@ -14662,22 +13057,6 @@ Author: 23 Aaron
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/ZEZE.PNG
 Name: ZEZE
 
-Package: com.link.zoomanimation
-Version: 0.0.1-12
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.link.zoomanimation_0.0.1-12_iphoneos-arm64.deb
-Size: 33116
-MD5sum: f329a3a289f42ccc226284946585df1a
-SHA1: b06c4f204c75a871cb8e80af3057f68cb0854526
-SHA256: 63ef110abb69643ee0f57baaf975d59ff21dacc493a59d368a400ae2bc6b7a59
-Section: Tweaks
-Description: 桌面动画 可选动画样式 调节动画幅度
-Author: SINI
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/ZoomAnimation.PNG
-Name: ZoomAnimation
-
 Package: com.llld.livecalltranslator
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -14935,22 +13314,6 @@ Description: 闲置时隐藏灵动岛 A tweak to hide the Dynamic Island on the 
 Author: Nathan
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/DynamicNotLand.PNG
 Name: DynamicNotLand
-
-Package: com.nygard.class-dump-ios
-Version: 0.0.1-7
-Architecture: iphoneos-arm64
-Maintainer: DreamDevLost
-Filename: ./debs/class-dump-ios_0.0.1-7_iphoneos-arm64.deb
-Size: 347904
-MD5sum: 460cdb39601909c8207365d1df66eb4d
-SHA1: a707b3130197682a2674e0ecbc528bc6f3c28319
-SHA256: 6d610ca58b626c0d1dc4da5e631c34fc682a3227f60981d4b76e4c91ed7e9d2d
-Section: System
-Description: ClassDump适配ios版本头文件. 命令格式( classdumpios -H /path/ -o /path ) -H 后面是Math-O文件路径，-o后面是提取头文件的路径
-Tag: role::hacker
-Author: DreamDevLost
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: ClassDump(iOS)
 
 Package: com.opa334.libsandy
 Version: 1.1.4
@@ -15359,6 +13722,22 @@ Author: SquidForce
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
 Name: DisableBreadcrumb
 
+Package: com.squidforce.squidextender
+Version: 3.7.4
+Architecture: iphoneos-arm64
+Maintainer: SquidForce
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: ./debs/SquidExtender_3.7.4_iphoneos-arm64.deb
+Size: 2308076
+MD5sum: f778ea0a7eb6667576ad1285531ff08b
+SHA1: 683d85a47445ee1e2137e1fac0bca553447460a2
+SHA256: 7a204869927c58f0497f7ecefd4f0fda4ae7d2a18686aaba15114e80b8fd20c6
+Section: Tweaks
+Description: Extend your keyboard to be more POWERFULL!
+Author: SquidForce
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/keyboard.PNG
+Name: SquidExtender
+
 Package: com.squidforce.statusbarspeed
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -15376,23 +13755,6 @@ Author: SquidForce
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/StatusBarSpeed.PNG
 Name: Status BarSpeed
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.squidforce.statusbarspeed/depiction.json
-
-Package: com.sunshinesong.split-view-pro-helper
-Version: 999.1
-Architecture: iphoneos-arm64
-Maintainer: sunshinesong
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
-Filename: ./debs/com.sunshinesong.split-view-pro-helper_999.1_iphoneos-arm64.deb
-Size: 1436
-MD5sum: a54bafc79af86c5b8744fe8d166b6da3
-SHA1: 08a17d6640c116844f1d398f89837687498e62cd
-SHA256: 7e242d5839b244558937317a07ada42cf6d7c739ea400539fa54e5827ff20284
-Section: Tweaks
-Description: Split View Pro分屏依赖
-Author: sunshinesong
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/SplitViewPro.PNG
-Name: split-view-pro helper
-Ts: sp-sss
 
 Package: com.susu.wcfrostedglasss
 Version: 1.0.5
@@ -15477,6 +13839,24 @@ Description: 应用程序悬浮底栏 Floating Tab bar for iOS devices.
 Author: yan
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Fiona.PNG
 Name: Fiona
+
+Package: com.zqbb.dynamic120hz
+Version: 3.3.0-1
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 1064
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, cn.zqbb.fix120hz
+Filename: ./debs/Dynamic120hz_3.3.0-1_iphoneos-arm64.deb
+Size: 301416
+MD5sum: 3f58f8980e09745f7d1ab84e56004be6
+SHA1: 93636d4702906c39c22d150caf400236d7dc0410
+SHA256: dfb6ab134f1aad400ec2bc6b9209084fa75ffaab5e7275ad95c6034d0d304064
+Section: Tweaks
+Description: Unlock dynamic refresh rate from 80hz to 120hz
+Author: zqbb
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Dynamic120hz.PNG
+Name: Dynamic120hz
 
 Package: coom.link.teddyrunningrespringtheme
 Version: 1.0
@@ -15761,6 +14141,25 @@ Author: Geometric Software
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/IntelligentPass5.PNG
 Name: IntelligentPass 5
 
+Package: xyz.cypwn.cephei-compat
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate
+Conflicts: com.nightwind.cephei-compat
+Replaces: com.nightwind.cephei-compat
+Provides: com.nightwind.cephei-compat (= 0.0.1)
+Filename: ./debs/Cephei-Compat_0.0.1_iphoneos-arm64.deb
+Size: 3872
+MD5sum: 598c3ed3150e93b0da9e6ad97d3536e1
+SHA1: 85eaf2f3563885d0e4e58c82b74da71c1ae5bb99
+SHA256: 196dd5feeeb714aac016a1bd7d66cbebd44132b81f8bf4010f9f88f1433d7a6a
+Section: Tweaks
+Description: Fixes an incompatibility with new versions of Cephei that certain tweaks have. Adds back the old `translucentNavigationBar` property from earlier versions of Cephei in order to prevent a `didNotRecognizeSelector:` exception being thrown. Tested with Shortmoji 2.
+Author: Nightwind
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/CepheiTweakSupport.PNG
+Name: Cephei-Compat
+
 Package: xyz.cypwn.onboardingkitfix
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -15827,6 +14226,21 @@ Description: Bash and Zsh setup with colorized prompt, text, dircolors, cat (bat
 Author: Sudo
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/TermColors.PNG
 Name: Term Colors
+
+Package: xyz.cypwn.terminal
+Version: 1.11.2
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Filename: ./debs/Terminal_1.11.2_iphoneos-arm64.deb
+Size: 18278348
+MD5sum: fbd227a10014328f48801e23d6d8de16
+SHA1: b54a62468bc7432b6df711a9c28f3f2bfeab6e8d
+SHA256: fa0f252beb5b938561ba6aeab6ae962d8d5e672b696c670d4fc08364f49942ab
+Section: Applications
+Description: Secret Native Apple Terminal for iOS
+Author: Tim Apple
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Terminal.PNG
+Name: Terminal
 
 Package: xyz.cypwn.xinam1ne
 Version: 2.6-8
