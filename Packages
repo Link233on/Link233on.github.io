@@ -1,18 +1,3 @@
-Package: FiveIconDock
-Version: 1
-Architecture: iphoneos-arm64e
-Maintainer: unknown
-Depends: mobilesubstrate (>= 0.9.5000), oldabi
-Filename: ./debs/RootHide/FiveIconDock.deb
-Size: 3560
-MD5sum: bda89336dbbfa7aa5986d6d7ea72dcd0
-SHA1: 33e1f0ecf6a51e56f1c573a05f9e36412922da70
-SHA256: 3ff6daf28930eeb0957ef8ce86cd7e70ca8b2d57fd195cf80949b8ae4c715279
-Section: Tweaks
-Description: Five Icon Dock
-Author: unknown
-Name: Five Icon Dock
-
 Package: apt.tinyapps.Renet
 Version: 1.2.1
 Architecture: iphoneos-arm64e
@@ -1014,23 +999,6 @@ Author: iCraze
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Settings.PNG
 Name: SettingsUDID(RootHide)
 
-Package: cn.llld.shelly
-Version: 0.0.2
-Architecture: iphoneos-arm64e
-Maintainer: 来了老弟
-Installed-Size: 200
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/RootHide/cn.llld.shelly_0.0.2_iphoneos-arm64e.deb
-Size: 14604
-MD5sum: c536327c9b2ba1ff41289a94d21a2990
-SHA1: f0d4999d4ca9c1b3f7506f541b2264d48509c488
-SHA256: 68c6e814033bae9a1b90ed0dd79f58fdbac73b22ba90d41d797cd804a4156d84
-Section: roothide汉化补丁
-Description: Shelly--(roothide)简体中文包
-Author: 来了老弟 h_h_x_t
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Localization.PNG
-Name: zh-Hans for Shelly(RootHide)
-
 Package: cn.llld.tmts
 Version: 0.2
 Architecture: iphoneos-arm64e
@@ -1038,11 +1006,11 @@ Maintainer: 来了老弟 X：h_h_x_t
 Installed-Size: 448
 Depends: mobilesubstrate, preferenceloader
 Filename: ./debs/RootHide/cn.llld.tmts_0.2_iphoneos-arm64e.deb
-Size: 118216
-MD5sum: 31d023c6927dc544d5aa048be31a69e5
-SHA1: 3d2aa743119d729904319708f84902b7aadd1623
-SHA256: b694c3dd014cb1f7fdf3f3d19d03fdd74fa220bc537d1a82dc2849b9daba8492
-Section: roothide插件
+Size: 118204
+MD5sum: 33f6e7d8fd84ca3b6c1f7b189f79bc62
+SHA1: 91b0076fe199501824843c6c97bc6f82c5eb07b9
+SHA256: bb6f8d067fd18442c9ce9a653c7e760577ddb4159bf276b71b9edba5de344d8a
+Section: RootHide Packages
 Description: Customize notifications, control center, multitasking background module transparency（alpha）。自定义全局透明度(包含 播放器，负一屏，通知，控制中心，多任务后台模块等，有空就更)，202401192005:增加专注模式和二级模式，拆开负一屏和文件夹背景单独设定.
 Author: 来了老弟 X：h_h_x_t
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/llld.PNG
@@ -1915,6 +1883,24 @@ Sileodepiction: https://rootless.zqbb.cf/web/cn.zqbb.cocoatop64.inject.roothide
 
 Package: cn.zqbb.disupdateapp
 Version: 2.0.0-6
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 692
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: ./debs/Rootless/Hello App_2.0.0-6_iphoneos-arm64.deb
+Size: 129556
+MD5sum: d9e9616fcae4b8ed1e182bf01e3ad4fe
+SHA1: efac9ff684fb225f075e961bb504bf4aeab84860
+SHA256: a6d1df0c2aec97e42258e073a9d706651c66c20702efcb17e0d9a0bfc6159c5f
+Section: Tweaks
+Description: 屏蔽App Store更新提示(Block App Store Updates)!
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
+Name: Hello App
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
+
+Package: cn.zqbb.disupdateapp
+Version: 2.0.0-6
 Architecture: iphoneos-arm64e
 Maintainer: zqbb
 Installed-Size: 720
@@ -1931,44 +1917,43 @@ Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
 Name: Hello App
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
 
-Package: cn.zqbb.fix120hz
-Version: 3.3.0-1
-Architecture: iphoneos-arm64e
-Maintainer: zqbb
-Installed-Size: 1084
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
-Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
-Filename: ./debs/RootHide/Hello 120Hz_3.3.0-1_iphoneos-arm64e.deb
-Size: 313344
-MD5sum: f2d9ae4a2c06bdd0bdd2c47e3a0db9c0
-SHA1: cd719fbfa2110bdd0f1c1d137e29673bb863c9b3
-SHA256: 03427831629149d162dead501f6a0b6c065802d56718465aae7de469166b387d
-Section: Tweaks
-Description:
- - Unlock dynamic refresh rate from 80hz to 120hz
- - .
- - 解锁动态刷新率80hz到120hz.
-Author: zqbb
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
-Name: Hello 120Hz
-Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
-
 Package: cn.zqbb.holdcpu
 Version: 2.3.5-1
 Architecture: iphoneos-arm64
 Maintainer: zqbb
+Installed-Size: 3596
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.ccsupport
 Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
 Filename: ./debs/Rootless/Hello CPU_2.3.5-1_iphoneos-arm64.deb
-Size: 1279780
-MD5sum: 3b84e546e26e78f2e7eb4ddf5da0282d
-SHA1: 5533bda122fdfd728a8cb441b8658aedb89c23aa
-SHA256: 673cd21f1f8b361e47cfc7a7a26b17f8e198f3e437180b2267b36ce8fda577f9
+Size: 1279372
+MD5sum: ac93b9c167a6084d481155615a461f41
+SHA1: af624fe044027e93883ceea039e5927fdc2efca9
+SHA256: 0451e869befe8eec217dd86e17ec23675b273d230d2d1beae440fc97ba87f335
 Section: Tweaks
 Description: (解除温控) (锁定低电量CPU频率)
 Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
 Name: Hello CPU
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
+
+Package: cn.zqbb.holdcpu
+Version: 2.3.5-3
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 3696
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.ccsupport
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
+Filename: ./debs/Rootless/Hello CPU_2.3.5-3_iphoneos-arm64.deb
+Size: 1317760
+MD5sum: 3d0d8c1e8421ea5b9c0df33be5fbd0da
+SHA1: 2889b3125d737c5e77278a9fc8e8e4de183d592d
+SHA256: ae586e6e5bb3a4dab9f17007da1067aac15f8a5a35a8597f561df8a3b2028cea
+Section: Tweaks
+Description: (解除温控) (锁定低电量CPU频率)
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
+Name: Hello CPU
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
 
 Package: cn.zqbb.holdcpu
 Version: 2.3.5-3
@@ -2351,16 +2336,68 @@ Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main
 Name: Vitreux
 
 Package: codes.aurora.kayoko
+Version: 3.0
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 952
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: ./debs/Rootless/Kayoko_3.0_iphoneos-arm64.deb
+Size: 131092
+MD5sum: f1163b4d404fdd49a33442b802268c0b
+SHA1: 13a57915d3d1958c491ec2529ca95865b756b150
+SHA256: 00ac3ee36dfad0e8d2e9566e3af18e4323608057e1e0e7bd16f5da9d02fb8fe2
+Section: Tweaks
+Description: Clipboard manager for iOS.
+Author: Alexandra Aurora Göttlicher
+Name: Kayoko
+
+Package: codes.aurora.kayoko
 Version: 3.2.0
 Architecture: iphoneos-arm64e
 Maintainer: Lessica <82flex@gmail.com>
 Installed-Size: 968
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
-Filename: ./debs/RootHide/Hello Kayoko_3.2.0_iphoneos-arm64e.deb
-Size: 116088
-MD5sum: 19a138acec60bfdb80de9665c5541885
-SHA1: 7b8120ede69594ce78db39cb6135bd7b55da481f
-SHA256: 9df1227294f08797061e8d22c635fa87f16477ebba9e6d29839f34b01adcb46b
+Filename: ./debs/RootHide/codes.aurora.kayoko_3.2.0_iphoneos-arm64e.deb
+Size: 116496
+MD5sum: 06076c7d0ad8e5800f6d8c4994503f56
+SHA1: 63d753480a1627ac689680f8fc5ddd987938f38d
+SHA256: 7ed92d426d80c2b76a70c29591361a687b0f3f7223ec512d2cd58b456ccf61f5
+Section: Tweaks
+Description: Clipboard manager for iOS.
+Author: Alexandra Aurora Göttlicher
+Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
+Name: Hello Kayoko(RootHide)
+Sileodepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
+
+Package: codes.aurora.kayoko
+Version: 3.3.3-2
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 984
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: ./debs/Rootless/Hello Kayoko_3.3.3-2_iphoneos-arm64.deb
+Size: 123456
+MD5sum: c340c90d85c20fd89872591191dce0d0
+SHA1: 523d165a10c094f476c87fc85eb01563882a4830
+SHA256: 6ae382409dc1af39811b8bd3653b873a49913b8783fcc30dec6d7d291ae40c2f
+Section: Tweaks
+Description: Clipboard manager for iOS.
+Author: Alexandra Aurora Göttlicher
+Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
+Name: Hello Kayoko
+Sileodepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
+
+Package: codes.aurora.kayoko
+Version: 3.3.3-3
+Architecture: iphoneos-arm64e
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 1032
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: ./debs/Rootless/Hello Kayoko_3.3.3-3_iphoneos-arm64e.deb
+Size: 125960
+MD5sum: b587828df9bc988f1d623391e5b701b7
+SHA1: 5f66c7fd70473fbfa5ddf88a59bdb21ca279393c
+SHA256: 594d8c60dba962e80002c8de5f2de00c48f1d17c58fc2917f6a693963ca04881
 Section: Tweaks
 Description: Clipboard manager for iOS.
 Author: Alexandra Aurora Göttlicher
@@ -2461,15 +2498,15 @@ Architecture: iphoneos-arm64e
 Maintainer: Little 34306
 Depends: oldabi, mobilesubstrate (>= 0.9.5000), preferenceloader
 Filename: ./debs/RootHide/com.34306.2nd_2.0-3+debug_iphoneos-arm64e.deb
-Size: 29600
-MD5sum: ac614af16df83f543e83a9ae457d4262
-SHA1: 77f4d18064d5e8eabda5d38d1a05d4c84bf03723
-SHA256: 069fd2e417eb3b9b6c30486578b60c99dcff23e9acb86f9d950ba4ac684b7ba3
+Size: 29624
+MD5sum: 8d1967105de795dfe2f28e6387dbb7ca
+SHA1: 27b3cf91c6103aa145d5000df7e043df0e2eb92f
+SHA256: ad5926eb69fb00706a5b09642819fe45dacbaf4b5d83bd3f5910712f24e0a67f
 Section: Tweaks
 Description: Add second line to your time on statusbar
 Author: 34306
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: 2nd
+Name: 2nd(RootHide)
 
 Package: com.34306.dockpad
 Version: 1.1
@@ -2686,6 +2723,23 @@ Author: be-huge
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/FloatingView.PNG
 Name: FloatingView(RootHide)
 
+Package: com.brend0n.nopassafterrespringsafe
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/Rootless/com.brend0n.nopassafterrespringsafe_0.0.3_iphoneos-arm64.deb
+Size: 3528
+MD5sum: 3ffe9b24ade754a74670fd3436057df3
+SHA1: 9a005821efc48435e3b48bb6d2e0958dd41fb571
+SHA256: 357c287dbbed81d8de05a32aacb272ddc8e5c8d9e0035ec9a79d878e8fdc9c3c
+Section: Tweaks
+Description: Disables passcode after a respring. This version does NOT modify system file. It's safe to use. 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。
+Author: Brend0n <brendonjkding@126.com>
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
+Name: NoPassAfterRespring (Safe)
+
 Package: com.cannathea.afc2d-arm64e
 Version: 1.1.7-21
 Architecture: iphoneos-arm64e
@@ -2708,22 +2762,6 @@ Tag: purpose::daemon, role::enduser
 Author: saurik, Cannathea, i_82, Shadow-
 Depiction: https://cydia.akemi.ai/?page/com.cannathea.afc2d-arm64
 Name: Apple File Conduit "2" (RootHide)
-
-Package: com.chr1s.newtab
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: Chr1s
-Installed-Size: 156
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/RootHide/com.chr1s.newtab_1.1_iphoneos-arm64e.deb
-Size: 6254
-MD5sum: f6787bc6aa10b5f064289a386a4895a4
-SHA1: 8ec72bbac19b4cb133b61a7ed2aae4b0712b3fa0
-SHA256: 0f0c1cba1a0bb6a737798cea4d15e3b7eaa167942b7672881da963eeafe631aa
-Section: Tweaks
-Description: Add newtab shortcut to safari toolbar
-Author: Chr1s
-Name: NewTab
 
 Package: com.cokepokes.libnotifications
 Version: 0.3-5
@@ -3182,14 +3220,14 @@ Maintainer: 妖刀
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
 Conflicts: com.initwithframe.velvet, com.noisyflake.velvet2, com.hk.velvet2.cn, com.hk.velvet2.cn.rl, com.hk.velvet2, com.hk.rootless.velvet2, com.qms.velvet2
 Filename: ./debs/RootHide/com.dao.velvet2_2.2_iphoneos-arm64e.deb
-Size: 100012
-MD5sum: 934d2e31af230be5c20d6997386f5f88
-SHA1: 51fe1abb1e6810798bd0301dc21e5791a8b076a3
-SHA256: fb09cea5d35d3facf71ca3c7f22ad0398c49b10a2bb52b5a85e84b9816aeaf5d
+Size: 99916
+MD5sum: a7fd8cc89ba4071f2761a732b78b258e
+SHA1: 56cbf1e11f6eead7c8596bbb4a24494afa2ec261
+SHA256: 889966987573c28124b00be856c066b1f1258a900449170da0f35d5723472abb
 Section: RootHide Packages
 Description: 完全可自由定制的通知横幅变色，根据开源编译/优化/汉化而来。
 Author: NoisyFlake
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Localization.PNG
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/velvet2.PNG
 Name: Velvet 2(RootHide)
 
 Package: com.daodao.goodwifi
@@ -3386,24 +3424,6 @@ Description: A tweak to get Spotify Premium for free, just like Spotilife.
 Author: Eevee
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Spotify.PNG
 Name: EeveeSpotify (Lessica Fork)
-
-Package: com.fouadraheb.appdata
-Version: 1.3.6
-Architecture: iphoneos-arm64e
-Maintainer: Fouad Raheb <support@fouadraheb.com>
-Installed-Size: 788
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./debs/RootHide/com.fouadraheb.appdata_1.3.6_iphoneos-arm64e.deb
-Size: 114020
-MD5sum: 817575237d4d3687cf339f677755b652
-SHA1: 69104521378a6edb01e0f011b67dc17e40f96504
-SHA256: ae8c7edc076e7aa96ff274f835e072ba5a865cafb07774b6bb57c4e4fd2dfff6
-Section: Tweaks
-Description: View & Manage Applications Data from your Home Screen
-Author: Fouad Raheb <support@fouadraheb.com>
-Depiction: https://apt.fouadraheb.com/package/com.fouadraheb.appdata
-Name: AppData
-Sileodepiction: https://apt.fouadraheb.com/package/com.fouadraheb.appdata/sileo
 
 Package: com.ginsu.comet
 Version: 1.0.5
@@ -3804,22 +3824,23 @@ Author: Jonathan Winger-lang
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Snapper3.PNG
 Name: Snapper 3
 
-Package: com.lclrc.hammerit
-Version: 1.5.0
-Architecture: iphoneos-arm64e
-Maintainer: lclrc(SquidForce)
-Installed-Size: 2288
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, firmware (>= 14.0)
-Filename: ./debs/RootHide/com.lclrc.hammerit_1.5.0_iphoneos-arm64e.deb
-Size: 436004
-MD5sum: 3bf184e5e5bb3da19a60dcc8aca84a63
-SHA1: 9d9181cfec1716f42193327b20aa4117bae5e6cc
-SHA256: 545e8a19bc3194c9295c91a0d2e60160bb4a2ade6f856e46590f0fca3a827a01
+Package: com.lclrc.exacttime
+Version: 2.0.4
+Architecture: iphoneos-arm64
+Maintainer: SquidForce
+Installed-Size: 1284
+Depends: mobilesubstrate
+Conflicts: com.gilshahar7.exacttimemail, com.gilshahar7.exacttimephone, com.gilshahar7.exacttimemessages
+Filename: ./debs/Rootless/com.lclrc.exacttime_2.0.4_iphoneos-arm64.deb
+Size: 99644
+MD5sum: 70ffc0fd1b753ed2dfb62bf109b2ca42
+SHA1: 9375ccbec332a3ddf49a84fef50e451ac08e9d9d
+SHA256: 05667e2a0c54ebc78634732c2efd1a20b26410547641087849acfc9407662211
 Section: Tweaks
-Description: Control your text or translate as you wish.
-Author: lclrc(SquidForce)
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/HammerIt.PNG
-Name: Hammer It
+Description: 在通知、信息、电话、邮箱中显示准确时间，闹钟中显示剩余时间。Shows the exact time of notifications, messages, calls and emails, and show remain time of alarms.
+Author: gilshahar7, SquidForce
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/ExactTime.PNG
+Name: ExactTime
 
 Package: com.lclrc.hammerit
 Version: 1.7.0
@@ -3844,14 +3865,15 @@ Architecture: iphoneos-arm64e
 Maintainer: Muirey03 & lclrc
 Depends: mobilesubstrate
 Filename: ./debs/RootHide/com.lclrc.recordanywhere_1.1.0_iphoneos-arm64e.deb
-Size: 4152
-MD5sum: 029095d760719b9c50db9db981d9f5f0
-SHA1: fe128b636279e5661f616eaa670673e639edf953
-SHA256: 88e4167ef2a0fcaba26013c5ba2602b95a38c097dc30c88e6d8ca21044afed07
+Size: 4240
+MD5sum: 99e3ba505f6107b724e68cf75c87fe0c
+SHA1: 5a89c671384e0cd24f9babaf3b570a84be7542c9
+SHA256: f75f93764ccea8622761020d98fd29f100448e006037995595bc08e0d2ac94f7
 Section: Tweaks
 Description: enable screen recorder always work even on lock screen
 Author: Muirey03 & lclrc
-Name: RecordAnywhere
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/RecordAnywhere.PNG
+Name: RecordAnywhere(RootHide)
 
 Package: com.level3tjg.10passcode
 Version: 1.0
@@ -4705,6 +4727,24 @@ Description: View & Manage Applications Data from your Home Screen
 Author: Fouad Raheb
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/AppData.PNG
 Name: AppData(RootHide)
+
+Package: com.link.appdata
+Version: 1.4.6
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 5140
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/Rootless/com.link.appdata_1.4.6_iphoneos-arm64.deb
+Size: 1501432
+MD5sum: 394d1881ee54fe916b0e6fd0d9d0e8ed
+SHA1: 15bafcdd780f0299494e9c41e92da6a90f7d4011
+SHA256: a2087cd04de8a63067c514c17c8066efc2e504618e12aa605a761a30c0fb097b
+Section: Tweaks
+Description: View & Manage Applications Data from your Home Screen
+Author: Fouad Raheb
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/AppData.PNG
+Markdowndescription: View & Manage Applications Data from your Home Screen<br><br>• v1.4.6: Fix iOS15 crash issues<br><br>• v1.4.5: Modify the API interface for obtaining the downgraded version number of an application
+Name: AppData
 
 Package: com.link.appindex
 Version: 1.0
@@ -7382,23 +7422,6 @@ Description: iOS设备的默认应用管理工具 可以将第三方应用设置
 Author: Lorenzo Pane
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/EvilScheme.PNG
 Name: EvilScheme
-
-Package: com.link.exacttime
-Version: 2.0.4
-Architecture: iphoneos-arm64
-Maintainer: SquidForce
-Depends: mobilesubstrate
-Conflicts: com.gilshahar7.exacttimemail, com.gilshahar7.exacttimephone, com.gilshahar7.exacttimemessages
-Filename: ./debs/Rootless/com.link.exacttime_2.0.4_iphoneos-arm64.deb
-Size: 99688
-MD5sum: b27100ee1c143efb708c32a6615fb2a1
-SHA1: fc5b50295352e5dd624bf8a9fa762ff3333aa74f
-SHA256: a22a435ea8ec216adf8ce661d7deeaba179939d32ed3257236cb3413a09606fd
-Section: Tweaks
-Description: 在通知、信息、电话、邮箱中显示准确时间，闹钟中显示剩余时间。Shows the exact time of notifications, messages, calls and emails, and show remain time of alarms.
-Author: gilshahar7, SquidForce
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/ExactTime.PNG
-Name: ExactTime
 
 Package: com.link.exacttime
 Version: 2.0.4
@@ -10433,22 +10456,6 @@ Author: Brend0n <brendonjkding@126.com>
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
 Name: NoLowPowerMode30SecAutoLock
 
-Package: com.link.nopassafterrespringsafe
-Version: 0.0.3
-Architecture: iphoneos-arm64
-Maintainer: Brend0n <brendonjkding@126.com>
-Depends: mobilesubstrate
-Filename: ./debs/Rootless/com.link.nopassafterrespringsafe_0.0.3_iphoneos-arm64.deb
-Size: 3532
-MD5sum: 3c773aeddcfbb8c52cbc550bd82280dc
-SHA1: 1d921af5037535b280bcb809ac892841124f4b25
-SHA256: 8eb1eaf676c03a77362d97236de55fbb6df3391349606c412c75f2e3e966c47b
-Section: Tweaks
-Description: 注销前是解锁状态的情况下 注销后自动跳过人脸或指纹识别到桌面 Disables passcode after a respring. This version does NOT modify system file. It's safe to use.
-Author: Brend0n <brendonjkding@126.com>
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
-Name: NoPassAfterRespring (Safe)
-
 Package: com.link.nopastedfrom
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -11675,22 +11682,6 @@ Description: A CLI rootful to rootless patcher.
 Tag: role::hacker
 Author: Nightwind and staturnz
 Name: rootless-patcher
-
-Package: com.link.rose
-Version: 1.1.0
-Architecture: iphoneos-arm64
-Maintainer: Litten
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 14.0)
-Filename: ./debs/Rootless/com.link.rose_1.1.0_iphoneos-arm64.deb
-Size: 429324
-MD5sum: c0d291f37a473852e845791154207f6a
-SHA1: f7951223e3db9a2a3aaffcb03a8b1d8d3b4f40ca
-SHA256: 06722e16ca0d7f9cc732e8d5e2baf6c96b0c38657ff981ce3b5b85d7b755f3dd
-Section: Tweaks
-Description: 全局震动配置 几乎覆盖能触摸的任意震感调节 82 Getting peeped by a rose doesn't feel that good, it's time to change that
-Author: Litten
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Rose.PNG
-Name: Rose
 
 Package: com.link.rounddockremastered
 Version: 1.0
@@ -13709,22 +13700,6 @@ Name: VolVibes
 
 Package: com.link.vpnindicator
 Version: 1.1.7-1
-Architecture: iphoneos-arm64
-Maintainer: udevs, squidforce
-Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal
-Filename: ./debs/Rootless/com.link.vpnindicator_1.1.7-1_iphoneos-arm64.deb
-Size: 63496
-MD5sum: 3aacfdc05cad4437f3b62ce9105b3561
-SHA1: 259bc329006f9fe1e24ec326aee2f12ff80fc855
-SHA256: c1618d20f69381cade8e0a40cc1194b6ae999036a963783a2c27e9d02435171b
-Section: Tweaks
-Description: 在状态栏的Wifi或蜂窝信号图标显示VPN状态 Indicates VPN state in status bar.
-Author: udevs
-Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/VPNIndicator.PNG
-Name: VPNIndicator
-
-Package: com.link.vpnindicator
-Version: 1.1.7-1
 Architecture: iphoneos-arm64e
 Maintainer: udevs, squidforce
 Pre-Depends: rootless-compat (>= 0.9)
@@ -14316,54 +14291,6 @@ Author: 妖刀
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
 Name: PurifyLine
 
-Package: com.lnx.showtouch
-Version: 1.0.4
-Architecture: iphoneos-arm64e
-Maintainer: LonestarX
-Installed-Size: 432
-Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
-Filename: ./debs/RootHide/com.lnx.showtouch_1.0.4_iphoneos-arm64e.deb
-Size: 70828
-MD5sum: 5d9332db064373708f37c724dd82b644
-SHA1: e1f534e8d67db5d5c19a9b8f18baa44f9fd940c3
-SHA256: ae22233c1c854d338f64be847a7ebe77cbfebabb00a8eb57351876723fc7d293
-Section: Tweaks
-Description: Shows where you touch the screen
-Author: LonestarX
-Name: ShowTouch
-
-Package: com.lnx.showtouch
-Version: 1.0.5
-Architecture: iphoneos-arm64e
-Maintainer: LonestarX
-Installed-Size: 432
-Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
-Filename: ./debs/RootHide/com.lnx.showtouch_1.0.5_iphoneos-arm64e.deb
-Size: 69460
-MD5sum: ca7c77481a0cd74f5ed2d93dcc58b90d
-SHA1: e6b7a6f1af12c1ce5765ad104bc0f95f53388b2e
-SHA256: cff3671c7127399bdea61ec91ce7dcbdcfb2bb56b1e3db712d6cea66022e54d1
-Section: Tweaks
-Description: Shows where you touch the screen
-Author: LonestarX
-Name: ShowTouch
-
-Package: com.lnx.showtouch
-Version: 1.0.6
-Architecture: iphoneos-arm64e
-Maintainer: LonestarX
-Installed-Size: 432
-Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
-Filename: ./debs/RootHide/com.lnx.showtouch_1.0.6_iphoneos-arm64e.deb
-Size: 69702
-MD5sum: a45a6e7800ec46992efc859c8f0a2d8b
-SHA1: 15018065891b98ceb9c5d5ef46588a31b3fba21a
-SHA256: ee008a175238daf13c9ad24aa5e7a0db68cbdab7825b735be336968eb5b3fc7a
-Section: Tweaks
-Description: Shows where you touch the screen
-Author: LonestarX
-Name: ShowTouch
-
 Package: com.miguelaka95.customizecc
 Version: 1.4.3
 Architecture: iphoneos-arm64e
@@ -14523,13 +14450,13 @@ Maintainer: MrGcGamer
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
 Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
-Filename: ./debs/RootHide/LibGcUniversal(RootHide)_1.7.0_iphoneos-arm64e.deb
-Size: 53184
-MD5sum: ec27329c5fdea54b5d21470031c17a89
-SHA1: 0709268f89d3aa51033060006618516fea30ee36
-SHA256: a55d4c87e75b4445e24926606ed38910551a761c13a952fc209173e3b5c517f1
-Section: 嗨-系统
-Description: 开发通用库，例如SettingsRevamp就需要依赖此；转换支持roothide。
+Filename: ./debs/RootHide/com.mrgcgamer.libgcuniversal_1.7.0_iphoneos-arm64e.deb
+Size: 53120
+MD5sum: dfd99d16b88ed608faac902db0457f29
+SHA1: 82e5be1d9a9cfd89827190db6fe6f6f01ffb1668
+SHA256: 496662fda22b1b7a80801965359b2bb80e27894be41623dc4590f3d4169c1a4d
+Section: Development
+Description: 开发通用库，例如SettingsRevamp就需要依赖此
 Tag: role::developer
 Author: MrGcGamer
 Name: LibGcUniversal(RootHide)
@@ -15189,25 +15116,6 @@ Section: Development
 Description: An awesome library to get current weather which provides by iOS Weater.app easily.
 Author: Soongyu Kwon
 Name: libPDDokdo
-
-Package: com.ps.cconandoff
-Version: 1.1.0
-Architecture: iphoneos-arm64e
-Maintainer: PoomSmart
-Installed-Size: 156
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Conflicts: com.jakeashacks.realcc
-Filename: ./debs/RootHide/com.ps.cconandoff_1.1.0_iphoneos-arm64e.deb
-Size: 7242
-MD5sum: 3ec60f284ef1450271f4ab1ba1f029b5
-SHA1: 97b021fae361e9a8ddbdf645d5901fa23999b871
-SHA256: c6d45aab104e50e55eeb277f9599a2b544e68a8a1965e10a9c2c40f47f8eb35c
-Section: Tweaks
-Description: Toggle Wi-Fi and Bluetooth On/Off from Control Center (iOS 11+).
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/cconoff.html
-Name: CC On & Off
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/cconoff.json
 
 Package: com.roothide.manager
 Version: 0.7-1+debug
@@ -15912,18 +15820,18 @@ Architecture: iphoneos-arm64e
 Maintainer: Serena <hanzikashi@gmail.com>
 Installed-Size: 1677
 Pre-Depends: rootless-compat (>= 0.9)
-Filename: ./debs/RootHide/AppIndex_1.0_iphoneos-arm64e.deb
-Size: 780664
-MD5sum: ba515374cba03c0a21ab923fb4633be2
-SHA1: 196a2c399bdddfda7102b530c79a8c0e269b986d
-SHA256: 0c47f53af18bf01e32b6b677c73d05490ae2af91540445ae73c1b7c51d26b63e
+Filename: ./debs/RootHide/com.serena.appindex_1.0_iphoneos-arm64e.deb
+Size: 781064
+MD5sum: 696101740bdb5c876070a03dcbef6a3e
+SHA1: d18864e35b2d53d211a781e136f3e3370cff8c24
+SHA256: e0361d6a66b53034c2d0ba45d23a01316266d61347f578c84b413aac52dc3a93
 Section: Applications
 Description: An Application to view and manage Applications.
 Tag: compatible_min::ios13.0
 Author: Serena <hanzikashi@gmail.com>
 Depiction: https://chariz.com/get/appindex
 Icon: https://img.chariz.cloud/icon/appindex/icon@3x.png
-Name: AppIndex
+Name: AppIndex(RootHide)
 
 Package: com.simplycode.PostBox
 Version: 0.8.1-4
@@ -16377,6 +16285,26 @@ Author: udevs
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/DockX.PNG
 Name: DockX
 
+Package: com.udevs.vpnindicator
+Version: 1.1.7-1
+Architecture: iphoneos-arm64
+Maintainer: udevs, squidforce
+Installed-Size: 420
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal
+Filename: ./debs/Rootless/com.udevs.vpnindicator_1.1.7-1_iphoneos-arm64.deb
+Size: 63548
+MD5sum: 64a1e7ff3a0e1681d3f3dd8a0eee7be5
+SHA1: 9deb51ad8d1d9f7ed68da73f7c75c51024cd1e40
+SHA256: 1d7120f6bc1afc8c5f10b244dfe8c67d1aa8bcbbfac8779f7f2f007e4481f5dd
+Section: Tweaks
+Description: Indicates VPN state in status bar. 在状态栏的Wifi或蜂窝信号图标显示VPN状态。
+ * 1.1.6: 支持iOS15
+ * 1.1.7: 支持iOS16
+ * 1.1.7-1: 补上上一版忘加的设置入口
+Author: udevs
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/VPNIndicator.PNG
+Name: VPNIndicator
+
 Package: com.xybp888.callassist15.roothiden
 Version: 2.4.9
 Architecture: iphoneos-arm64e
@@ -16446,6 +16374,23 @@ Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main
 Name: 电话助手 iOS16
 
 Package: com.xybp888.callassist16.dopamine
+Version: 2.0.5
+Architecture: iphoneos-arm64
+Maintainer: xybp888
+Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
+Filename: ./debs/Rootless/Callassist16.dopamine_2.0.5_iphoneos-arm64.deb
+Size: 2921780
+MD5sum: 1c0c6d35957f19548461ec1be7bd98c6
+SHA1: a8f2934ecacd9fd8cfe9b0dcc1c71634f8efac21
+SHA256: ccc5a054f0687c9d2b049bea2ba4f7d63cc1c6f694e61264fc2c6138efd82c97
+Section: Tweaks
+Priority: optional
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Author: xybp888
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
+Name: 电话助手iOS16
+
+Package: com.xybp888.callassist16.dopamine
 Version: 2.0.6
 Architecture: iphoneos-arm64
 Maintainer: xybp888
@@ -16462,21 +16407,39 @@ Author: xybp888
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
 Name: 电话助手 iOS16
 
+Package: com.xybp888.callassist16.dopamine
+Version: 2.1.7
+Architecture: iphoneos-arm64
+Maintainer: xybp888
+Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
+Filename: ./debs/Rootless/Callassist16.dopamine_2.1.7_iphoneos-arm64.deb
+Size: 2967788
+MD5sum: e169977bdae277f00e2cd93fc685cb0d
+SHA1: bbd534a87dff7766d6a7fc9cafcd42c155d6299d
+SHA256: d6f923c2a4df29705be2483db56ad476d061df41b8a9e4cd44c865848798fbb8
+Section: Tweaks
+Priority: optional
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Author: xybp888
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
+Name: 电话助手iOS16
+
 Package: com.xybp888.callassist16.dopamine.roothide
 Version: 2.1.7
 Architecture: iphoneos-arm64e
 Maintainer: xybp888
 Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
 Filename: ./debs/RootHide/com.xybp888.callassist16.dopamine.roothide_2.1.7_iphoneos-arm64e.deb
-Size: 2935068
-MD5sum: c458bb48e6d296b166c2a15abd7630ea
-SHA1: 49c4fa14b33798bb6818c4cb5b4e842fcbd934d9
-SHA256: 0e5a5fa2d28a7024c8a9f36b5b1faeb86d1e9907053f569459014609b90ac93e
+Size: 2932736
+MD5sum: b575c36e58206e44a346204a9b2f4113
+SHA1: c47a49e17e5eec9d383627ec1924773c79ee4ea9
+SHA256: f132c47f74d1804301b51c4bf7f1ce77b66fe6f3742c9eb647c23dc19bc75bca
 Section: Tweaks
 Priority: optional
 Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
 Author: xybp888
-Name: 电话助手iOS16(Roothide)
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Tweaks.PNG
+Name: 电话助手iOS16(RootHide)
 
 Package: com.xybp888.magiciannojailbreak.dopamine
 Version: 0.0.1-529
@@ -16551,14 +16514,15 @@ Architecture: iphoneos-arm64e
 Maintainer: xybp888
 Depends: firmware (>= 16.0), mobilesubstrate
 Filename: ./debs/RootHide/com.xybp888.perfectdynamiclsland.roothide_1.2-30_iphoneos-arm64e.deb
-Size: 554428
-MD5sum: 78797f6eab7c44dfe74cf2b0940845ff
-SHA1: 7a9401f9f710afadf5526d822c2c46db4ae5faf0
-SHA256: cc473f8c28c369bb76d479b78040f0812cd9edf4dbc80bef918851e5283d89bb
+Size: 553876
+MD5sum: 08c092b33397247cc95dc78a7a4b0783
+SHA1: 218825267f3ffc1a3d844a2d962c9f90f970c696
+SHA256: 47e7f25d1e19e92e04c8e95d2739b5958a9295822d7c6cf18274bd8ca9dcfd86
 Section: System
 Priority: optional
 Description: 完美的使用原生灵动岛展示系统通知等...
 Author: xybp888
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Dynamiclslandsetting.PNG
 Name: 灵动通知iOS16(RootHide)
 
 Package: com.yan.anitime
@@ -16626,23 +16590,6 @@ Author: 0xkuj <0xkujz@gmail.com>
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/StoreSwitcher2.PNG
 Name: StoreSwitcher 2(RootHide)
 
-Package: com.yourepo.cydiageek.nodockground
-Version: 1.0.6
-Architecture: iphoneos-arm64e
-Maintainer: CydiaGeek <lucaluca86@aol.com>
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/RootHide/NoDockGround.deb
-Size: 65936
-MD5sum: f5f189f09d898b02b5f7e18146858723
-SHA1: 9a6f50be8ae8fd2601f2774da7a35004b7bc6cee
-SHA256: 918daef565779a4bc0495c4b0fd4bae430b4f8f736ab55d76c38954e01d60645
-Section: Tweaks
-Description: Make Clear the Background of the Dock!
-Author: CydiaGeek <lucaluca86@aol.com>
-Depiction: https://cydiageek.yourepo.com/pack/nodockground
-Name: NoDockGround
-Sileodepiction: https://cydiageek.yourepo.com/sileo/depiction/nodockground
-
 Package: com.zqbb.dynamic120hz
 Version: 3.3.0-1
 Architecture: iphoneos-arm64
@@ -16686,13 +16633,14 @@ Maintainer: zqbb
 Installed-Size: 72
 Depends: mobilesubstrate
 Filename: ./debs/RootHide/com.zqbb.savephotos_1.1-1_iphoneos-arm64e.deb
-Size: 3412
-MD5sum: 0bfd68cae784d26925a09710d69443ff
-SHA1: 5b0964834e6845a02f0bcfba3cf56cbbcbefbda7
-SHA256: db9b61db5f88113ba0dc0ab577a649006e1220891fdc08e7662c5c5a9b6f54c5
+Size: 3468
+MD5sum: 6d6acabbc4c28a36978c7c91c0028278
+SHA1: 460fcda2e804cd95f224ad537d481241aa73d87a
+SHA256: b0e0dc1486b2b8c9e37d27980e0695c46818a11bbede06417130bdcf86f757d1
 Section: Tweaks
 Description: 全屏截图按钮增加(保存至相册)功能,超过7个按钮时UI补全至7个,强迫症福音~!!!
 Author: zqbb
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Snapper3.PNG
 Name: Hello Snapper3(RootHide)
 Sileodepiction: https://rootless.002599.xyz/web/com.zqbb.savephotos
 
@@ -16751,14 +16699,14 @@ Maintainer: daniel
 Installed-Size: 156
 Depends: mobilesubstrate
 Filename: ./debs/RootHide/daniel.batman_0.0.2-1+debug_iphoneos-arm64e.deb
-Size: 5014
-MD5sum: dc8fb4da28ad6b890ccf4adb1a155d01
-SHA1: 362e15bbe4576018f0f11d51f1697529a110ec88
-SHA256: 0c79c609dc2d8f2a015ed743d4ebf2130ae34552eda9ab70f872762e19a5930d
+Size: 4928
+MD5sum: e0388e07940307b4f394fc0806c31cf1
+SHA1: fcfd703c4d03ba120af6c2e981bcaf171e2005e0
+SHA256: 25b9cc0b723703c72c1b09b73e570ea865f910fce5d66dd47a5583ec9a8e7501
 Section: Tweaks
 Description: Display much more battery information
 Author: daniel
-Name: Batman
+Name: Batman(RootHide)
 
 Package: dev.theos.orion14
 Version: 1.0.1-2+debug
@@ -17278,35 +17226,37 @@ Sileodepiction: https://paisseon.github.io/depictions/Reverie.json
 
 Package: love.litten.rose
 Version: 1.1.0
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: Litten
-Installed-Size: 2816
+Installed-Size: 2832
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 14.0)
-Filename: ./debs/RootHide/Rose_1.1.0_iphoneos-arm64e.deb
-Size: 427748
-MD5sum: 0544f94dc571fcc95797a5a7f6183007
-SHA1: 72ff702da177ddff02ada5353cf2c25cbef49fee
-SHA256: 096c461b34a71e507a63b64d30bbc98d964dad585ffa17a828f51c1aeeda2ba9
+Filename: ./debs/Rootless/love.litten.rose_1.1.0_iphoneos-arm64.deb
+Size: 429236
+MD5sum: 0f6ba854d7feeffbf345a8a3dee30be4
+SHA1: 5d783ada5e9b16dec6a5c610ba5a0bbd399ee9b4
+SHA256: 8084578416a3d7771065dec43d712caec1b87829b8be9d6dcc6e066673232761
 Section: Tweaks
 Description: Getting peeped by a rose doesn't feel that good, it's time to change that
 Author: Litten
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Rose.PNG
 Name: Rose
 
-Package: me.34306.icontime
-Version: 1.0-12
+Package: love.litten.rose
+Version: 1.1.0
 Architecture: iphoneos-arm64e
-Maintainer: Little 34306
-Depends: mobilesubstrate, preferenceloader, firmware (>= 12.0)
-Filename: ./debs/RootHide/me.34306.icontime_1.0-12_iphoneos-arm64e.deb
-Size: 28496
-MD5sum: fa2b16d0eb6099cfc492888f58dc8e9f
-SHA1: 33a523662d768b3d56276a5dde9380434e9b7bd8
-SHA256: 0fc30e1f75fbd28cccee5e6d93554ecaa650c5ea3856af615cdf417b70317578
+Maintainer: Litten
+Installed-Size: 2816
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 14.0)
+Filename: ./debs/RootHide/love.litten.rose_1.1.0_iphoneos-arm64e.deb
+Size: 427812
+MD5sum: 58c8c30b2809bed23eb501325000ffc4
+SHA1: 826555f9306acafaf3c5985ea1b00746833cfe01
+SHA256: 03c2f74d6871d9ae475e067c62a3da0427cfb446f5d6f8a0183ac2e8bf4c406b
 Section: Tweaks
-Description: Display the time as icon
-Author: 34306
-Name: iconTime
+Description: Getting peeped by a rose doesn't feel that good, it's time to change that
+Author: Litten
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Rose.PNG
+Name: Rose(RootHide)
 
 Package: me.lau.atria
 Version: 1.4.1
@@ -17328,27 +17278,6 @@ Author: ren7995 <lau7995ren@gmail.com>
 Depiction: https://chariz.com/get/atria
 Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
 Name: Atria(RootHide)
-
-Package: me.lau.atria
-Version: 1.4.1
-Architecture: iphoneos-arm64e
-Maintainer: ren7995 <lau7995ren@gmail.com>
-Installed-Size: 886
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
-Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
-Filename: ./debs/RootHide/Atria_1.4.1_iphoneos-arm64e.deb
-Size: 240720
-MD5sum: c545890560a50dd9f88c1fa03b55cda3
-SHA1: 1f9a5bd0ceea2ab213f5b9a4c5487f9df3d98619
-SHA256: 741062bc8f26bc89d4043068de6499faa863fc8ca59b75a6dd2ba011d7010d12
-Section: Tweaks
-Description: A proper homescreen layout editor for iOS 13-16
-Tag: compatible_min::ios13.0
-Author: ren7995 <lau7995ren@gmail.com>
-Depiction: https://chariz.com/get/atria
-Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
-Name: Atria
 
 Package: me.tomt000.copylog
 Version: 1.7.1
@@ -17482,6 +17411,24 @@ Maintainer: Elias Limneos
 Installed-Size: 348
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate
+Filename: ./debs/RootHide/net.limneos.libbulletin_0.1-182_iphoneos-arm64e.deb
+Size: 34268
+MD5sum: 7423a148941a8cea3c962ad536d2fe68
+SHA1: 2f8a6f3684737b7ddb6a0094e49a9a01fd56dc0f
+SHA256: 7011dc7de5a9d474f0f8734ea59c683a024c6f00c36aab3249e83e17fb65988b
+Section: Development
+Description: Simple library that displays bulletins
+Author: Elias Limneos
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Placeholder.PNG
+Name: libbulletin
+
+Package: net.limneos.libbulletin
+Version: 0.1-182
+Architecture: iphoneos-arm64e
+Maintainer: Elias Limneos
+Installed-Size: 348
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
 Filename: ./debs/RootHide/libbulletin_0.1-182_iphoneos-arm64e.deb
 Size: 34276
 MD5sum: fea5abbbaad7539387211fb71afb0ceb
@@ -17492,21 +17439,6 @@ Description: Simple library that displays bulletins
 Author: Elias Limneos
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/Placeholder.PNG
 Name: libbulletin
-
-Package: netskao.actionbarreborn
-Version: 1.1-2
-Architecture: iphoneos-arm64e
-Maintainer: Nets
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/RootHide/ActionBar.deb
-Size: 161008
-MD5sum: 5b20682b1b668af1fcad102dde33aeea
-SHA1: b5faa8f2d27c1995d8cf63323ae8cfff9be29af9
-SHA256: 98a0461194b65bb3012759f05592e6079b11693c6c7c354e9e4b07f014004ac5
-Section: Tweaks
-Description: Undo, redo, select all, copy, cut and paste actions on bottom of keyboard. ActionBar Free Reborn Edition
-Author: Netskao
-Name: ActionBar
 
 Package: netskao.hidescreenshotpreview-rootless
 Version: 1.2-1
@@ -18630,22 +18562,6 @@ Author: Geometric Software
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/IntelligentPass5.PNG
 Name: IntelligentPass 5
 
-Package: tf.festival.rescale2
-Version: 1.0.5-1
-Architecture: iphoneos-arm64e
-Maintainer: Sniper_GER <sniperger@festival.tf>
-Installed-Size: 1092
-Depends: mobilesubstrate, preferenceloader, firmware (>= 9.0)
-Filename: ./debs/RootHide/tf.festival.rescale2_1.0.5-1_iphoneos-arm64e.deb
-Size: 149632
-MD5sum: 904ccfc8050d6834eeef9601e39a2d46
-SHA1: ee54455ec3f6d1094d6569305ba282be02cf28e3
-SHA256: e491602f01d968b5a2efb804b6954490b883b173a7c9b5dc6aadaea043135b44
-Section: Tweaks
-Description: A modern (and safe) Upscale alternative!
-Author: Sniper_GER <sniperger@festival.ml>
-Name: Re:Scale 2
-
 Package: u.blanxd.opensshport
 Version: 1.1.0
 Architecture: iphoneos-arm64e
@@ -18695,6 +18611,23 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sshswitchD
 Dev: blanxd
 Name: SSHswitch
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: wiki.qaq.colorfulwallpaperx
+Version: 5.5
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 6016
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/Rootless/wiki.qaq.colorfulwallpaperx_5.5_iphoneos-arm64.deb
+Size: 1447896
+MD5sum: e512b5e6904a7b474518d6b68f32a343
+SHA1: 1865e4f594176a0015639d2f7dce6c7d1326f872
+SHA256: a0bdc30f7c3c71f2f830d40c843ecd409fd1f8ab10bd0800618dd66cdd4c58dd
+Section: Tweaks
+Description: Dynamic wallpaper with colorful effects.
+Author: Lessica <82flex@gmail.com>
+Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/ColorfulWallpaperX.PNG
+Name: Colorful Wallpaper X
 
 Package: wiki.qaq.colorfulwallpaperx
 Version: 5.5
@@ -19229,21 +19162,4 @@ Author: Domo, SXX , zp
 Icon: https://raw.githubusercontent.com/Link233on/SileoDepiction/refs/heads/main/Assets/Icon/CocoaTop64.PNG
 Name: CocoaTop64.zp
 Sileodepiction: https://rootless.zqbb.cf/web/zp.cocoatop64.unject
-
-Package: zp.stopautolaunchapps
-Version: 1.0.2
-Architecture: iphoneos-arm64e
-Maintainer: zqbb
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/RootHide/zp.stopautolaunchapps_1.0.2_iphoneos-arm64e-1.deb
-Size: 3824
-MD5sum: 383ed509d1d013a5a069ae7176fd97e0
-SHA1: 792e9c99b89696766cf60d9e029282f03566fe78
-SHA256: 6343d4b30eacf318b617384d611dee6a22f7ce4ccc1223bc4a5dc2a82656853e
-Section: Tweaks
-Description: stop auto launch apps on ios15
-Author: zqbb
-Name: StopAutoLaunchApps
-Sileodepiction: https://github.com/w2599/stopAutoLaunchApps
 
